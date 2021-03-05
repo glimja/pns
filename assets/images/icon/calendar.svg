@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.5" height="23" viewBox="0 0 24.5 23">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="24.5" height="23" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="24" height="14.5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="반복_그리드_6" data-name="반복 그리드 6" clip-path="url(#clip-path)">
+    <g transform="translate(-320.5 -576.5)">
+      <rect id="사각형_28518" data-name="사각형 28518" width="23" height="21" rx="2" transform="translate(321 578)" fill="#fff" stroke="#000" stroke-width="1"/>
+      <g id="반복_그리드_5" data-name="반복 그리드 5" transform="translate(321 576.5)" clip-path="url(#clip-path-2)">
+        <g transform="translate(-321 -576.5)">
+          <rect id="사각형_28519" data-name="사각형 28519" width="24" height="1" transform="translate(321 584)"/>
+          <rect id="사각형_28520" data-name="사각형 28520" width="1" height="4" transform="translate(326 576.5)"/>
+          <rect id="사각형_28521" data-name="사각형 28521" width="1" height="4" transform="translate(338 576.5)"/>
+          <path id="합치기_132" data-name="합치기 132" d="M-4256,9V7h2V9Zm-4,0V7h2V9Zm-4,0V7h2V9Z" transform="translate(4592 582)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
