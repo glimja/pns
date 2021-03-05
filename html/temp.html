@@ -10,8 +10,8 @@
         </title>
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
         <!-- Fonts and icons -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet"> -->
+        <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" /> -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
         <!-- CSS Files -->
         <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
         <link href="../assets/css/paper-kit.css?v=2.2.0" rel="stylesheet" />
@@ -95,18 +95,36 @@
 
                 <div>
                     <!-- Swiper -->
-                    <div class="swiper-container">
+                    <div class="swiper-container slidecenter_type1">
                       <div class="swiper-wrapper">
-                        <div class="swiper-slide">Slide 1</div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
-                        <div class="swiper-slide">Slide 10</div>
+                        <div class="swiper-slide">
+                          <a href="#none">
+                            <img src="../assets/img/faces/kaci-baum-2.jpg" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+                            <p class="nameinfo text-center">Brigitte Bardot</p>
+                            <ul class="dateinfo">
+                              <li>
+                                <span class="glyphicon glyphicon-calendar"><i class="fa fa-calendar" aria-hidden="true"></i></span>2021년00월00일
+                              </li>
+                              <li>
+                                <span class="glyphicon glyphicon-calendar"><i class="fa fa-calendar" aria-hidden="true"></i></span>D+00000일(00년00개월)
+                              </li>
+                            </ul>
+                          </a>
+                        </div>
+                        <div class="swiper-slide"><a href="#none"><img src="../assets/img/faces/kaci-baum-2.jpg" class="img-circle img-no-padding img-responsive" alt="" /><p class="nameinfo text-center">Brigitte Bardot</p>
+                          <ul class="dateinfo">
+                            <li>
+                              <span class="glyphicon glyphicon-calendar"><i class="fa fa-calendar" aria-hidden="true"></i></span>2021년00월00일
+                            </li>
+                            <li>
+                              <span class="glyphicon glyphicon-calendar"><i class="fa fa-calendar" aria-hidden="true"></i></span>D+0000일(00년00개월)
+                            </li>
+                          </ul></a></div>
+                        <div class="swiper-slide"><a href="#none"><img src="../assets/img/faces/kaci-baum-2.jpg" class="img-circle img-no-padding img-responsive" alt="" /><p class="nameinfo text-center">Brigitte Bardot</p></a></div>
+                        <div class="swiper-slide"><a href="#none"><img src="../assets/img/faces/kaci-baum-2.jpg" class="img-circle img-no-padding img-responsive" alt="" /><p class="nameinfo text-center">Brigitte Bardot</p></a></div>
+                        <div class="swiper-slide"><a href="#none"><img src="../assets/img/faces/kaci-baum-2.jpg" class="img-circle img-no-padding img-responsive" alt="" /><p class="nameinfo text-center">Brigitte Bardot</p></a></div>
+                        <div class="swiper-slide"><a href="#none"><img src="../assets/img/faces/kaci-baum-2.jpg" class="img-circle img-no-padding img-responsive" alt="" /><p class="nameinfo text-center">Brigitte Bardot</p></a></div>
+                        <div class="swiper-slide"><a href="#none"><img src="../assets/img/faces/kaci-baum-2.jpg" class="img-circle img-no-padding img-responsive" alt="" /><p class="nameinfo text-center">Brigitte Bardot</p></a></div>
                       </div>
                       <!-- Add Pagination -->
                       <div class="swiper-pagination"></div>
@@ -114,22 +132,27 @@
                       <div class="swiper-button-next"></div>
                       <div class="swiper-button-prev"></div>
                     </div>
-                      <!-- Swiper JS -->
-                    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
-
-                    <!-- Initialize Swiper -->
-                    <script>
-                      var swiper = new Swiper('.swiper-container', {
-                        pagination: {
-                          el: '.swiper-pagination',
-                          type: 'fraction',
-                        },
-                        navigation: {
-                          nextEl: '.swiper-button-next',
-                          prevEl: '.swiper-button-prev',
-                        },
-                      });
-                    </script>
+                
+                    <style>
+                      .swiper-container.slidecenter_type1 {position: relative; height: 250px; padding-left: calc(100% - 70%);}
+                      .swiper-container.slidecenter_type1 .swiper-slide {width:120px; padding-top:15px; opacity: .5;}
+                      .swiper-container.slidecenter_type1 .swiper-slide.swiper-slide-active {width:150px; padding-top: 0; opacity: 1;}
+                      .swiper-container.slidecenter_type1 .swiper-pagination-fraction, 
+                      .swiper-container.slidecenter_type1 .swiper-pagination-custom, 
+                      .swiper-container.slidecenter_type1.swiper-container-horizontal > .swiper-pagination-bullets {bottom: 0}
+                      .swiper-pagination-bullet {background:#aaa}
+                      .swiper-pagination-bullet-active {background:#ffb800;}
+                      .swiper-container.slidecenter_type1 .swiper-slide .dateinfo,
+                      .swiper-container.slidecenter_type1 .swiper-slide .nameinfo {display:none}
+                      .swiper-container.slidecenter_type1 .swiper-slide.swiper-slide-active .dateinfo,
+                      .swiper-container.slidecenter_type1 .swiper-slide.swiper-slide-active .nameinfo {display:block}
+                      .dateinfo {position: absolute; bottom: 30px; left:0; width:230%; margin-left: -50%;}
+                      .dateinfo li {display: inline-block; position: relative; padding-left: 40px; font-size:13px}
+                      .dateinfo li .glyphicon {padding-right: 5px;}
+                      .dateinfo li:before {content:''; position: absolute; top:2px; left:20px; display:block; width:2px; height:12px; background: #dedede;}
+                      .dateinfo li:first-child {padding-left: 0;}
+                      .dateinfo li:first-child:before {display: none;}
+                    </style>
                 </div>
 
               </div>
