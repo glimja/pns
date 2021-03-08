@@ -114,7 +114,7 @@
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-warning,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-warning {
-  background: #fbc658;
+  background: #FFB800;
   color: #fff;
 }
 
@@ -263,7 +263,7 @@
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-warning {
-  background-color: #fbc658;
+  background-color: #FFB800;
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-success {
@@ -489,11 +489,11 @@
 }
 
 .slider.slider-warning .noUi-connect {
-  background-color: #fbc658;
+  background-color: #FFB800;
 }
 
 .slider.slider-warning .noUi-handle {
-  border-color: #fbc658;
+  border-color: #FFB800;
 }
 
 .slider.slider-danger .noUi-connect {
@@ -1353,8 +1353,8 @@ fieldset[disabled] .btn-info.active {
 }
 
 .btn-warning {
-  background-color: #fbc658;
-  border-color: #fbc658;
+  background-color: #FFB800;
+  border-color: #FFB800;
   color: #FFFFFF;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -1411,7 +1411,7 @@ fieldset[disabled] .btn-warning.active {
 }
 
 .btn-warning.btn-link {
-  color: #fbc658;
+  color: #FFB800;
 }
 
 .btn-warning.btn-link:hover,
@@ -1425,7 +1425,7 @@ fieldset[disabled] .btn-warning.active {
 }
 
 .btn-warning.btn-link .caret {
-  border-top-color: #fbc658;
+  border-top-color: #FFB800;
 }
 
 .btn-warning .caret {
@@ -1845,8 +1845,8 @@ fieldset[disabled] .btn-outline-info.active {
 }
 
 .btn-outline-warning {
-  border-color: #fbc658;
-  color: #fbc658;
+  border-color: #FFB800;
+  color: #FFB800;
   opacity: 1;
   filter: alpha(opacity=100);
 }
@@ -1859,9 +1859,9 @@ fieldset[disabled] .btn-outline-info.active {
 .btn-outline-warning:active:hover,
 .btn-outline-warning.active:focus,
 .show>.btn-outline-warning.dropdown-toggle {
-  background-color: #fbc658 !important;
+  background-color: #FFB800 !important;
   color: rgba(255, 255, 255, 0.8);
-  border-color: #fbc658 !important;
+  border-color: #FFB800 !important;
 }
 
 .btn-outline-warning:hover .caret,
@@ -1904,7 +1904,7 @@ fieldset[disabled] .btn-outline-warning.focus,
 fieldset[disabled] .btn-outline-warning:active,
 fieldset[disabled] .btn-outline-warning.active {
   background-color: transparent;
-  border-color: #fbc658;
+  border-color: #FFB800;
 }
 
 .btn-outline-danger {
@@ -2643,7 +2643,7 @@ textarea.form-control {
 }
 
 .progress-bar-warning {
-  background-color: #fbc658;
+  background-color: #FFB800;
 }
 
 .progress-bar-danger {
@@ -2684,7 +2684,7 @@ textarea.form-control {
 }
 
 .badge-warning {
-  background-color: #fbc658;
+  background-color: #FFB800;
 }
 
 .badge-danger {
@@ -2818,8 +2818,8 @@ textarea.form-control {
 .pagination-warning>li:first-child>span,
 .pagination-warning>li:last-child>a,
 .pagination-warning>li:last-child>span {
-  border: 2px solid #fbc658;
-  color: #fbc658;
+  border: 2px solid #FFB800;
+  color: #FFB800;
 }
 
 .nav-pills-warning>li.active>a,
@@ -2834,8 +2834,8 @@ textarea.form-control {
 .pagination-warning>li.active>span:hover,
 .pagination-warning>li.active>a:focus,
 .pagination-warning>li.active>span:focus {
-  background-color: #fbc658 !important;
-  border-color: #fbc658 !important;
+  background-color: #FFB800 !important;
+  border-color: #FFB800 !important;
   color: #FFFFFF;
 }
 
@@ -2937,7 +2937,7 @@ textarea.form-control {
 }
 
 .nav-orange>li.active a {
-  color: #fbc658;
+  color: #FFB800;
 }
 
 .nav-red>li.active a {
@@ -2997,7 +2997,7 @@ textarea.form-control {
 
 .nav-pills-warning .nav-item.show .nav-link,
 .nav-pills-warning .nav-link.active {
-  background-color: #fbc658 !important;
+  background-color: #FFB800 !important;
 }
 
 .nav-pills-success .nav-item.show .nav-link,
@@ -3220,7 +3220,7 @@ blockquote small {
 
 .text-warning,
 .text-warning:hover {
-  color: #fbc658 !important;
+  color: #FFB800 !important;
 }
 
 .text-danger,
@@ -3401,7 +3401,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 }
 
 .ct-orange {
-  color: #fbc658;
+  color: #FFB800;
 }
 
 .ct-red {
@@ -3556,7 +3556,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 }
 
 .label-warning {
-  background-color: #fbc658;
+  background-color: #FFB800;
 }
 
 .label-danger {
@@ -4447,12 +4447,12 @@ License - nucleoapp.com/license/
 }
 
 .nav-pills-warning .nav-item .nav-link {
-  border: 1px solid #fbc658 !important;
-  color: #fbc658 !important;
+  border: 1px solid #FFB800 !important;
+  color: #FFB800 !important;
 }
 
 .nav-pills-warning .nav-item .nav-link.active {
-  border: 1px solid #fbc658 !important;
+  border: 1px solid #FFB800 !important;
   color: #FFFFFF !important;
 }
 
@@ -5695,7 +5695,7 @@ License - nucleoapp.com/license/
 }
 
 .icon-warning {
-  color: #fbc658;
+  color: #FFB800;
 }
 
 .icon-danger {
