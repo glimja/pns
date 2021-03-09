@@ -15,7 +15,6 @@
         <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
         <link href="../assets/css/paper-kit.css?v=2.2.0" rel="stylesheet" />
         <!-- CSS Add -->
-        <!-- <link href="../assets/demo/demo.css" rel="stylesheet" /> -->
         <link href="../assets/css/default.css" rel="stylesheet" />
         <link href="../assets/css/plugin.css" rel="stylesheet" />
         <link href="../assets/css/style.css" rel="stylesheet" />
@@ -77,7 +76,7 @@
                     </div>
                   </div>
                   <ul class="navbarnav">
-                    <li><a href="#none"><span class="icon-shopbasket"></span>장바구니</a></li>
+                    <li><a href="#none"><span class="icon-shopbasket"></span>장바구니<span class="label label-warning">9</span></a></li>
                     <li><a href="#none"><span class="icon-myreview"></span>나의 후기</a></li>
                     <li><a href="#none"><span class="icon-noticemenu"></span>공지사항</a></li>
                     <li><a href="#none"><span class="icon-customercenter"></span>고객센터</a></li>
@@ -88,10 +87,10 @@
             </div>
         </nav>
         <!-- //Navbar -->
-
+        
         <!-- Contents -->
         <div class="section">
-          <div class="container " style="height:900px">
+          <div class="container">
             <h2 class="h2_tit">타이틀</h2>
 
 
@@ -124,59 +123,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
-  <script>
-    $(document).ready(function() {
-
-      if ($("#datetimepicker").length != 0) {
-        $('#datetimepicker').datetimepicker({
-          format: 'L',
-          icons: {
-            time: "fa fa-clock-o",
-            date: "fa fa-calendar",
-            up: "fa fa-chevron-up",
-            down: "fa fa-chevron-down",
-            previous: 'fa fa-chevron-left',
-            next: 'fa fa-chevron-right',
-            today: 'fa fa-screenshot',
-            clear: 'fa fa-trash',
-            close: 'fa fa-remove'
-          }
-        });
-      }
-    });
-  </script>
-	<script>
-		$(function () {
-
-			$.datepicker.setDefaults({
-				dateFormat: 'yy-mm-dd',
-				showMonthAfterYear: true,
-				changeYear: false,
-				changeMonth: false,
-				showOn: "both",
-				buttonImage: "",
-				buttonImageOnly: true,
-				yearSuffix: '.',
-				monthNames: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
-				monthNamesShort: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
-				dayNames: ['일', '월', '화', '수', '목', '금', '토'],
-				dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
-				dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
-			});
-			$("#datepicker").datepicker();
-		});
-	</script>
-
-  <script>
-    $(function(){
-      setDatepicker('dp00');
-    })
-  </script>
-
-  
-    
-      
+        </footer>      
 
     </body>
 </html>
