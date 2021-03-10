@@ -19,6 +19,7 @@ $(function(){
 function onload(){
 	fn_aaa();
 	swiper();
+	fn_quickTop();
 }
 
 
@@ -71,6 +72,29 @@ function swiper(obj) {
 			},
 		});
 	}
+}
+
+// 상단으로 이동 top 버튼
+function fn_quickTop() {
+var $quickTop = $('.mo_quicktopMove');
+
+$quickTop.off().on('click', function () {
+	$('html, body').stop().animate({
+		scrollTop: 0
+	}, 100, function () {
+		// focus 처리
+		$('.navbar').attr('tabindex', '0').focus()
+	})
+})
+
+$(window).on('scroll', function () {
+	var st = $(this).scrollTop();
+	if (st >= 500) {
+		$quickTop.fadeIn();
+	} else {
+		$quickTop.fadeOut();
+	}
+});
 }
 
 //form - datapicker
