@@ -57,7 +57,7 @@ legend, caption, hr {overflow:hidden; position:absolute; width:1px; height:1px; 
 a, span, strong, em {display:inline-block;}
 a {text-decoration:none;}
 img {width:auto; max-width:100%; border:0; vertical-align:middle;}
-input, textarea, select, button {margin:0; appearance:none; -webkit-appearance:none;-moz-appearance:none;}
+/* input, textarea, select, button {margin:0; appearance:none; -webkit-appearance:none;-moz-appearance:none;} */
 input[type="text"]:disabled, textarea:disabled {border-radius:4px; border-color:#f8f8f8 !important; color:#666 !important; background:#EFEFEF !important;}
 textarea {border:1px solid #CCC; width:100%; box-sizing:border-box; padding:20px; border-radius:5px; font-size:13px; -webkit-border-radius: 5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px;}
 a {color:#000; text-decoration:none;}
@@ -70,7 +70,7 @@ a:hover {color:#000;}
 input[type="tel"]::placeholder,
 input[type="text"]::placeholder,
 input[type="password"]::placeholder {color:#999; font-size:13px;}
-select {height:34px; padding:0 29px 0 10px; border-radius:4px; border:1px solid #DDD; font-size:12px; color:#000; background-color:#FFF; background-image:url("../images/common/form_slct_dw.svg"); background-repeat:no-repeat; background-position:center right 10px ;}
+/* select {height:34px; padding:0 29px 0 10px; border-radius:4px; border:1px solid #DDD; font-size:12px; color:#000; background-color:#FFF; background-image:url("../images/common/form_slct_dw.svg"); background-repeat:no-repeat; background-position:center right 10px ;} */
 
 button[disabled], html input[disabled] {cursor:default;}
 .hide,legend,caption{position:absolute; left:-9999px; width:0; height:0; overflow:hidden; text-indent:-9999px; font:0/0 a;}

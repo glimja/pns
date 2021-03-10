@@ -153,7 +153,7 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 .nav-tabs-navigation .nav>.nav-item>.nav-link.active {color:#333; font-size:15px;}
 .nav-tabs .nav-item {margin-left: 20px; color:#333}
 .nav-tabs li:first-child {margin-left: 0;}
-.thumblist_type1 li {display: inline-block; width:24.444444%; padding-bottom: 5px; padding-right: 5px;}
+.thumblist_type1 li {display: inline-block; width:24.333333%; padding-bottom: 5px; padding-right: 5px;}
 .thumblist_type1 li img {border-radius:10px;}
 .swiper-container.slidecenter_type1 {position: relative; height: 250px; padding-left: calc(100% - 70%);}
 .swiper-container.slidecenter_type1 .swiper-slide {width:120px; padding-top:15px; opacity: .5;}
