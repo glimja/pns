@@ -53,7 +53,7 @@ fieldset {border:none;}
 address, caption, em, th {font-style:normal; font-weight:normal;}
 ul, ol {list-style:none;}
 table {width:100%; border-collapse:collapse; border-spacing:0; border:0; table-layout: fixed;}
-legend, caption, hr {overflow:hidden; position:absolute; width:1px; height:1px; clip:rect(1px, 1px, 1px, 1px)}
+legend, caption, hr {overflow:hidden; width:1px; height:1px; clip:rect(1px, 1px, 1px, 1px)}
 a, span, strong, em {display:inline-block;}
 a {text-decoration:none;}
 img {width:auto; max-width:100%; border:0; vertical-align:middle;}
@@ -145,7 +145,31 @@ h6, .h6{display:block; margin:15px 0px 5px 0px; font-size:17px; color:#404040;}
 	
 ////////////////////////////////////////////////////////////////////////////// */
 .red{color:#ff0000 !important;}
-
+.co333 {color: #333 !important;}
+.co555 {color: #555 !important;}
+.co777 {color: #777 !important;}
+.co999 {color: #999 !important;}
+.coddd {color: #ddd !important;}
+ /* font-size:16px 기준 rem 단위 */
+.font8 {font-size:0.5000rem}	/* 8px  */
+.font9 {font-size:0.5625rem}	/* 9px  */
+.font10 {font-size:0.6250rem}	/* 10px  */
+.font11 {font-size:0.6875rem}	/* 11px  */
+.font12 {font-size:0.7500rem}	/* 12px  */
+.font13 {font-size:0.8125rem}	/* 13px  */
+.font14 {font-size:0.8750rem}	/* 14px  */
+.font15 {font-size:0.9375rem}	/* 15px  */
+.font16 {font-size:1.0000rem}	/* 16px  */
+.font17 {font-size:1.0625rem}	/* 17px  */
+.font18 {font-size:1.1250rem}	/* 18px  */
+.font19 {font-size:1.1875rem}	/* 19px  */
+.font20 {font-size:1.2500rem}	/* 20px  */
+.font21 {font-size:1.3125rem}	/* 21px  */
+.font22 {font-size:1.3750rem}	/* 22px  */
+.font23 {font-size:1.4375rem}	/* 23px  */
+.font24 {font-size:1.5000rem}	/* 24px  */
+.font26 {font-size:1.6250rem}	/* 26px  */
+.font28 {font-size:1.7500rem}	/* 28px */
 
 /* //////////////////////////////////////////////////////////////////////////////
 	

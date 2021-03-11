@@ -95,8 +95,14 @@ h5, .h5 {margin: 5px 0 8px 0;}
 .modal-content.notitle .modal-body {padding: 0px 50px 20px 50px;}
 .footer {padding-bottom: 60px;}
 #navigation {z-index: 2;}
-.h2_tit {padding-bottom: 8px;padding-top: 30px;font-size: 14px;}
+.h2_tit {padding-bottom: 8px;padding-top: 30px;font-size: 16px; font-weight: 600;}
+.h3_tit {padding-bottom: 8px;padding-top: 30px;font-size: 14px; font-weight: 600;}
 .h3_titmove {padding-bottom: 15px; padding-top: 80px; font-size: 14px;}
+.hrline {width:100%; height: 1px; border-top: 1px solid #dedede;}
+.hrlineb {width:100%; height: 1px; border-top: 1px solid #dedede; border-bottom: 1px solid #fff;}
+.hrdashed {width:100%; height: 1px; border-top: 1px dashed #dedede;}
+.txt_info14 {padding:10px 0 20px; font-size: 14px; color:#333;}
+.txt_info14bline {padding:10px 0 20px; font-size: 14px; color:#333; border-bottom: 1px dashed #DEDEDE;}
 .btn, .btn-morphing {margin-bottom: 0;}
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {margin: 0;}
 .accordion .card {margin-bottom: 0;}
@@ -217,3 +223,110 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 .mo_quicktopMove {display:none; position:fixed; bottom:70px; right:20px; width:35px; height:35px; padding:10px; border-radius: 50px; background-color: #ffb800; box-shadow:0 0 10px rgba(0, 0, 0, .3); font:0/0 a; opacity: .8; z-index: 99;}
 .mo_quicktopMove .arrowtop {position: relative; width: 2px; height: 8px; margin-top: 3px; margin-left: 4px; background: #fff; transform: rotate(45deg); -webkit-transform: rotate(45deg);}
 .mo_quicktopMove .arrowtop:after {content: ""; position: absolute; top: 0; left: 0; width: 8px; height: 2px; background: #fff;}
+
+
+
+.table-a { width: 100%; border-top: 3px #333 solid; border-collapse: inherit}
+/* .table-a tbody {border-top: 3px #333 solid} */
+
+.table-a th,
+.table-a td {
+	padding: 15px 0;
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 1px #b6b6b6 solid
+}
+
+.table-a th.text-left,
+.table-a td.text-left {
+	padding-left: 20px
+}
+
+.table-a thead th {
+	padding: 15px 0;
+	font-size: 12px;
+	color: #222;
+	font-weight: 600;
+	text-align: center;
+	border-bottom: 2px #acacac solid;
+	background: #f6f6f6
+}
+
+.table-b {	width: 100%;	border-top: 2px #acacac solid;border-collapse: inherit}
+
+.table-b th,
+.table-b td {
+	text-align: left;
+	font-size: 12px;
+	border-bottom: 1px #acacac solid
+}
+
+.table-b th {
+	padding: 15px 0 15px 15px;
+	text-align: left;
+	font-size: 12px;
+	color: #777;
+	font-weight: 600;
+	background: #f6f6f6
+}
+
+.table-b td {
+	padding: 10px;
+	border-left: 1px #acacac solid
+}
+
+.table-c {	width: 100%;	border-top: 2px #acacac solid;border-collapse: inherit}
+
+.table-c th,
+.table-c td {
+	text-align: left;
+	font-size: 12px;
+	border-bottom: 1px #bfbfbf solid
+}
+
+.table-c th {
+	padding: 20px 0 20px 15px;
+	text-align: left;
+	font-size: 12px;
+	color: #222;
+	font-weight: 600
+}
+
+.table-c td {
+	color: #777;
+	padding: 10px
+}
+
+.table-d {	width: 100%;	border-top: 1px #ccc solid;border-collapse: inherit}
+
+.table-d thead th {
+	padding: 15px 0;
+	font-size: 13px;
+	color: #222;
+	font-weight: 600;
+	text-align: center;
+	border-left: 1px #ddd solid;
+	border-bottom: 1px #ccc solid;
+	background: #f8f8f8
+}
+
+.table-d td {
+	padding: 15px 0;
+	text-align: center;
+	font-size: 13px;
+	border-left: 1px #ddd solid;
+	border-bottom: 1px #ddd solid
+}
+
+.table-d td:first-child {
+	border-left: 0
+}
+
+.table-d td.text-left {
+	padding-left: 10px;
+	padding-right: 10px
+}
+
+.table-d td.line-left {
+	border-left: 1px #ddd solid
+}
