@@ -78,11 +78,11 @@
 
             <h4>Table</h4>            
             <h3 class="h3_tit">table-a col</h3>
-            <table class="table-a table-row">
+            <table class="table-a table-col">
               <!-- table-a -->
               <caption></caption>
               <colgroup>
-                <col style="width: 22%;" />
+                <col style="width: 40%;" />
                 <col style="width: auto;" />
               </colgroup>
               <tbody>
@@ -95,13 +95,66 @@
                 <tr>
                   <th scope="row">aaa</th>
                   <td>
-                    aaa
+                    <input type="text" class="form-control" placeholder="" />
                   </td>
                 </tr>
                 <tr>
                   <th scope="row">aaa</th>
                   <td>
+                    <div class="row ">
+                      <div class="col-sm-4"><input type="number" class="form-control" placeholder="" /></div>
+                      <div class="col-sm-4"><input type="number" class="form-control" placeholder="" /></div>
+                      <div class="col-sm-4"><input type="number" class="form-control" placeholder="" /></div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">aaa</th>
+                  <td>
+                    <div class="row lh30">
+                      <div class="col-sm-4"><input type="number" class="form-control" placeholder="" /></div>- 
+                      <div class="col-sm-4"><input type="number" class="form-control" placeholder="" /></div>- 
+                      <div class="col-sm-4"><input type="number" class="form-control" placeholder="" /></div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">aaa</th>
+                  <td>
+                    <div class="row">
+                      <div class="col-sm-7"><input type="text" class="form-control" placeholder="" /></div>
+                      <div class="col-sm-5"><button type="button" class="btn_type3 btn_type3_5">버튼명</button></div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <h3 class="h3_tit">table-a col border2</h3>
+            <table class="table-a table-col tbd2">
+              <!-- table-a -->
+              <caption></caption>
+              <colgroup>
+                <col style="width: 40%;" />
+                <col style="width: auto;" />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th scope="row">aaa</th>
+                  <td class="align_left">
                     aaa
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">aaa</th>
+                  <td class="align_center">
+                    aaa
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">aaa</th>
+                  <td class="align_right">
+                    <span class="txtp16">aaa</span>
                   </td>
                 </tr>
               </tbody>
@@ -169,6 +222,66 @@
 
             <h3 class="h3_tit">table-b row</h3>
             <table class="table-b table-row">
+              <!-- table-a -->
+              <caption></caption>
+              <colgroup>
+                <col style="width: 22%;" />
+                <col style="width: auto;" />
+              </colgroup>
+              <thead>
+                <tr>
+                  <th scope="col">aaa</th>
+                  <th scope="col">aaa</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>aaa</td>
+                  <td>aaa</td>
+                </tr>
+                <tr>
+                  <td>aaa</td>
+                  <td>aaa</td>
+                </tr>
+                <tr>
+                  <td>aaa</td>
+                  <td>aaa</td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <h3 class="h3_tit">table-c col</h3>
+            <table class="table-c table-row">
+              <!-- table-a -->
+              <caption></caption>
+              <colgroup>
+                <col style="width: 22%;" />
+                <col style="width: auto;" />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th scope="row">aaa</th>
+                  <td>
+                    aaa
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">aaa</th>
+                  <td>
+                    aaa
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">aaa</th>
+                  <td>
+                    aaa
+                  </td>
+                </tr>
+              </tbody>
+            </table>            
+
+            <h3 class="h3_tit">table-c row</h3>
+            <table class="table-c table-row">
               <!-- table-a -->
               <caption></caption>
               <colgroup>
@@ -728,6 +841,73 @@
 
             <br/>
             <br/>
+            
+            <div class="title">
+              <h3>Swiper type1</h3>
+            </div>
+
+            <div class="swiper-container slidecenter_typecenter">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#none">
+                    <img src="../assets/images/temp/temp_photo400.jpg" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+                    <p class="nameinfo text-center">Brigitte Bardot</p>
+                    <ul class="dateinfo">
+                      <li><span class="icon-birthcake"></span> 2021년00월00일</li>
+                      <li><span class="icon-calendarclock"></span> D+00000일(00년00개월)</li>
+                    </ul>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#none">
+                    <img src="../assets/images/temp/temp_photo400.jpg" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+                    <p class="nameinfo text-center">Brigitte Bardot</p>
+                    <ul class="dateinfo">
+                      <li><span class="icon-birthcake"></span> 2021년00월00일</li>
+                      <li><span class="icon-calendarclock"></span> D+00000일(00년00개월)</li>
+                    </ul>
+                  </a>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+
+            <br/>
+            <br/>
+
+            <div class="title">
+              <h3>Swiper type2</h3>
+            </div>
+         
+            <!-- Swiper -->
+            <div class="swiper-container slidecenter_type2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#none"><img src="../assets/images/temp/temp_bigphoto990.jpg" class="" alt="" /></a>
+                  <textarea name="" id="" class="form-control" cols="30" rows="5" placeholder="text1"></textarea>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#none"><img src="../assets/images/temp/temp_bigphoto990.jpg" class="" alt="" /></a>
+                  <textarea name="" id="" class="form-control" cols="30" rows="5" placeholder="text2"></textarea>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#none"><img src="../assets/images/temp/temp_bigphoto990.jpg" class="" alt="" /></a>
+                  <textarea name="" id="" class="form-control" cols="30" rows="5" placeholder="text3"></textarea>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+
+            <br/>
+            <br/>
 
             <h3>Calendar</h3>
             <div class="form">
@@ -742,6 +922,24 @@
 
             <br/>
             <br/>
+
+
+            <div class="notice_list ty2">
+              <strong class="tit">이용에 불편을 드려 대단히 죄송합니다.</strong>
+              <p>요청하신 페이지가 정상적으로 처리되지 않았습니다.<br>잠시 후 다시 이용해 주시기 바랍니다.</p>
+              <div class="flex_btn alignjust_center">
+                <div class="col-sm-5">
+                  <a href="#none" class="btn_type3 btn_type3_5"><span class="icon-filedown mr_05"></span>홈으로</a>
+                </div>
+              </div>
+              <div class="flex_btn">
+                <a href="#none" class="btn_type1">홈으로</a>
+              </div>
+            </div>
+
+            <br/>
+            <br/>
+
 
           </div>
 

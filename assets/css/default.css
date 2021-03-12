@@ -145,6 +145,7 @@ h6, .h6{display:block; margin:15px 0px 5px 0px; font-size:17px; color:#404040;}
 	
 ////////////////////////////////////////////////////////////////////////////// */
 .red{color:#ff0000 !important;}
+.copoint {color:#ffb800 !important;}
 .co333 {color: #333 !important;}
 .co555 {color: #555 !important;}
 .co777 {color: #777 !important;}
@@ -179,6 +180,7 @@ h6, .h6{display:block; margin:15px 0px 5px 0px; font-size:17px; color:#404040;}
 .align_left{text-align:left !important;}
 .align_right{text-align:right !important;}
 .align_center{text-align:center !important;}
+.alignjust_center{justify-content:center !important;}
 .float_left{float:left;}
 .float_right{float:right;}
 .clear{clear:both;}
@@ -343,7 +345,7 @@ button {padding:0; border:none 0; background:none; cursor:pointer;}
 input[type="password"],
 input[type="text"],
 input[type="number"],
-input[type="tel"] {height:40px; line-height:40px; padding:0 18px; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; -ms-border-radius:4px; -o-border-radius:4px; background-color:#fff; font-size:14px; box-sizing:border-box; border:1px solid #DDD;}
+input[type="tel"] {height:30px; line-height:30px; padding:0 5px; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; -ms-border-radius:4px; -o-border-radius:4px; background-color:#fff; font-size:14px; box-sizing:border-box; border:1px solid #DDD;}
 
 ol,
 ul,

@@ -35,13 +35,18 @@ function fn_aaa() {
 
 function swiper(obj) {
 
-	if (obj = ".slidecenter_type1") {
+	if (obj = ".slidecenter_typecenter") {
 		// swiper 중앙정렬 3개
 		var swiper = new Swiper($(".swiper-container" + obj), {
+			centeredSlides: true,
+			spaceBetween: 0,
+			touchRatio: 0.2,
+			slideToClickedSlide: true,
+			loop: false,
+			speed: 600,
+			loop: false,
 			slidesPerView: 'auto',
-			centerSlides: true,
-			spaceBetween: 16,
-			touchAngle: 35,
+			initialSlide: 0,
 			pagination: {
 				el: '.swiper-pagination',
 				clickable: true, // indicator
@@ -55,8 +60,13 @@ function swiper(obj) {
 	}
 
 	if (obj = ".slidecenter_type2") {
-		// swiper 중앙정렬 3개
+		// swiper 중앙정렬 1개
 		var swiper = new Swiper($(".swiper-container" + obj), {
+			observer: true,
+			observeParents: true,
+			autoHeight: true,
+			watchSlidesProgress: true,
+			speed: 800,
 			slidesPerView: 'auto',
 			centerSlides: true,
 			spaceBetween: 16,
