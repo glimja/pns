@@ -12,7 +12,7 @@ body {overflow:inherit}
 .navbar-collapse {padding:0}
 .navbar-collapse ul {height:56%; padding:20px; background: #fff; border-top: 3px solid #eee;}
 .navbar-collapse ul li {}
-.navbar-collapse ul li a {padding:15px 10px; color: #555;}
+.navbar-collapse ul li a {padding:12px 10px; color: #555;}
 .navbar-info {}
 /* .navbar-translate.z_idx {z-index: 1035;} */
 .navbar-translate.z_idx .navbar-photo{animation: fadein 2s}
@@ -112,18 +112,18 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {margin: 0;}
 .accordion>.card .card-header .arr_tit[aria-expanded="true"] {background-image: url(../images/icon/arr_12_up.svg); }
 
 .userinfo {position: relative; margin-top: 70px; padding: 20px 15px; background: #fff; box-sizing: border-box; z-index: 3;}
-.userinfo .userinfo-img {position: relative; display: inline-block; width:100px; height:100px; vertical-align: top;}
-.userinfo .userinfo-cont {position: relative; display: inline-block; width: calc(100% - 120px); padding: 20px 0 0 20px; color:#555; box-sizing: border-box;}
-.userinfo .userinfo-cont .tit {font-size: 22px; font-weight: 600;}
-.userinfo .userinfo-cont .desc {font-size: 13px;}
-.navbar-collapse ul.navbarnav {overflow: hidden;overflow-y: scroll;position: relative;padding: 0 20px; background: #fff; box-sizing: border-box; z-index: 3;}
+.userinfo .userinfo-img {position: relative; display: inline-block; width:80px; height:80px; vertical-align: top;}
+.userinfo .userinfo-cont {position: relative; display: inline-block; width: calc(100% - 90px); padding: 20px 0 0 20px; color:#555; box-sizing: border-box;}
+.userinfo .userinfo-cont .tit {font-size: 1.25em; font-weight: 600;}
+.userinfo .userinfo-cont .desc {font-size: 0.75em;}
+.navbar-collapse ul.navbarnav {overflow: hidden;overflow-y: scroll;position: relative;padding: 0 20px 80px; background: #fff; box-sizing: border-box; z-index: 3;}
 .navbarnav li {border-top: 1px dashed #e2e2e2}
 .navbarnav li:first-child {border-top: 0;}
 .navbarnav li:last-child {border-bottom: 1px solid #e2e2e2;}
 .navbarnav li a span {margin-right: 10px;}
 .navbarnav li a {position:relative; width:100%; font-size: 16px;}
 .navbarnav li a:after {content:''; position: absolute; top:20px; right: 10px; width:10px; height:14px; background: url(../images/icon/arr_leftmenu.svg);}
-.navbarnav li a span.label {position: absolute; margin-left: 5px;}
+.navbarnav li a span.label {position: absolute; margin-left: 5px; line-height: 16px;}
 .icon-email {display: inline-block;width:13px;height:9px;background: url(../images/icon/icon_email.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: middle;}
 .icon-premium {display: inline-block;width:21px;height:24px;background: url(../images/icon/icon_premium.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: middle;}
 .icon-shopbasket {display: inline-block;width:23px;height:21px;background: url(../images/icon/icon_shopbasket.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: middle;}
