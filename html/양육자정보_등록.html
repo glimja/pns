@@ -92,13 +92,20 @@
               </ul>
             </div>
 <style>
-.childcareselect {margin:40px 0 10px;}
+.childcareselect {margin:10px 0 10px; text-align: center;}
 .childcareselect ul li {position:relative; padding-top: 100px;}
-.childcareselect ul li:before {content:''; display:block; position: absolute; top:0; width:80px; height:80px;}
-.childcareselect ul li:first-child:before {background: url(../assets/images/icon/icon_childcare1.jpg) 0 0 no-repeat; background-size:100%;}
+/*.childcareselect ul li:first-child:before {background: url(../assets/images/icon/icon_childcare1.jpg) 0 0 no-repeat; background-size:100%;}
 .childcareselect ul li:nth-child(2):before {background: url(../assets/images/icon/icon_childcare2.jpg) 0 0 no-repeat; background-size:100%;}
 .childcareselect ul li:nth-child(3):before {background: url(../assets/images/icon/icon_childcare3.jpg) 0 0 no-repeat; background-size:100%;}
-.childcareselect ul li:nth-child(4):before {background: url(../assets/images/icon/icon_childcare4.jpg) 0 0 no-repeat; background-size:100%;}
+.childcareselect ul li:nth-child(4):before {background: url(../assets/images/icon/icon_childcare4.jpg) 0 0 no-repeat; background-size:100%;} */
+.childcareselect ul li .form-check-radio .form-check-sign::before {content:''; display:block; position: absolute; top:-70px; left:20px; width:60px; height:60px;}
+.childcareselect ul li:first-child .form-check-radio .form-check-sign::before {background: url(../assets/images/icon/icon_childcare1.jpg) 0 0 no-repeat; background-size:100%;}
+.childcareselect ul li:nth-child(2) .form-check-radio .form-check-sign::before {background: url(../assets/images/icon/icon_childcare2.jpg) 0 0 no-repeat; background-size:100%;}
+.childcareselect ul li:nth-child(3) .form-check-radio .form-check-sign::before {background: url(../assets/images/icon/icon_childcare3.jpg) 0 0 no-repeat; background-size:100%;}
+.childcareselect ul li:nth-child(4) .form-check-radio .form-check-sign::before {background: url(../assets/images/icon/icon_childcare4.jpg) 0 0 no-repeat; background-size:100%;}
+
+.childcareselect ul li .form-check-radio input[type="radio"]:checked+ .form-check-sign::before {opacity: 1;}
+.childcareselect ul li .form-check-radio input[type="radio"]:checked+.form-check-sign::after {top: -7px; left:19px;}
 </style>
             <div class="flex_btn ">
               <button type="button" class="btn_type1">등록</button>
