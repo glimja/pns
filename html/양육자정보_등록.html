@@ -52,7 +52,11 @@
             <h2 class="h2_tit disnone">양육자 정보 등록</h2>
             <h3 class="h3_tit">이름</h3>
             <div class="col-sm-12">
-              <input type="text" class="form-control" placeholder="사용하실 이름을 입력하여 주세요" />
+              <input type="text" class="form-control rd48" placeholder="사용하실 이름을 입력하여 주세요" />
+            </div>
+            <h3 class="h3_tit">생년월일</h3>
+            <div class="col-sm-12">
+              <input type="text" class="form-control rd48" placeholder="생년월일 숫자 8자리(예, 19850301)" />
             </div>
 
             <div class="childcareselect">
@@ -91,22 +95,6 @@
                 </li>
               </ul>
             </div>
-<style>
-.childcareselect {margin:10px 0 10px; text-align: center;}
-.childcareselect ul li {position:relative; padding-top: 100px;}
-/*.childcareselect ul li:first-child:before {background: url(../assets/images/icon/icon_childcare1.jpg) 0 0 no-repeat; background-size:100%;}
-.childcareselect ul li:nth-child(2):before {background: url(../assets/images/icon/icon_childcare2.jpg) 0 0 no-repeat; background-size:100%;}
-.childcareselect ul li:nth-child(3):before {background: url(../assets/images/icon/icon_childcare3.jpg) 0 0 no-repeat; background-size:100%;}
-.childcareselect ul li:nth-child(4):before {background: url(../assets/images/icon/icon_childcare4.jpg) 0 0 no-repeat; background-size:100%;} */
-.childcareselect ul li .form-check-radio .form-check-sign::before {content:''; display:block; position: absolute; top:-70px; left:20px; width:60px; height:60px;}
-.childcareselect ul li:first-child .form-check-radio .form-check-sign::before {background: url(../assets/images/icon/icon_childcare1.jpg) 0 0 no-repeat; background-size:100%;}
-.childcareselect ul li:nth-child(2) .form-check-radio .form-check-sign::before {background: url(../assets/images/icon/icon_childcare2.jpg) 0 0 no-repeat; background-size:100%;}
-.childcareselect ul li:nth-child(3) .form-check-radio .form-check-sign::before {background: url(../assets/images/icon/icon_childcare3.jpg) 0 0 no-repeat; background-size:100%;}
-.childcareselect ul li:nth-child(4) .form-check-radio .form-check-sign::before {background: url(../assets/images/icon/icon_childcare4.jpg) 0 0 no-repeat; background-size:100%;}
-
-.childcareselect ul li .form-check-radio input[type="radio"]:checked+ .form-check-sign::before {opacity: 1;}
-.childcareselect ul li .form-check-radio input[type="radio"]:checked+.form-check-sign::after {top: -7px; left:19px;}
-</style>
             <div class="flex_btn ">
               <button type="button" class="btn_type1">등록</button>
             </div>

@@ -104,7 +104,7 @@ h5, .h5 {margin: 5px 0 8px 0;}
 .txt_info14 {padding:10px 0 20px; font-size: 14px; color:#333;}
 .txt_info14bline {padding:10px 0 20px; font-size: 14px; color:#333; border-bottom: 1px dashed #DEDEDE;}
 .btn, .btn-morphing {margin-bottom: 0;}
-h1, .h1, h2, .h2, h3, .h3, h4, .h4 {margin: 0;}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {margin: 0; color:#555}
 .accordion .card {margin-bottom: 0;}
 .accordion>.card .card-header {margin-bottom: 0; }
 .accordion>.card .card-header .arr_tit { background-repeat: no-repeat; background-position: top 16px right 5px;transition:all 0.1s ease; -webkit-transition:all 0.1s ease;}
@@ -127,6 +127,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {margin: 0;}
 .navbarnav li a {position:relative; width:100%; font-size: 16px;}
 .navbarnav li a:after {content:''; position: absolute; top:20px; right: 10px; width:10px; height:14px; background: url(../images/icon/arr_leftmenu.svg);}
 .navbarnav li a span.label {position: absolute; margin-left: 5px; line-height: 16px;}
+/* 아이콘 ========================================================================================== */
 .icon-email {display: inline-block;width:13px;height:9px;background: url(../images/icon/icon_email.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: middle;}
 .icon-findpw {display: inline-block;width:8px;height:13px;background: url(../images/icon/icon_findpw.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: middle;}
 .icon-premium {display: inline-block;width:21px;height:24px;background: url(../images/icon/icon_premium.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: middle;}
@@ -150,12 +151,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {margin: 0;}
 .icon-certiphone {display: inline-block;width:20px;height:17px;background: url(../images/icon/icon_certiphone.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: middle}
 .icon-certipin {display: inline-block;width:21px;height:15px;background: url(../images/icon/icon_certipin.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: middle}
 .icon-photoregist {display: inline-block;width:22px;height:15px;background: url(../images/icon/icon_photoregist.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -2px}
+.icon-boymark {display: inline-block;width:12px;height:24px;background: url(../images/icon/icon_boymark.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -6px}
+.icon-boymarkwt {display: inline-block;width:12px;height:24px;background: url(../images/icon/icon_boymarkwt.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -6px}
+.icon-girlmark {display: inline-block;width:12px;height:24px;background: url(../images/icon/icon_girlmark.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -6px}
+.icon-girlmarkwt {display: inline-block;width:12px;height:24px;background: url(../images/icon/icon_girlmarkwt.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -6px}
 .btn.small {padding: 0.2rem 12px; line-height: normal;}
 .btn.small.btn-icon {position: relative; padding-left: 30px;}
 .userinfo .userinfo-cont .icon-premium {position: absolute; top:-6px; left:6px;}
 .userinfo .userinfo-cont .btn.small.btn-icon {margin: 10px 0;}
 .userinfo .flex_btn {display: flex; margin: 20px 0 10px 0;}
-/* .flex_btn {display: flex; margin: 30px 0;} */
+/* 버튼 ========================================================================================== */
 .flex_btn>a:last-child, .flex_btn>button:last-child{margin-right: 0;}
 .flex_btn>a, .flex_btn>button{margin-right: 10px;}
 a.btn_type1,button.btn_type1 {width:100%; height:48px; line-height:48px; box-sizing:border-box; background:#FFB800; color:#fff; font-size:14px; font-weight: 600; border-radius:48px; text-align:center;}
@@ -177,6 +182,7 @@ a.btn_type3_5,button.btn_type3_5 {background:#dedede; color:#777}
 a.btn_type3_6,button.btn_type3_6 {background:#aaa; color:#fff}
 a.btn_rndtype3,button.btn_rndtype3 {width:100%; height:30px; line-height:30px; box-sizing:border-box; background:#fff; color:#777; border: 1px solid #dedede; font-size:12px; font-weight: 100; border-radius:30px; text-align:center;}
 a.btn_cacao,button.btn_cacao {background:#FAE300; color:#555}
+a.btn_border2,button.btn_border2 {background:#FFF; color:#555;border: 2px solid #ffb800}
 
 hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; background-color:#eee}
 .nav-tabs .nav-item .nav-link.active:before, .nav-tabs .nav-item .nav-link.active:hover:before, .nav-tabs .nav-item .nav-link.active:focus:before,
@@ -193,7 +199,7 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 .thumblist_type1.chkbox li .listcheckbox {position: absolute; top: 0; left: 0;}
 .swiper-pagination-bullet {background:#aaa}
 .swiper-pagination-bullet-active {background:#ffb800;}
-/* swiper center */
+/* swiper center ========================================================================================== */
 .swiper-container.slidecenter_typecenter {position: relative; height: 250px;}
 .swiper-container.slidecenter_typecenter .swiper-slide {width:100px; height:100px; transform: scale(.5);}
 .swiper-container.slidecenter_typecenter .swiper-slide.swiper-slide-prev, 
@@ -254,6 +260,8 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 .form input[type="text"].form_01 {width: 80%;}
 input.rd48 {height: 40px; line-height: 40; padding: 0 15px; border-radius: 20px; -webkit-border-radius: 20px; border-color: #C0B59F}
 input.rd48::placeholder, input.rd48::-webkit-input-placeholder {color: #C0B59F;letter-spacing: -1px;}
+input.rdinset40 {height: 40px; line-height: 40; padding: 0 15px; border-radius: 20px; -webkit-border-radius: 20px; border-color: #d2d2d2; background-color: #F1F1F1;box-shadow: inset 1px 3px 2px rgb(0 0 0 / 10%);}
+input.rdinset40::placeholder, input.rd48::-webkit-input-placeholder {color: #999;letter-spacing: -1px;}
 input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDEDE}
 
 /* x축 스크롤 메뉴 */
@@ -265,7 +273,7 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .mo_quicktopMove {display:none; position:fixed; bottom:70px; right:20px; width:35px; height:35px; padding:10px; border-radius: 50px; background-color: #ffb800; box-shadow:0 0 10px rgba(0, 0, 0, .3); font:0/0 a; opacity: .8; z-index: 99;}
 .mo_quicktopMove .arrowtop {position: relative; width: 2px; height: 8px; margin-top: 3px; margin-left: 4px; background: #fff; transform: rotate(45deg); -webkit-transform: rotate(45deg);}
 .mo_quicktopMove .arrowtop:after {content: ""; position: absolute; top: 0; left: 0; width: 8px; height: 2px; background: #fff;}
-
+/* 테이블 ========================================================================================== */
 /* table-a */
 .table-a { width: 100%; border-top: 1px #acacac solid; border-collapse: inherit}
 .table-a th {color:#333; background: #f3f3f3}
@@ -333,3 +341,23 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .box_childcare .infoselect .info .tit {font-weight: 200}
 .box_childcare .infoselect .info .desc {padding-top:5px; font-weight: 600;}
 .midinfo12 {color:#555; font-size:12px;}
+.midinfo14 {color:#555; font-size:14px;}
+/* 양육자 정보 등록 */
+.childcareselect {margin:10px 0 10px; text-align: center;}
+.childcareselect .form-check-radio:before {font-family: 'FontAwesome';content: "\f10c";font-size: 22px;-webkit-font-smoothing: antialiased;display: inline-block;position: absolute;opacity: .50;left: 19px;top: -7px;color: #ffb800;}
+.childcareselect ul li {position:relative; padding-top: 100px;}
+.childcareselect ul li .form-check-radio .form-check-sign::before {content:''; display:block; position: absolute; top:-70px; left:20px; width:60px; height:60px;}
+.childcareselect ul li:first-child .form-check-radio .form-check-sign::before {background: url(../assets/images/icon/icon_childcare1.jpg) 0 0 no-repeat; background-size:100%;}
+.childcareselect ul li:nth-child(2) .form-check-radio .form-check-sign::before {background: url(../assets/images/icon/icon_childcare2.jpg) 0 0 no-repeat; background-size:100%;}
+.childcareselect ul li:nth-child(3) .form-check-radio .form-check-sign::before {background: url(../assets/images/icon/icon_childcare3.jpg) 0 0 no-repeat; background-size:100%;}
+.childcareselect ul li:nth-child(4) .form-check-radio .form-check-sign::before {background: url(../assets/images/icon/icon_childcare4.jpg) 0 0 no-repeat; background-size:100%;}
+.childcareselect ul li .form-check-radio input[type="radio"]:checked+ .form-check-sign::before {opacity: 1;}
+.childcareselect ul li .form-check-radio input[type="radio"]:checked+.form-check-sign::after {top: -7px; left:19px;}
+/* 아기정보 */
+.babyinfolist {padding:40px 30px 0 30px;}
+.babyinfolist li {display: inline-block; padding-bottom: 30px; padding-left: 40px;}
+.babyinfolist li:nth-child(odd) {padding-left: 0;}
+.babyinfolist li a {text-align: center;}
+.babyinfolist li a img {border-radius: 50%;}
+.babyinfolist li a .name {display:block; padding-top: 10px;}
+
