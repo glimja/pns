@@ -40,7 +40,7 @@ function swiper(obj) {
 		// swiper 중앙정렬 3개
 		var swiper = new Swiper($(".swiper-container" + obj), {
 			centeredSlides: true,
-			spaceBetween: 0,
+			spaceBetween: -10,
 			touchRatio: 0.2,
 			slideToClickedSlide: true,
 			loop: false,

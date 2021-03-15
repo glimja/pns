@@ -40,7 +40,7 @@
         <!-- Navbar -->
         <nav class="navbar fixed-top">
             <div class="container">
-              <h1 class="tit-info">내 프로필</h1>
+              <h1 class="tit-info">사진첩 등록하기</h1>
               <a href="#none" class="btn_back"><span>이전페이지</span></a>
             </div>
         </nav>
@@ -49,72 +49,38 @@
         <!-- Contents -->
         <div class="section">
           <div class="container">
-            <h2 class="h2_tit disnone">내 프로필</h2>
-            <div class="myinfo">
-              <div class="align_center mt_30">
-                <img src="../assets/images/icon/icon_user2.jpg" alt="" />
-              </div>
-              <div class="flex_btn alignjust_center mt_20">
-                <div class="col-sm-4">
-                  <button type="button" class="btn_type3 btn_type3_5"><span class="icon-photoregist"></span> 사진등록</button>
-                </div>
-              </div>
-              <div class="flex_btn alignjust_center mt_15">
-                <div class="col-sm-5">
-                  <button type="button" class="btn_type3 btn_type3_5"><span class="icon-findpw"></span> 비밀번호 변경</button>
-                </div>
-              </div>
-            </div>
-            <div class="mt_30">
-              <table class="table-c table-row">
-                <caption></caption>
-                <colgroup>
-                  <col style="width: 30%;" />
-                  <col style="width: auto;" />
-                </colgroup>
-                <tbody>
-                  <tr>
-                    <th scope="row">이메일</th>
-                    <td>
-                      peanetstory@peanetstory.co.kr
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">휴대폰 번호</th>
-                    <td>                          
-                      <div class="row">
-                        <div class="col-sm-7 mlpl0"><input type="text" class="form-control ih40" placeholder="" /></div>
-                        <div class="col-sm-5 mlmrpr0">
-                          <button type="button" class="btn_type2 btn_type2_5">재인증</button>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">가입 타입</th>
-                    <td>
-                      카카오
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+            <h2 class="h2_tit disnone">사진첩 등록하기</h2>
+            <h3 class="h3_tit">언제 사진인가요?</h3>
+            <div class="form">
+              <input type="text" class="form_01 openDatePicker ih40" placeholder="" />
             </div>
 
-            <h2 class="h2_tit">양육자 정보</h2>
-            <div class="box_childcare">
-              <div class="img">
-                <img src="../assets/images/icon/icon_childcare1.jpg" alt="엄마" />
+            <div class="swiper-container slidecenter_type2 mt_20">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#none"><img src="../assets/images/temp/temp_bigphoto990.jpg" class="" alt="" /></a>
+                  <textarea name="" id="" class="form-control" cols="30" rows="5" placeholder="일기 내용을 적어주세요."></textarea>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#none"><img src="../assets/images/temp/temp_bigphoto990.jpg" class="" alt="" /></a>
+                  <textarea name="" id="" class="form-control" cols="30" rows="5" placeholder="일기 내용을 적어주세요."></textarea>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#none"><img src="../assets/images/temp/temp_bigphoto990.jpg" class="" alt="" /></a>
+                  <textarea name="" id="" class="form-control" cols="30" rows="5" placeholder="일기 내용을 적어주세요."></textarea>
+                </div>
               </div>
-              <div class="infoselect">
-                <dl class="info">
-                  <dt class="tit">이름</dt>
-                  <dd class="desc">땅콩스토리 <span>엄마</span></dd>
-                </dl>
-              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
+            
             <div class="flex_btn">
-              <button type="button" class="btn_type1">저장하기</button>
+              <button type="button" class="btn_type1">등록하기</button>
             </div>
+
           </div>
         </div>
         <!-- //Contents -->
@@ -123,5 +89,32 @@
         <div class="mo_quicktopMove">TOP <span class="arrowtop"></span></div>
         <!-- //상단으로 이동 top 버튼 -->
 
+        <script>
+          $(function () {
+      
+            $.datepicker.setDefaults({
+              dateFormat: 'yy-mm-dd',
+              showMonthAfterYear: true,
+              changeYear: false,
+              changeMonth: false,
+              showOn: "both",
+              buttonImage: "",
+              buttonImageOnly: false,
+              yearSuffix: '.',
+              monthNames: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+              monthNamesShort: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+              dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+              dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+              dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+            });
+            $("#datepicker").datepicker();
+          });
+        </script>
+      
+        <script>
+          $(function(){
+            setDatepicker('dp00');
+          })
+        </script>
     </body>
 </html>

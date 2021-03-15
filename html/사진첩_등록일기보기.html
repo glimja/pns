@@ -40,7 +40,7 @@
         <!-- Navbar -->
         <nav class="navbar fixed-top">
             <div class="container">
-              <h1 class="tit-info">내 프로필</h1>
+              <h1 class="tit-info">일기쓰기</h1>
               <a href="#none" class="btn_back"><span>이전페이지</span></a>
             </div>
         </nav>
@@ -49,72 +49,52 @@
         <!-- Contents -->
         <div class="section">
           <div class="container">
-            <h2 class="h2_tit disnone">내 프로필</h2>
-            <div class="myinfo">
-              <div class="align_center mt_30">
-                <img src="../assets/images/icon/icon_user2.jpg" alt="" />
-              </div>
-              <div class="flex_btn alignjust_center mt_20">
-                <div class="col-sm-4">
-                  <button type="button" class="btn_type3 btn_type3_5"><span class="icon-photoregist"></span> 사진등록</button>
+            <h2 class="h2_tit disnone">일기쓰기</h2>
+
+            <div class="swiper-container slidecenter_type2 mt_20 wrap_diarybox">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#none"><img src="../assets/images/temp/temp_bigphoto990.jpg" class="" alt="" /></a>
+                  <div class="diarybox">
+                    <dl>
+                      <dt class="dt_tit">
+                        베이비룸을 넘어서 세상 밖으로
+                        <span class="infotxt">육아일기/1. 탄생. 그리고 일년 2021. 4. 1. 08:30</span>
+                      </dt>
+                      <dd class="dd_desc">
+                        해나공주가 이제 번개같이 기어 다니는군요.<br/>
+                        이 녀석 잡아두면 도망가고 잡아두며 또 도망가버려 잠시라도 한 눈 팔 새가 없습니다.<br/>
+                        특히 아빠가 출근하고 나서 또냐 혼자 있으면 집안일을 할 수가 없을 정도입니다.<br/>
+                        <br/>
+                        그래서 산 육아용품이 햇님토이의 베이비룸입니다.<br/>
+                        원래 사방을 막는 울타리인데, 주방 쪽으로만 못 가도록 삼면으로 막았습니다.<br/>
+                        울타리에는 몇 가지 장난감이 붙어 있어 공주님이 덜 심심해합니다.<br/>
+                        <br/>
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#none"><img src="../assets/images/temp/temp_bigphoto990.jpg" class="" alt="" /></a>
+                  <textarea name="" id="" class="form-control" cols="30" rows="5" placeholder="일기 내용을 적어주세요."></textarea>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#none"><img src="../assets/images/temp/temp_bigphoto990.jpg" class="" alt="" /></a>
+                  <textarea name="" id="" class="form-control" cols="30" rows="5" placeholder="일기 내용을 적어주세요."></textarea>
                 </div>
               </div>
-              <div class="flex_btn alignjust_center mt_15">
-                <div class="col-sm-5">
-                  <button type="button" class="btn_type3 btn_type3_5"><span class="icon-findpw"></span> 비밀번호 변경</button>
-                </div>
-              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
-            <div class="mt_30">
-              <table class="table-c table-row">
-                <caption></caption>
-                <colgroup>
-                  <col style="width: 30%;" />
-                  <col style="width: auto;" />
-                </colgroup>
-                <tbody>
-                  <tr>
-                    <th scope="row">이메일</th>
-                    <td>
-                      peanetstory@peanetstory.co.kr
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">휴대폰 번호</th>
-                    <td>                          
-                      <div class="row">
-                        <div class="col-sm-7 mlpl0"><input type="text" class="form-control ih40" placeholder="" /></div>
-                        <div class="col-sm-5 mlmrpr0">
-                          <button type="button" class="btn_type2 btn_type2_5">재인증</button>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">가입 타입</th>
-                    <td>
-                      카카오
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+            
+            <div class="flex_btn">
+              <button type="button" class="btn_type1 btn_type1_5">삭제하기</button>
+              <button type="button" class="btn_type1">수정하기</button>
             </div>
 
-            <h2 class="h2_tit">양육자 정보</h2>
-            <div class="box_childcare">
-              <div class="img">
-                <img src="../assets/images/icon/icon_childcare1.jpg" alt="엄마" />
-              </div>
-              <div class="infoselect">
-                <dl class="info">
-                  <dt class="tit">이름</dt>
-                  <dd class="desc">땅콩스토리 <span>엄마</span></dd>
-                </dl>
-              </div>
-            </div>
-            <div class="flex_btn">
-              <button type="button" class="btn_type1">저장하기</button>
-            </div>
           </div>
         </div>
         <!-- //Contents -->
