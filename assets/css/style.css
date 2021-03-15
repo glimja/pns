@@ -189,7 +189,7 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 .nav-tabs .nav-item .nav-link.active:after, .nav-tabs .nav-item .nav-link.active:hover:after, .nav-tabs .nav-item .nav-link.active:focus:after {border:0; right:0; bottom:0; width:100%; height:4px; border-top-left-radius: 5px; border-top-right-radius: 5px; background-color: #ffb800}
 .nav-tabs .nav-item .nav-link.active, .nav-tabs .nav-item .nav-link.active:hover, .nav-tabs .nav-item .nav-link.active:focus {}
 .nav-tabs-navigation {margin-bottom: 20px; border-bottom: 1px solid #D6CFC9}
-.nav-tabs-wrapper {margin-bottom: 0;}
+.nav-tabs-wrapper {margin: 0;}
 .nav-tabs-navigation .nav>.nav-item>.nav-link {padding-bottom: 12px; color:#999}
 .nav-tabs-navigation .nav>.nav-item>.nav-link.active {color:#333; font-size:15px;}
 .nav-tabs .nav-item {margin-left: 20px; color:#333}
@@ -201,8 +201,8 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 .swiper-pagination-bullet {background:#aaa}
 .swiper-pagination-bullet-active {background:#ffb800;}
 /* 사진첩 일기 */
-.nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link {font-size:15px; padding: .5rem .7rem;}
-.nav-tabs-navigation.phtodiary .nav-tabs .nav-item {margin-left: 10px;}
+.nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link {font-size:15px; padding: .5rem .7rem; letter-spacing: -1px;}
+.nav-tabs-navigation.phtodiary .nav-tabs .nav-item {margin-left: 9px;}
 .nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link .tabicon1 {width:20px; height:19px; background:url(../images/icon/icon_diarytab.svg) 0 0 no-repeat;vertical-align: -3px;}
 .nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link.active .tabicon1 {background:url(../images/icon/icon_diarytabon.svg)}
 .nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link .tabicon2 {width:20px; height:19px; background:url(../images/icon/icon_calendartab.svg) 0 0 no-repeat;vertical-align: -3px;}
