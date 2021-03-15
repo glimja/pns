@@ -201,7 +201,7 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 .swiper-pagination-bullet {background:#aaa}
 .swiper-pagination-bullet-active {background:#ffb800;}
 /* 사진첩 일기 */
-.nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link {font-size:15px; padding: .5rem .7rem; letter-spacing: -1px;}
+.nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link {font-size:15px; padding: .5rem .8rem; letter-spacing: -1px;}
 .nav-tabs-navigation.phtodiary .nav-tabs .nav-item {margin-left: 9px;}
 .nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link .tabicon1 {width:20px; height:19px; background:url(../images/icon/icon_diarytab.svg) 0 0 no-repeat;vertical-align: -3px;}
 .nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link.active .tabicon1 {background:url(../images/icon/icon_diarytabon.svg)}
