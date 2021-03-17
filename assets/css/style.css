@@ -242,6 +242,8 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 .swiper-container.slidecenter_type2 .swiper-slide textarea {margin: 10px 0; border-radius: 20px;}
 .swiper-container.slidecenter_type2 .swiper-button-prev, 
 .swiper-container.slidecenter_type2 .swiper-button-next {margin-top: -100px;}
+/* swiper bgcolor */
+.slide_bgcolorthumb_box {position:relative; height:120px; padding:0; margin-top: 20px;}
 .col-sm-1 {flex: 0 0 8.333333%; max-width: 8.333333%;}
 .col-sm-2 {flex: 0 0 16.666667%;max-width: 16.666667%;}
 .col-sm-3 {flex: 0 0 25%;max-width: 25%;}

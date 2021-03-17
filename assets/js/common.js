@@ -83,6 +83,29 @@ function swiper(obj) {
 			},
 		});
 	}
+
+	if (obj = ".bgimages-thumbs") {
+		var bgimagesThumbs = new Swiper($(".swiper-container" + obj), {
+			spaceBetween: 10,
+			slidesPerView: 4,
+			freeMode: true,
+			watchSlidesVisibility: true,
+			watchSlidesProgress: true,
+		});
+	}
+
+	if (obj = ".bgimages-top") {
+		var bgimagesTop = new Swiper($(".swiper-container" + obj), {
+			spaceBetween: 10,
+			navigation: {
+			  nextEl: '.swiper-button-next',
+			  prevEl: '.swiper-button-prev',
+			},
+			thumbs: {
+			  swiper: bgimagesThumbs
+			}
+		});
+	}
 }
 
 // 상단으로 이동 top 버튼

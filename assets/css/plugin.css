@@ -93,7 +93,8 @@ button.swiper-pagination-bullet {border:none; margin:0; padding:0; -webkit-box-s
 /* customizing */
 .swiper-button-prev {left:18px;  width:15px; height:30px; margin-top:-10px; background-size:auto; background-image:url("../images/icon/btn_slide_prev.svg");}
 .swiper-button-next {right:18px; width:15px; height:30px; margin-top:-10px; background-size:auto; background-image:url("../images/icon/btn_slide_next.svg");}
-
+.swiper-button-prev.swiper-button-white {left:18px;  width:15px; height:30px; margin-top:-10px; background-size:auto; background-image:url("../images/icon/btn_slidewt_prev.svg");}
+.swiper-button-next.swiper-button-white {right:18px; width:15px; height:30px; margin-top:-10px; background-size:auto; background-image:url("../images/icon/btn_slidewt_next.svg");}
 
 
 /* jQuery UI ========================================================================================= */
