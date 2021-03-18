@@ -393,3 +393,15 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .storelist li a {text-align: center;}
 .storelist li a img {border-radius: 20px;}
 .storelist li a .name {display:block; padding-top: 10px;}
+/* 스토어 편집하기 */
+.storeedit {position: relative; margin:30px 0; background-color:#fff}
+.storeedit .dt_tit {min-height: 100px; padding-left:120px; padding-top:10px; font-size:14px; font-weight: 600; color:#333;}
+.storeedit .dt_tit .photoimg1 {position: absolute; left: 0; top: 0;}
+.storeedit .dt_tit .photoimg1 img {border-radius: 20px;}
+.storeedit .dt_tit .infotxt {padding-top: 10px;font-size:12px; font-weight: 100; color:#333;}
+.storeedit .dd_desc {padding:20px 0; ; margin-bottom: 30px; font-size:12px; font-weight: normal; border-bottom: 1px solid #F6F6F6; color:#555;line-height: 18px; letter-spacing: -1px;}
+.diarycontlist li {overflow:hidden; position: relative; height:80px; margin-bottom: 20px;}
+.diarycontlist .num {position: absolute; top:10px; left:0;}
+.diarycontlist .tit {position: absolute; top:0; left:20px;}
+.diarycontlist .tit img {width:80px; height:80px; border-radius: 20px;}
+.diarycontlist .desc {padding-left: 120px; padding-top: 5px;}
