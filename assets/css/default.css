@@ -228,9 +228,6 @@ a.btn:visited,
 a.btn:active{background:#0b5fa6; border:1px solid #0b5fa6; color:#fff;}
 /* a.btn:hover{background:#fff; border:1px solid #0b5fa6; color:#0b5fa6; text-decoration:none;} */
 
-
-/* button ========================================================================================= */
-/* 버튼 */
 button {padding:0; border:none 0; background:none; cursor:pointer;}
 .btn_center {text-align:center;}
 .btn_right {text-align:right;}
@@ -355,3 +352,6 @@ dl {
   margin-bottom: 0;
 }
 .disnone {display:none !important}
+.b_none {border:0 none !important;}
+.btm_border {border-bottom:5px solid #eee !important;}
+.top_border {border-top:5px solid #eee !important;}
