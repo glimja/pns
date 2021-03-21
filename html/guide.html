@@ -807,6 +807,24 @@
               <div class="col-sm-1">분</div>
             </div>
 
+            <h2 class="h2_tit">전화번호</h2>
+            <div class="row selecttxt">
+              <div class="col-sm-4">
+                <label for="exampleFormControlSelect1" class="disnone">전화번호 첫번째</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>010</option>
+                </select>
+              </div>
+              <div class="col-sm-4">
+                <label for="exampleFormControlSelect1" class="disnone">전화번호 중간</label>
+                <input type="text" class="form-control ih40" placeholder="" />
+              </div>
+              <div class="col-sm-4">
+                <label for="exampleFormControlSelect1" class="disnone">전화번호 마지막</label>
+                <input type="text" class="form-control ih40" placeholder="" />                
+              </div>
+            </div>
+
             <h2 class="h2_tit">Textarea</h2>
             <div class="form-group">
               <label for="exampleFormControlTextarea1">Example textarea</label>
@@ -1050,9 +1068,17 @@
 
             <h3>Calendar</h3>
             <div class="form">
-              <input type="text" class="form_01 openDatePicker" placeholder="yyyy-mm-dd" />
+              <input type="text" class="form_01 openDatePicker ih40 w80" placeholder="예)19850301" />
             </div>
 
+            <div class="row">
+              <div class="col-sm-6">
+                <input type="text" id="startDate" class="form_01 openDatePicker ih40 w70" placeholder="" />
+              </div>~
+              <div class="col-sm-6">
+                <input type="text" id="endDate" class="form_01 openDatePicker ih40 w70" placeholder="" />
+              </div>
+            </div>
             <br/>
             <br/>
 

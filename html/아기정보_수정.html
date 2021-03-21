@@ -72,28 +72,8 @@
               </div>
               
               <h2 class="h3_tit pt_20">태어난 날</h2>
-              <div class="row selecttxt">
-                <div class="col-sm-3">
-                  <label for="birthdayselect1" class="disnone">year</label>
-                  <select class="form-control" id="birthdayselect1">
-                    <option>2021</option>
-                  </select>
-                </div>
-                <div class="col-sm-1">년</div>
-                <div class="col-sm-3">
-                  <label for="birthdayselect2" class="disnone">month</label>
-                  <select class="form-control" id="birthdayselect2">
-                    <option>4</option>
-                  </select>
-                </div>
-                <div class="col-sm-1">월</div>
-                <div class="col-sm-3">
-                  <label for="birthdayselect3" class="disnone">date</label>
-                  <select class="form-control" id="birthdayselect3">
-                    <option>1</option>
-                  </select>                  
-                </div>
-                <div class="col-sm-1">일</div>
+              <div class="form">
+                <input type="text" class="form_01 openDatePicker ih40 w80" placeholder="예)19850301" />
               </div>
               
               <h2 class="h3_tit pt_30">태어난 시간</h2>
@@ -146,5 +126,33 @@
         </div>
         <!-- //Floating menu -->   
 
+
+        <script>
+          $(function () {
+      
+            $.datepicker.setDefaults({
+              dateFormat: 'yy-mm-dd',
+              showMonthAfterYear: true,
+              changeYear: false,
+              changeMonth: false,
+              showOn: "both",
+              buttonImage: "",
+              buttonImageOnly: false,
+              yearSuffix: '.',
+              monthNames: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+              monthNamesShort: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+              dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+              dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+              dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+            });
+            $("#datepicker").datepicker();
+          });
+        </script>
+      
+        <script>
+          $(function(){
+            setDatepicker('dp00');
+          })
+        </script>
     </body>
 </html>

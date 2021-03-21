@@ -146,12 +146,14 @@ h6, .h6{display:block; margin:15px 0px 5px 0px; font-size:17px; color:#404040;}
 	
 ////////////////////////////////////////////////////////////////////////////// */
 .red{color:#ff0000 !important;}
-.copoint {color:#ffb800 !important;}
+.copoint, .cored {color:#ffb800 !important;}
 .co333 {color: #333 !important;}
 .co555 {color: #555 !important;}
 .co777 {color: #777 !important;}
+.co888 {color: #888 !important;}
 .co999 {color: #999 !important;}
 .coddd {color: #ddd !important;}
+.bold {font-weight: bold !important}
  /* font-size:16px 기준 rem 단위 */
 .font8 {font-size:0.5000rem}	/* 8px  */
 .font9 {font-size:0.5625rem}	/* 9px  */
@@ -182,6 +184,8 @@ h6, .h6{display:block; margin:15px 0px 5px 0px; font-size:17px; color:#404040;}
 .align_right{text-align:right !important;}
 .align_center{text-align:center !important;}
 .alignjust_center{justify-content:center !important;}
+.alignjust_right{justify-content:flex-end !important;}
+.alignjust_left{justify-content:flex-start !important;}
 .float_left{float:left;}
 .float_right{float:right;}
 .clear{clear:both;}

@@ -55,8 +55,8 @@
               <input type="text" class="form-control rd48" placeholder="사용하실 이름을 입력하여 주세요" />
             </div>
             <h3 class="h3_tit">생년월일</h3>
-            <div class="col-sm-12">
-              <input type="text" class="form-control rd48" placeholder="생년월일 숫자 8자리(예, 19850301)" />
+            <div class="form">
+              <input type="text" class="form_01 openDatePicker ih40 w70" placeholder="예)19850301" />
             </div>
 
             <div class="childcareselect">
@@ -108,5 +108,32 @@
         <div class="mo_quicktopMove">TOP <span class="arrowtop"></span></div>
         <!-- //상단으로 이동 top 버튼 -->
 
+        <script>
+          $(function () {
+      
+            $.datepicker.setDefaults({
+              dateFormat: 'yy-mm-dd',
+              showMonthAfterYear: true,
+              changeYear: false,
+              changeMonth: false,
+              showOn: "both",
+              buttonImage: "",
+              buttonImageOnly: false,
+              yearSuffix: '.',
+              monthNames: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+              monthNamesShort: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+              dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+              dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+              dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+            });
+            $("#datepicker").datepicker();
+          });
+        </script>
+      
+        <script>
+          $(function(){
+            setDatepicker('dp00');
+          })
+        </script>
     </body>
 </html>

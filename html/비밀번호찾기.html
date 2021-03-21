@@ -40,7 +40,7 @@
         <!-- Navbar -->
         <nav class="navbar fixed-top">
             <div class="container">
-              <h1 class="tit-info">아아디/비밀번호 찾기</h1>
+              <h1 class="tit-info">비밀번호 찾기</h1>
               <a href="#none" class="btn_back"><span>이전페이지</span></a>
             </div>
         </nav>
@@ -49,174 +49,26 @@
         <!-- Contents -->
         <div class="section">
           <div class="container">
-            <h2 class="h2_tit disnone">아아디/비밀번호 찾기</h2>
-            <div class="nav-tabs-navigation mt_20">
-              <div class="nav-tabs-wrapper">
-                <ul id="tabs" class="nav nav-tabs" role="tablist">
-                  <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#findid" role="tab">아이디 찾기</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#findpw" role="tab">비밀번호 찾기</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div id="idpw-tab-content" class="tab-content">
-              <!-- 아이디 찾기 Tab -->
-              <div class="tab-pane active" id="findid" role="tabpanel">
-                <div class="midinfo12 pb_20">
-                  아이디를 찾을방법을 선택해 주세요.
-                </div>
-                <div class="bd-findidpw">
-                  <div class="accordion" id="accordionfindidpw">
-                    <div class="card">
-                      <div class="card-header" id="headingOne">
-                        <h2 class="arr_tit" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          <button class="btn btn-link" type="button" >
-                            등록된 휴대폰번호로 찾기
-                          </button>
-                        </h2>
-                      </div>                  
-                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionfindidpw">
-                        <div class="card-body">
-                          <input type="text" class="form-control ih40 mb_10" placeholder="이름" />
-                          <input type="text" class="form-control ih40" placeholder="휴대폰번호" />
-                          <div class="flex_btn alignjust_center mt_20">
-                            <div class="col-sm-7">
-                              <button type="button" class="btn_type2">확인</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header" id="headingTwo">
-                        <h2 class="arr_tit" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          <button class="btn btn-link collapsed" type="button">
-                            등록된 이메일로 찾기
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionfindidpw">
-                        <div class="card-body">
-                          <input type="text" class="form-control ih40 mb_10" placeholder="이름" />
-                          
-                    <div class="row">
-                      <div class="col-sm-7 mlpl0"><input type="text" class="form-control ih40" placeholder="이메일" /></div>
-                      <div class="col-sm-5 mlmrpr0">
-                        <select class="form-control" id="directemailwrite">
-                          <option>직접입력</option>
-                        </select>
-                      </div>
-                    </div>
-                          <div class="flex_btn alignjust_center mt_20">
-                            <div class="col-sm-7">
-                              <button type="button" class="btn_type2">확인</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header" id="headingThree">
-                        <h2 class="arr_tit" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          <button class="btn btn-link collapsed" type="button">
-                            본인인증으로 찾기(아이디 전체 확인 가능)
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionfindidpw">
-                        <div class="card-body">
-                          <div class="flex_btn mt_00">
-                            <button type="button" class="btn_type2 btn_type2_4"><span class="icon-certiphone"></span> 휴대폰 인증</button>
-                            <button type="button" class="btn_type2 btn_type2_6"><span class="icon-certipin"></span> 아이핀 인증</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-              <!-- 비밀번호 찾기 Tab -->
-              <div class="tab-pane" id="findpw" role="tabpanel">
-                <div class="midinfo12 pb_20">
-                  비밀번호를 찾을방법을 선택해 주세요.
-                </div>
-                <div class="bd-findidpw">
-                  <div class="accordion" id="accordionfindidpw2">
-                    <div class="card">
-                      <div class="card-header" id="headingOne2">
-                        <h2 class="arr_tit" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
-                          <button class="btn btn-link" type="button" >
-                            등록된 휴대폰번호로 찾기
-                          </button>
-                        </h2>
-                      </div>                  
-                      <div id="collapseOne2" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordionfindidpw2">
-                        <div class="card-body">
-                          <input type="text" class="form-control ih40 mb_10" placeholder="아이디" />
-                          <input type="text" class="form-control ih40 mb_10" placeholder="이름" />
-                          <input type="text" class="form-control ih40" placeholder="휴대폰번호" />
-                          <div class="flex_btn alignjust_center mt_20">
-                            <div class="col-sm-7">
-                              <button type="button" class="btn_type2">확인</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header" id="headingTwo2">
-                        <h2 class="arr_tit" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
-                          <button class="btn btn-link collapsed" type="button">
-                            등록된 이메일로 찾기
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordionfindidpw2">
-                        <div class="card-body">
-                          <input type="text" class="form-control ih40 mb_10" placeholder="이름" />                          
-                          <div class="row">
-                            <div class="col-sm-7 mlpl0"><input type="text" class="form-control ih40" placeholder="이메일" /></div>
-                            <div class="col-sm-5 mlmrpr0">
-                              <select class="form-control" id="directemailwrite2">
-                                <option>직접입력</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div class="flex_btn alignjust_center mt_20">
-                            <div class="col-sm-7">
-                              <button type="button" class="btn_type2">확인</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="card-header" id="headingThree2">
-                        <h2 class="arr_tit" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
-                          <button class="btn btn-link collapsed" type="button">
-                            본인인증으로 찾기(아이디 전체 확인 가능)
-                          </button>
-                        </h2>
-                      </div>
-                      <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordionfindidpw2">
-                        <div class="card-body">
-                          <div class="flex_btn mt_00">
-                            <button type="button" class="btn_type2 btn_type2_4"><span class="icon-certiphone"></span> 휴대폰 인증</button>
-                            <button type="button" class="btn_type2 btn_type2_6"><span class="icon-certipin"></span> 아이핀 인증</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
+            <h2 class="h2_tit disnone">비밀번호 찾기</h2>
+            <!-- 비밀번호 찾기 -->
+            <div class="mt_30">
+              <input type="text" class="form-control ih40 mb_10" placeholder="이름" />
+              <input type="text" class="form-control ih40" placeholder="아이디(이메일)" />
+              <div class="mt_20">
+                <button type="button" class="btn_type1">확인</button>
               </div>
             </div>
 
+            <!-- 비밀번호 찾기 확인 -->
+            <div class="align_center mt_30">
+              <div class="notice_list ty3">
+                <strong class="tit">“입력한 정보가 일치합니다.”<br />
+                  비밀번호를 재설정을 하세요.</strong>
+                <div class="flex_btn">
+                  <button type="button" class="btn_type1">비밀번호 재설정</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <!-- //Contents -->

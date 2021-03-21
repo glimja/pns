@@ -59,11 +59,6 @@
                   <button type="button" class="btn_type3 btn_type3_5"><span class="icon-photoregist"></span> 사진등록</button>
                 </div>
               </div>
-              <div class="flex_btn alignjust_center mt_15">
-                <div class="col-sm-5">
-                  <button type="button" class="btn_type3 btn_type3_5"><span class="icon-findpw"></span> 비밀번호 변경</button>
-                </div>
-              </div>
             </div>
             <div class="mt_30">
               <table class="table-c table-row">
@@ -74,44 +69,102 @@
                 </colgroup>
                 <tbody>
                   <tr>
-                    <th scope="row">이메일</th>
+                    <th scope="row">아이디</th>
                     <td>
                       peanetstory@peanetstory.co.kr
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">휴대폰 번호</th>
+                    <th scope="row">이름</th>
+                    <td>
+                      <input type="text" class="form-control ih40" placeholder="" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">비밀번호</th>
+                    <td>
+                      <div class="col-sm-8">
+                        <button type="button" class="btn_type3 btn_type3_5"><span class="icon-findpw"></span> 비밀번호 변경</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">전화번호</th>
                     <td>                          
-                      <div class="row">
-                        <div class="col-sm-7 mlpl0"><input type="text" class="form-control ih40" placeholder="" /></div>
-                        <div class="col-sm-5 mlmrpr0">
-                          <button type="button" class="btn_type2 btn_type2_5">재인증</button>
+                      <div class="row selecttxt">
+                        <div class="col-sm-4">
+                          <label for="exampleFormControlSelect1" class="disnone">전화번호 첫번째</label>
+                          <select class="form-control" id="exampleFormControlSelect1">
+                            <option>010</option>
+                          </select>
+                        </div>
+                        <div class="col-sm-4">
+                          <label for="exampleFormControlSelect1" class="disnone">전화번호 중간</label>
+                          <input type="text" class="form-control ih40" placeholder="" />
+                        </div>
+                        <div class="col-sm-4">
+                          <label for="exampleFormControlSelect1" class="disnone">전화번호 마지막</label>
+                          <input type="text" class="form-control ih40" placeholder="" />                
                         </div>
                       </div>
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">가입 타입</th>
+                    <th scope="row">생년월일</th>
                     <td>
-                      카카오
+                      <div class="form">
+                        <input type="text" class="form_01 openDatePicker ih40 w70" placeholder="예)19850301" />
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">양육자정보</th>
+                    <td>
+                      <ul class="careselectbox">
+                        <li class="form-check-radio carebox">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="childcare" id="box_childcare1" value="" checked="checked"> 엄마
+                            <span class="form-check-sign"></span>
+                          </label>
+                        </li>
+                        <li class="form-check-radio carebox">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="childcare" id="box_childcare2" value=""> 아빠
+                            <span class="form-check-sign"></span>
+                          </label>
+                        </li>
+                        <li class="form-check-radio carebox">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="childcare" id="box_childcare3" value=""> 가족
+                            <span class="form-check-sign"></span>
+                          </label>
+                        </li>
+                        <li class="form-check-radio carebox">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="radio" name="childcare" id="box_childcare4" value=""> 시터
+                            <span class="form-check-sign"></span>
+                          </label>
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">주소</th>
+                    <td>
+                      <div class="">
+                        <div class="row mb_05">
+                          <div class="col-sm-6"><input type="text" class="form_01 ih40" placeholder="" /></div>
+                          <div class="col-sm-6"><button type="button" class="btn_type3 btn_type3_5">우편번호찾기</button></div>
+                        </div>
+                        <input type="text" class="form_01 mb_05 ih40" placeholder="" />
+                        <input type="text" class="form_01 ih40" placeholder="" />
+                      </div>
                     </td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <h2 class="h2_tit">양육자 정보</h2>
-            <div class="box_childcare">
-              <div class="img">
-                <img src="../assets/images/icon/icon_childcare1.jpg" alt="엄마" />
-              </div>
-              <div class="infoselect">
-                <dl class="info">
-                  <dt class="tit">이름</dt>
-                  <dd class="desc">땅콩스토리 <span>엄마</span></dd>
-                </dl>
-              </div>
-            </div>
             <div class="flex_btn">
               <button type="button" class="btn_type1">저장하기</button>
             </div>
@@ -123,5 +176,33 @@
         <div class="mo_quicktopMove">TOP <span class="arrowtop"></span></div>
         <!-- //상단으로 이동 top 버튼 -->
 
+
+        <script>
+          $(function () {
+      
+            $.datepicker.setDefaults({
+              dateFormat: 'yy-mm-dd',
+              showMonthAfterYear: true,
+              changeYear: false,
+              changeMonth: false,
+              showOn: "both",
+              buttonImage: "",
+              buttonImageOnly: false,
+              yearSuffix: '.',
+              monthNames: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+              monthNamesShort: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+              dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+              dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+              dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+            });
+            $("#datepicker").datepicker();
+          });
+        </script>
+      
+        <script>
+          $(function(){
+            setDatepicker('dp00');
+          })
+        </script>
     </body>
 </html>
