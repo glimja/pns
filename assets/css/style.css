@@ -290,7 +290,7 @@ input.rd48::placeholder, input.rd48::-webkit-input-placeholder {color: #C0B59F;l
 input.rdinset40 {height: 40px; line-height: 40; padding: 0 15px; border-radius: 20px; -webkit-border-radius: 20px; border-color: #d2d2d2; background-color: #F1F1F1;box-shadow: inset 1px 3px 2px rgb(0 0 0 / 10%);}
 input.rdinset40::placeholder, input.rd48::-webkit-input-placeholder {color: #999;letter-spacing: -1px;}
 input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDEDE}
-/* .form-control {height:30px; line-height: 30px; padding:0 12px} */
+.form-control {height:30px; line-height: 30px; padding:0 12px}
 /* x축 스크롤 메뉴 */
 .list-scrollx {overflow-y: hidden; position: relative;}
 .list-scrollx > ul {overflow-x: scroll; white-space: nowrap; margin-bottom: -8px; padding-bottom: 10px;}
@@ -312,7 +312,6 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .table-a thead th {	padding: 15px 0;font-size: 14px;color: #333;font-weight: 600;text-align: center;border-bottom: 1px #ddd solid;background: #f3f3f3}
 .table-a tbody tr:last-child th, .table-a tbody tr:last-child td {border-bottom: 1px #ddd solid;}
 .table-a.tbd2 {border: 2px solid #ccc}
-table.radius {overflow: hidden; border-radius: 10px;}
 /* table-b */
 .table-b {width: 100%; border-top: 1px #acacac solid;border-collapse: inherit}
 .table-b th {color:#333; background: #f3f3f3}
@@ -334,6 +333,8 @@ table.radius {overflow: hidden; border-radius: 10px;}
 .table-c.tbd2 {border: 2px solid #ccc}
 .txtp16 {color: #FF6B00; font-size:16px;}
 .txtp22 {color: #FF6B00; font-size:22px;}
+.txtp24 {color: #FF6B00; font-size:24px;}
+.txtp26 {color: #FF6B00; font-size:26px;}
 .lh30 {line-height: 30px}
 .lh40 {line-height: 40px}
 .tbl_rightinfo {padding: 20px 0 8px 0; color:#555; font-size:12px; text-align: right;}
@@ -512,7 +513,22 @@ table.radius {overflow: hidden; border-radius: 10px;}
 .won {font-size:70%}
 .banner_type1 {padding:10px 0}
 .infodetails_type1 {padding:10px 0}
+.banner_type1 img,
+.infodetails_type1 img {width:100%}
 .wrap_tit {position: relative;}
 .wrap_tit .p_left {float: left}
 .wrap_tit .p_right {float: right}
 .wrap_tit:after {content: ''; display:block; clear: both;}
+
+/* 주문정보입력 */
+.imgw100 img {width:100%}
+.order_prod {}
+.order_prod table {}
+.order_prod .prodinfo {}
+.order_prod .prodinfo .tit {display:block; color:#333; font-size: 16px; font-weight:bold;}
+.order_prod .prodinfo .num {display:block; color:#555; font-size: 12px;}
+.order_prod .prodinfo .fee {display:block; color:#555; font-size: 12px;}
+.order_prod .prodinfo .price {display:block; padding-top: 15px; color:#333; font-size:20px; text-align: right;}
+table.radius {overflow: hidden; border-radius: 10px;}
+table.bdcolor {border-color:#ffb800 !important}
+.checkinfo li {padding-top:10px; line-height: 35px; vertical-align: middle;}
