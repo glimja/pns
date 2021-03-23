@@ -164,6 +164,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {margin: 0; color:#555}
 .icon-download {display: inline-block;width:13px;height:18px;background: url(../images/icon/icon_download.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -3px}
 .icon-cart {display: inline-block;width:20px;height:15px;background: url(../images/icon/icon_cart.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -1px}
 .icon-preview {display: inline-block;width:13px;height:18px;background: url(../images/icon/icon_preview.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -3px}
+.icon-deliverycar {display: inline-block;width:22px;height:12px;background: url(../images/icon/icon_deliverycar.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
 .btn.small {padding: 0.2rem 12px; line-height: normal;}
 .btn.small.btn-icon {position: relative; padding-left: 30px;}
 .userinfo .userinfo-cont .icon-premium {position: absolute; top:-6px; left:6px;}
@@ -192,7 +193,7 @@ a.btn_type3_6,button.btn_type3_6 {background:#aaa; color:#fff}
 a.btn_type3_7,button.btn_type3_7 {background:#dedede; color:#777;border-color:#dedede}
 a.btn_rndtype3,button.btn_rndtype3 {width:100%; height:30px; line-height:30px; box-sizing:border-box; background:#fff; color:#777; border: 1px solid #dedede; font-size:12px; font-weight: 100; border-radius:30px; text-align:center;}
 a.btn_cacao,button.btn_cacao {background:#FAE300; color:#555}
-a.btn_border2,button.btn_border2 {background:#FFF; color:#555;border: 2px solid #ffb800}
+a.btn_border2,button.btn_border2 {padding: 0 10px; background:#FFF; color:#555;border: 2px solid #ffb800}
 
 hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; background-color:#eee}
 .nav-tabs .nav-item .nav-link.active:before, .nav-tabs .nav-item .nav-link.active:hover:before, .nav-tabs .nav-item .nav-link.active:focus:before,
@@ -305,18 +306,19 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .table-a th {color:#333; background: #f3f3f3}
 .table-a td {color:#555}
 .table-a th,
-.table-a td {padding: 8px 10px 8px 10px;text-align: left;font-size: 14px;border-bottom: 1px #ddd dashed}
+.table-a td {padding:15px 10px 15px 10px;text-align: left;font-size: 14px;border-bottom: 1px #ddd dashed; word-break: keep-all; line-height: 22px;}
 .table-a th.text-left,
 .table-a td.text-left {padding-left: 20px}
 .table-a thead th {	padding: 15px 0;font-size: 14px;color: #333;font-weight: 600;text-align: center;border-bottom: 1px #ddd solid;background: #f3f3f3}
 .table-a tbody tr:last-child th, .table-a tbody tr:last-child td {border-bottom: 1px #ddd solid;}
 .table-a.tbd2 {border: 2px solid #ccc}
+table.radius {overflow: hidden; border-radius: 10px;}
 /* table-b */
 .table-b {width: 100%; border-top: 1px #acacac solid;border-collapse: inherit}
 .table-b th {color:#333; background: #f3f3f3}
 .table-b td {color:#555}
 .table-b th,
-.table-b td {text-align: left;font-size: 14px;border-bottom: 1px #ddd dashed}
+.table-b td {text-align: left;font-size: 14px;border-bottom: 1px #ddd dashed; word-break: keep-all; line-height: 22px;}
 .table-b th {padding: 15px 10px 15px 10px;text-align: left;font-size: 14px;color: #777;font-weight: 600;background: #f3f3f3}
 .table-b td {padding: 10px ;border-left: 1px #ddd solid}
 .table-b tbody tr td:first-child {border-left: 0;}
@@ -325,12 +327,13 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 /* table-c */
 .table-c {width: 100%; border-top: 1px #acacac solid;border-collapse: inherit}
 .table-c th,
-.table-c td {text-align: left;font-size: 14px;border-bottom: 1px #ddd dashed}
+.table-c td {text-align: left;font-size: 14px;border-bottom: 1px #ddd dashed; word-break: keep-all; line-height: 22px;}
 .table-c th {padding: 15px 0 15px 10px;text-align: left;font-size: 14px;color: #333;font-weight: 600}
 .table-c td {color: #777;padding: 10px}
 .table-c tbody tr:last-child th, .table-c tbody tr:last-child td {border-bottom: 1px #ddd solid;}
 .table-c.tbd2 {border: 2px solid #ccc}
-.txtp16 {color: #ffb800; font-size:16px;}
+.txtp16 {color: #FF6B00; font-size:16px;}
+.txtp22 {color: #FF6B00; font-size:22px;}
 .lh30 {line-height: 30px}
 .lh40 {line-height: 40px}
 .tbl_rightinfo {padding: 20px 0 8px 0; color:#555; font-size:12px; text-align: right;}
@@ -474,3 +477,42 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .list_txt.smalltype {}
 .list_txt.smalltype li {position:relative; padding-bottom: 10px; padding-left: 20px; color:#555;}
 .list_txt.smalltype li .icon-cautionblk16 {position: absolute; top:-3px; left:0;}
+
+/* 책장넘기기 booklet */
+.wrap_mymagazine {margin:0; border-radius: 20px;  border: 1px solid #dedede; box-shadow: 0 5px 10px rgb(0 0 0 / 20%);}
+.wrap_mymagazine.lightyellow {background:rgb(255, 255, 212);}
+.wrap_mymagazine.lightgreen {background:rgb(229, 255, 212);}
+.wrap_mymagazine.lightblue {background:rgb(212, 220, 255);}
+.wrap_mymagazine.lightgray {background:#959595;}
+.booklet .b-page-0 .b-wrap {background:rgb(251, 212, 255);}
+.booklet .b-page-1 .b-wrap {background:rgb(212, 232, 255);}
+.booklet .b-page-2 .b-wrap {background:rgb(238, 255, 212);}
+.booklet .b-page-3 .b-wrap {background:rgb(255, 245, 212);}
+.wrap_mymagazine .h3_mytit {overflow:hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px;}
+.wrap_mymagazine .h3_mytit a {display:block; overflow:hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px;}              
+.wrap_mymagazine img {margin-top: 5px; border-radius: 10px}
+.wrap_mymagazine .diarytxt1 {overflow:hidden; overflow-y:scroll; width: 100%; height: 170px; line-height:20px; padding:10px 5px; margin-top: 10px; border-radius: 10px; background-color: #f6f6f6;}
+.booklet .b-pN .b-wrap, .booklet .b-p1 .b-wrap, .booklet .b-p2 .b-wrap, .booklet .b-p3 .b-wrap, .booklet .b-p4 .b-wrap {margin:10px;border-radius: 10px;}
+.booklet .b-counter {font-size:11px; line-height: 11px; color: #555; background: #f6f6f6; border-radius: 10px}
+.swiper-container.slidecenter_type2.wrap_diarybox_type2 .swiper-button-prev, .swiper-container.slidecenter_type2.wrap_diarybox_type2 .swiper-button-next {margin-top:-40px; top: 200px;}
+.swiper-container.slidecenter_type2.wrap_diarybox_type2 .swiper-button-prev {left:0}
+.swiper-container.slidecenter_type2.wrap_diarybox_type2 .swiper-button-next {right:0}
+#my-tab-diarycontent .hrline {position:absolute; top:20px;border-style: dashed; clip:inherit}
+.swiper-container.slidecenter_type2.wrap_diarybox_type2 .swiper-slide textarea {font-size:12px; border-radius: 10px;}
+
+/* 주문하기 안내 */
+.magainfo_dashtype1 {}
+.magainfo_dashtype1 .tit {padding-top: 20px; color:#333; font-size:14px; font-weight:bold}
+.magainfo_dashtype1 .desc {padding:15px 0; color:#555; font-size:14px; border-bottom:1px dashed #DEDEDE;}
+.box_orderborder {margin: 30px 0; padding-bottom: 30px; border:1px solid #BCBCBC; border-radius: 10px;}
+.box_orderborder .toptit {padding:15px; font-weight:bold; background-color:#F5F5F5; border-radius: 10px; border-bottom-left-radius:0; border-bottom-right-radius:0}
+.box_orderborder .area_info_type1 {padding:0 10px}
+.box_orderborder .area_info_type1 .dt_tit {padding-top: 30px;font-size:14px; font-weight: bold;}
+.box_orderborder .area_info_type1 .dd_desc {padding-top: 10px;font-size:14px;}
+.won {font-size:70%}
+.banner_type1 {padding:10px 0}
+.infodetails_type1 {padding:10px 0}
+.wrap_tit {position: relative;}
+.wrap_tit .p_left {float: left}
+.wrap_tit .p_right {float: right}
+.wrap_tit:after {content: ''; display:block; clear: both;}
