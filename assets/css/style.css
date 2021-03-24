@@ -7,7 +7,7 @@
 /* template ========================================================================================== */
 body.draw {overflow:hidden;}
 body {overflow:inherit}
-.navbar {padding: 10px 0; background-color: #FFFAEF; box-shadow:inherit}
+.navbar {padding: 10px 0; background-color: #FFEEC3; box-shadow:inherit}
 .navbar-nav {margin: 0;}
 .navbar-collapse {padding:0}
 .navbar-collapse ul {height:56%; padding:20px; background: #fff; border-top: 3px solid #eee;}
@@ -525,6 +525,7 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .order_prod {}
 .order_prod table {}
 .order_prod .prodinfo {}
+.order_prod td img {border-radius: 10px;}
 .order_prod .prodinfo .tit {display:block; color:#333; font-size: 16px; font-weight:bold;}
 .order_prod .prodinfo .num {display:block; color:#555; font-size: 12px;}
 .order_prod .prodinfo .fee {display:block; color:#555; font-size: 12px;}
