@@ -17,9 +17,9 @@ $(function(){
 
 ////////////////////////////////////////////////////////////////////////////// */
 function onload(){
-	fn_aaa();
 	swiper();
 	fn_quickTop();
+	fn_chkboxAll();
 }
 
 
@@ -30,9 +30,19 @@ function onload(){
 
 ////////////////////////////////////////////////////////////////////////////// */
 
-function fn_aaa() {
-
+function fn_chkboxAll(){
+	// 체크박스 전체선택 전체해제
+	$('#checkuncheck_all').on('click', function(){
+		// 클릭 되었을때
+		if($('#checkuncheck_all').prop('checked')){
+			$("input[name=myagreecheck]:checkbox").prop("checked", true);    
+		// 클릭 안 되었을때
+		} else{
+			$("input[name=myagreecheck]:checkbox").prop("checked", false);
+		}
+	});
 }
+
 
 function swiper(obj) {
 
