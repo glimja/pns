@@ -161,10 +161,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {margin: 0; color:#555}
 .icon-cautionblk16 {display: inline-block;width:16px;height:16px;background: url(../images/icon/icon_cautionblk_16.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -1px}
 .icon-trashcan {display: inline-block;width:48px;height:48px;background: url(../images/icon/icon_trashcan.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -1px}
 .icon-camera {display: inline-block;width:48px;height:48px;background: url(../images/icon/icon_camera.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -1px}
+.icon-cameraline {display: inline-block;width:36px;height:27px;background: url(../images/icon/icon_cameraline.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -1px}
 .icon-download {display: inline-block;width:13px;height:18px;background: url(../images/icon/icon_download.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -3px}
 .icon-cart {display: inline-block;width:20px;height:15px;background: url(../images/icon/icon_cart.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -1px}
 .icon-preview {display: inline-block;width:13px;height:18px;background: url(../images/icon/icon_preview.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -3px}
 .icon-deliverycar {display: inline-block;width:22px;height:12px;background: url(../images/icon/icon_deliverycar.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
+.icon-linkarrow {display: inline-block;width:6px;height:12px;background: url(../images/icon/ic_link_arrow.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
 .btn.small {padding: 0.2rem 12px; line-height: normal;}
 .btn.small.btn-icon {position: relative; padding-left: 30px;}
 .userinfo .userinfo-cont .icon-premium {position: absolute; top:-6px; left:6px;}
@@ -222,6 +224,7 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 .nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link.active .tabicon2 {background:url(../images/icon/icon_calendartabon.svg)}
 .nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link .tabicon3 {width:20px; height:19px; background:url(../images/icon/icon_birthdaytotab.svg) 0 0 no-repeat;vertical-align: -3px;}
 .nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link.active .tabicon3 {background:url(../images/icon/icon_birthdaytotabon.svg)}
+.btn_camera img {border: 1px solid #ffb800;}
 /* swiper center ========================================================================================== */
 .swiper-container.slidecenter_typecenter {position: relative; height: 250px;}
 .swiper-container.slidecenter_typecenter .swiper-slide {width:120px; height:120px; transform: scale(.6);}
@@ -254,7 +257,7 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 .swiper-container.slidecenter_type2 .swiper-slide a img {width:100%; border-radius: 20px;}
 .swiper-container.slidecenter_type2 .swiper-slide textarea {margin: 10px 0; border-radius: 20px;}
 .swiper-container.slidecenter_type2 .swiper-button-prev, 
-.swiper-container.slidecenter_type2 .swiper-button-next {margin-top: -100px;}
+.swiper-container.slidecenter_type2 .swiper-button-next {margin-top: -120px;}
 /* swiper bgcolor */
 .slide_bgcolorthumb_box {position:relative; height:120px; padding:0; margin-top: 20px;}
 .col-sm-1 {flex: 0 0 8.333333%; max-width: 8.333333%;}
@@ -393,9 +396,9 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .childcareselect ul li .form-check-radio input[type="radio"]:checked+.form-check-sign::after {top: -7px; left:19px;}
 /* 아기정보 */
 .babyinfolist {padding: 40px 10px 0 10px;}
-.babyinfolist li {display: inline-block; width:48%; padding-bottom: 30px; padding-left: 20px;}
+.babyinfolist li {display: inline-block; width:48%; padding-bottom: 30px; text-align: center;}
 .babyinfolist li a {text-align: center;}
-.babyinfolist li a img {border-radius: 50%;}
+.babyinfolist li a img {width: 100px; border-radius: 50%;}
 .babyinfolist li a .name {display:block; padding-top: 10px;}
 /* 일기쓰기 */
 .diarybox {overflow:hidden; overflow-y:scroll; height:400px; margin-top: 20px; padding:30px 20px; background-color:#f8f8f8; border-radius: 10px}
@@ -403,8 +406,11 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .diarybox .dt_tit {font-size:14px; font-weight: 600; color:#333;}
 .diarybox .dt_tit .infotxt {padding-top: 10px;font-size:11px; font-weight: 100; color:#777;}
 .diarybox .dd_desc {padding-top:20px; margin-top: 20px; border-top: 1px solid #ddd; font-size:12px; font-weight: normal; color:#555;line-height: 22px;}
+.diarybox2 {margin-top: 20px; padding: 20px; font-size:12px; font-weight: 100; line-height:20px; color:#555;background-color: #f8f8f8;border-radius: 10px;}
+.diarybox2.modifytype {padding: 10px;}
+.diarybox2.modifytype textarea {width:100%; margin:0 !important}
 .calendarwrap #datepicker .ui-datepicker {margin-bottom:30px; box-shadow: 5px 0 20px rgb(0 0 0 / 5%);}
-.swiper-container.slidecenter_type2.wrap_diarybox .swiper-button-prev, .swiper-container.slidecenter_type2.wrap_diarybox .swiper-button-next {margin-top:inherit; top: 200px;}
+.swiper-container.slidecenter_type2.wrap_diarybox .swiper-button-prev, .swiper-container.slidecenter_type2.wrap_diarybox .swiper-button-next {margin-top:inherit; top: 70px;}
 #my-tab-diarycontent .hrline {position:absolute; top:20px;border-style: dashed; clip:inherit}
 /* 일기수정 */
 .swiper-container.slidecenter_type2.wrap_diarybox .swiper-slide textarea {font-size:12px; border-radius: 10px;}
@@ -533,3 +539,11 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 table.radius {overflow: hidden; border-radius: 10px;}
 table.bdcolor {border-color:#ffb800 !important}
 .checkinfo li {padding-top:10px; line-height: 35px; vertical-align: middle;}
+.link_view {position: absolute; top: 0; right:0}
+
+.testcolor1 {background-color:#D87228 !important}
+.testcolor2 {background-color:#9C2A31 !important}
+.testcolor3 {background-color:#9A4F18 !important}
+.testcolor4 {background-color:#C6451C !important}
+.testcolor5 {background-color:#AF3812 !important}
+.testcolor6 {background-color:#C51535 !important}
