@@ -565,7 +565,7 @@ table.bdcolor {border-color:#ffb800 !important}
 .emailsearchlist {position: relative;}
 .emailsearchlist .searhclist li:first-child {border-top: 1px solid #ddd}
 .emailsearchlist .searhclist li {padding:10px 10px; border-bottom:1px solid #ddd}
-.emailsearchlist .zipcode {padding:5px 0; font-size:18px; font-weight: bold; color:#E34400}
+.emailsearchlist .zipcode {padding:5px 0; font-size:18px; color:#E34400}
 .emailsearchlist nav {margin:20px 0;text-align: center;}
 .table-d {width: 100%; border-collapse: inherit}
 .table-d th,
