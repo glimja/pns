@@ -167,6 +167,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {margin: 0; color:#555}
 .icon-preview {display: inline-block;width:13px;height:18px;background: url(../images/icon/icon_preview.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -3px}
 .icon-deliverycar {display: inline-block;width:22px;height:12px;background: url(../images/icon/icon_deliverycar.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
 .icon-linkarrow {display: inline-block;width:6px;height:12px;background: url(../images/icon/ic_link_arrow.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
+.icon-search {display: inline-block;width:40px;height:40px;background: url(../images/icon/icon_search.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -1px}
 .btn.small {padding: 0.2rem 12px; line-height: normal;}
 .btn.small.btn-icon {position: relative; padding-left: 30px;}
 .userinfo .userinfo-cont .icon-premium {position: absolute; top:-6px; left:6px;}
@@ -547,3 +548,42 @@ table.bdcolor {border-color:#ffb800 !important}
 .testcolor4 {background-color:#C6451C !important}
 .testcolor5 {background-color:#AF3812 !important}
 .testcolor6 {background-color:#C51535 !important}
+
+/* 우편번호찾기 */
+.emailtip {margin-top: 30px;}
+.emailtip .tit {padding-bottom:10px; font-size: 16px; font-weight: bold; color:#555}
+.emailtip .desc {position:relative; padding-left: 10px; font-size:13px; color:#555}
+.emailtip .desc:before {content:''; display: block; position: absolute; top:7px; left:2px; width:2px; height:2px; background-color: #999;}
+.float_leftright {position: relative; padding:8px 0}
+.float_leftright .fl {float: left;}
+.float_leftright .fr {float: right;}
+.float_leftright .txt {font-size:12px; color:#555}
+.float_leftright .txt .num {color:#333; font-weight:bold}
+.float_leftright:after {content:''; display: block; clear:both}
+.areabtn {position: absolute; top: 0; right:0}
+.areabtn button, .areabtn a {display:inline-block; min-width: 80px; width: auto;}
+.emailsearchlist {position: relative;}
+.emailsearchlist .searhclist li:first-child {border-top: 1px solid #ddd}
+.emailsearchlist .searhclist li {padding:10px 10px; border-bottom:1px solid #ddd}
+.emailsearchlist .zipcode {padding:5px 0; font-size:18px; font-weight: bold; color:#E34400}
+.emailsearchlist nav {margin:20px 0;text-align: center;}
+.table-d {width: 100%; border-collapse: inherit}
+.table-d th,
+.table-d td {text-align: left;font-size: 13px; word-break: keep-all; line-height: 16px;}
+.table-d th {padding: 5px 0 5px 0;text-align: left;font-size: 13px;color: #777;font-weight: 600}
+.table-d td {color: #333;padding: 0 10px}
+.page-item:first-child .page-link, .page-item:last-child .page-link {background-color: transparent;border: 2px solid #999;border-radius: 20px;color: #999;height: 36px;margin: 0 2px;min-width: 36px;padding: 8px 12px;font-weight: 600;}
+.pagination>li>a, .pagination>li>span, .pagination>li:first-child>a, .pagination>li:first-child>span, .pagination>li:last-child>a, .pagination>li:last-child>span {background-color: transparent;border: 2px solid #ffb800;border-radius: 20px;color: #ffb800;height: 36px;margin: 0 2px;min-width: 36px;padding: 8px 12px;font-weight: 600;}
+.page-item.active .page-link {background-color: #ffb800;color: white;border-color: #ffb800;}
+.pagination>li>a:hover, .pagination>li>a:focus, .pagination>li>a:active, .pagination>li.active>a, .pagination>li.active>span, .pagination>li.active>a:hover, .pagination>li.active>span:hover, .pagination>li.active>a:focus, .pagination>li.active>span:focus {background-color: #ffb800;border-color: #ffb800;color: #FFFFFF;}
+.wrap_page {position: relative; margin-top: 25px; text-align: center;}
+.wrap_page ol {display: inline-block;margin: 0;vertical-align: middle;}
+.wrap_page ol li {float: left;}
+.wrap_page ol li strong, .wrap_page ol li, .wrap_page ol li {display:inline-block; height:32px; line-height:32px; padding:0 5px; font-size:15px; color:#333; vertical-align:middle;}
+.wrap_page ol li a.active,
+.wrap_page ol li a:hover,
+.wrap_page ol li strong {text-decoration:underline; opacity:1;}
+.wrap_page ol li a:focus {color: #000; opacity: 1;}
+.wrap_page .btn_pageprev img{transform: rotate(180deg);}
+.wrap_page .btn_pageprev, .wrap_page .btn_pagenext {padding: 0px 12px;border: 1px solid #ddd;border-radius: 5px;}
+.wrap_page [class^="btn_pg_"] {width:20px; border:0; background:no-repeat 50% 50%; text-indent:-9999em;}
