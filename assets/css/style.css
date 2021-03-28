@@ -421,8 +421,6 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .storelist li a {text-align: center;}
 .storelist li a img {border-radius: 20px;}
 .storelist li a .name {display:block; padding-top: 10px;}
-
-.makestorelist {}
 .makestorelist>li {display: inline-block; width: 32.4444444%; padding-bottom: 10px; padding-right: 4px;}
 .makestorelist>li a {display:block; text-align: center;}
 .makestorelist>li a img {border-radius: 20px;}
@@ -587,3 +585,14 @@ table.bdcolor {border-color:#ffb800 !important}
 .wrap_page .btn_pageprev img{transform: rotate(180deg);}
 .wrap_page .btn_pageprev, .wrap_page .btn_pagenext {padding: 0px 12px;border: 1px solid #ddd;border-radius: 5px;}
 .wrap_page [class^="btn_pg_"] {width:20px; border:0; background:no-repeat 50% 50%; text-indent:-9999em;}
+/* 스토어 미리보기 */
+.swiper-container.slidecenter_type3.diarypreviewbox .swiper-button-prev, .swiper-container.slidecenter_type3.diarypreviewbox .swiper-button-next {top: 50%;}
+#my-tab-diarycontent .hrline {position:absolute; top:20px;border-style: dashed; clip:inherit}
+.swiper-container.slidecenter_type3.diarypreviewbox .swiper-button-prev {left: 0;}
+.swiper-container.slidecenter_type3.diarypreviewbox .swiper-button-next {right: 0;}
+.swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide {}
+.swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide .first {margin-right: 10px;}
+.swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide a {width: 48%;}
+.swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide a img {width: 100%; border-radius: 10px;}
+.wrap_diarypreviewbox {margin-left: -10px; margin-right: -10px;background: url(../images/temp/temp_photobg200.svg) 0 0 no-repeat; background-size:100%;}
+.swiper-container.slidecenter_type3.diarypreviewbox {margin: 15px 10px;padding: 20px 0 20px;}

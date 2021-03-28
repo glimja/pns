@@ -94,6 +94,30 @@ function swiper(obj) {
 		});
 	}
 
+	if (obj = ".slidecenter_type3") {
+		// swiper 중앙정렬 1개
+		var swiper = new Swiper($(".swiper-container" + obj), {
+			observer: true,
+			observeParents: true,
+			autoHeight: true,
+			watchSlidesProgress: true,
+			speed: 800,
+			slidesPerView: 'auto',
+			centerSlides: true,
+			spaceBetween: 10,
+			touchAngle: 35,
+			// pagination: {
+			// 	el: '.swiper-pagination',
+			// 	// clickable: true, // indicator
+			// 	type: 'fraction', // number page
+			// },
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+		});		
+	}
+
 	if (obj = ".bgimages-thumbs") {
 		var bgimagesThumbs = new Swiper($(".swiper-container" + obj), {
 			spaceBetween: 10,
