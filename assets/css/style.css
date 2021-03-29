@@ -72,7 +72,8 @@ body {overflow:inherit}
 .area-blank{position: absolute; top:0; right:10px; width:20px;height:20px; }
 .area-badge {position: absolute; bottom:0; right:0;}
 .badge {width:22px; height:20px; padding: 0.5em; margin-bottom: 0; background-color: #F5B929; border-radius: .8rem; text-align: center;}
-
+.layer_dim {display:none; opacity:0.5; position:fixed; z-index:1040; top:0; left:0; width:100%; height:100%; background:#000;}
+.layer_dim.active {display:block}
 /*  ========================================================================================== */
 
 .floating_menu {position:fixed; z-index:1}
@@ -217,7 +218,7 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 .swiper-pagination-bullet {background:#aaa}
 .swiper-pagination-bullet-active {background:#ffb800;}
 .thumblist_type1 li .wrap_chknum {position: absolute; top:0; right:0;}
-.thumblist_type1 li .wrap_chknum .chknum {width: 20px; height: 20px;padding: 0.25em 0.5em;margin-bottom: 0;font-size: 11px; font-weight: 600; color:#fff;background-color: #F5B929;border-radius: .8rem;text-align: center;}
+.thumblist_type1 li .wrap_chknum .chknum {min-width: 20px; height: 20px;padding: 0.25em 0.5em;margin-bottom: 0;font-size: 11px; font-weight: 600; color:#fff;background-color: #F5B929;border-radius: .8rem;text-align: center;}
 /* 사진첩 일기 */
 .nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link {font-size:15px; padding: .5rem .8rem; letter-spacing: -1px;}
 .nav-tabs-navigation.phtodiary .nav-tabs .nav-item {margin-left: 9px;}
@@ -260,7 +261,7 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 .swiper-container.slidecenter_type2 .swiper-slide a img {width:100%; border-radius: 20px;}
 .swiper-container.slidecenter_type2 .swiper-slide textarea {margin: 10px 0; border-radius: 20px;}
 .swiper-container.slidecenter_type2 .swiper-button-prev, 
-.swiper-container.slidecenter_type2 .swiper-button-next {margin-top: -120px;}
+.swiper-container.slidecenter_type2 .swiper-button-next {margin-top: -90px;}
 /* swiper bgcolor */
 .slide_bgcolorthumb_box {position:relative; height:120px; padding:0; margin-top: 20px;}
 .col-sm-1 {flex: 0 0 8.333333%; max-width: 8.333333%;}
@@ -291,12 +292,12 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-primary {background-color: #ffb800;}
 .form input[type="text"].form_01 {width: 80%;}
-input.rd48 {height: 40px; line-height: 40; padding: 0 15px; border-radius: 20px; -webkit-border-radius: 20px; border-color: #C0B59F}
+input.rd48 {height: 40px; line-height: 40; padding: 0 10px; border-radius: 20px; -webkit-border-radius: 20px; border-color: #C0B59F}
 input.rd48::placeholder, input.rd48::-webkit-input-placeholder {color: #C0B59F;letter-spacing: -1px;}
 input.rdinset40 {height: 40px; line-height: 40; padding: 0 15px; border-radius: 20px; -webkit-border-radius: 20px; border-color: #d2d2d2; background-color: #F1F1F1;box-shadow: inset 1px 3px 2px rgb(0 0 0 / 10%);}
 input.rdinset40::placeholder, input.rd48::-webkit-input-placeholder {color: #999;letter-spacing: -1px;}
-input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDEDE}
-.form-control {height:30px; line-height: 30px; padding:0 12px}
+input.ih40 {height: 40px; line-height: 40; padding: 0 10px; border-color: #DEDEDE}
+.form-control {height:30px; line-height: 22px; padding:0 12px}
 /* x축 스크롤 메뉴 */
 .list-scrollx {overflow-y: hidden; position: relative;}
 .list-scrollx > ul {overflow-x: scroll; white-space: nowrap; margin-bottom: -8px; padding-bottom: 10px;}
@@ -394,7 +395,7 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .childcareselect ul li:first-child .form-check-radio .form-check-sign::before {background: url(../images/icon/icon_childcare1.jpg) 0 0 no-repeat; background-size:100%;}
 .childcareselect ul li:nth-child(2) .form-check-radio .form-check-sign::before {background: url(../images/icon/icon_childcare2.jpg) 0 0 no-repeat; background-size:100%;}
 .childcareselect ul li:nth-child(3) .form-check-radio .form-check-sign::before {background: url(../images/icon/icon_childcare3.jpg) 0 0 no-repeat; background-size:100%;}
-.childcareselect ul li:nth-child(4) .form-check-radio .form-check-sign::before {background: url(../images/icon/icon_childcare4.jpg) 0 0 no-repeat; background-size:100%;}
+.childcareselect ul li:nth-child(4) .form-check-radio .form-check-sign::before {background: url(../images/icon/icon_childcare5.jpg) 0 0 no-repeat; background-size:100%;}
 .childcareselect ul li .form-check-radio input[type="radio"]:checked+ .form-check-sign::before {opacity: 1;}
 .childcareselect ul li .form-check-radio input[type="radio"]:checked+.form-check-sign::after {top: -7px; left:19px;}
 /* 아기정보 */
@@ -413,7 +414,7 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .diarybox2.modifytype {padding: 10px;}
 .diarybox2.modifytype textarea {width:100%; margin:0 !important}
 .calendarwrap #datepicker .ui-datepicker {margin-bottom:30px; box-shadow: 5px 0 20px rgb(0 0 0 / 5%);}
-.swiper-container.slidecenter_type2.wrap_diarybox .swiper-button-prev, .swiper-container.slidecenter_type2.wrap_diarybox .swiper-button-next {margin-top:inherit; top: 70px;}
+.swiper-container.slidecenter_type2.wrap_diarybox .swiper-button-prev, .swiper-container.slidecenter_type2.wrap_diarybox .swiper-button-next {margin-top:-70px; top: 50%;}
 #my-tab-diarycontent .hrline {position:absolute; top:20px;border-style: dashed; clip:inherit}
 /* 일기수정 */
 .swiper-container.slidecenter_type2.wrap_diarybox .swiper-slide textarea {font-size:12px; border-radius: 10px;}
@@ -597,7 +598,7 @@ table.bdcolor {border-color:#ffb800 !important}
 .swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide .first {margin-right: 0.5em; margin-left: 0.5em;}
 .swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide a {width: 47%;}
 .swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide a img {width: 100%; border-radius: 10px;}
-.wrap_diarypreviewbox {margin-left: -10px; margin-right: -10px;background: url(../images/temp/temp_photobg200.svg) 0 0 no-repeat; background-size:100%;}
+.wrap_diarypreviewbox {margin-left: -10px; margin-right: -10px;background: url(../images/temp/temp_photobg777.svg) 0 0 no-repeat; background-size:100%;}
 .swiper-container.slidecenter_type3.diarypreviewbox {margin: 15px 10px;padding: 20px 0 20px;}
 
 #ui-datepicker-div {top:50% !important; margin-top: -140px !important; z-index: 1030;}
