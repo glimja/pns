@@ -599,6 +599,9 @@ table.bdcolor {border-color:#ffb800 !important}
 .swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide a img {width: 100%; border-radius: 10px;}
 .wrap_diarypreviewbox {margin-left: -10px; margin-right: -10px;background: url(../images/temp/temp_photobg200.svg) 0 0 no-repeat; background-size:100%;}
 .swiper-container.slidecenter_type3.diarypreviewbox {margin: 15px 10px;padding: 20px 0 20px;}
+
+#ui-datepicker-div {top:50% !important; margin-top: -140px !important; z-index: 1030;}
+
 @media (max-width: 576px) {
   /* .swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide .first {margin-right: 0.5em; margin-left: 0.9em;}   */
 }
