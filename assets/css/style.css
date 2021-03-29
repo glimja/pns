@@ -216,6 +216,8 @@ hr.w100h1 {position: relative; width: 100%; margin-bottom: 20px; border:0; backg
 .thumblist_type2 li img {border-radius:20px;}
 .swiper-pagination-bullet {background:#aaa}
 .swiper-pagination-bullet-active {background:#ffb800;}
+.thumblist_type1 li .wrap_chknum {position: absolute; top:0; right:0;}
+.thumblist_type1 li .wrap_chknum .chknum {width: 20px; height: 20px;padding: 0.25em 0.5em;margin-bottom: 0;font-size: 11px; font-weight: 600; color:#fff;background-color: #F5B929;border-radius: .8rem;text-align: center;}
 /* 사진첩 일기 */
 .nav-tabs-navigation.phtodiary .nav>.nav-item>.nav-link {font-size:15px; padding: .5rem .8rem; letter-spacing: -1px;}
 .nav-tabs-navigation.phtodiary .nav-tabs .nav-item {margin-left: 9px;}
@@ -440,7 +442,7 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .diaryselectinfobox .txt2 {font-size:14px; color:#555}
 /* 스토어 편집하기 */
 .storeedit {position: relative; margin:10px 0; background-color:#fff}
-.storeedit .dt_tit {min-height: 100px; padding: 10px 0 20px 120px; border-bottom:1px solid #f6f6f6; font-size:14px; font-weight: 600; color:#333;}
+.storeedit .dt_tit {min-height: 100px; padding: 10px 0 50px 120px; border-bottom:1px solid #eee; font-size:14px; font-weight: 600; color:#333;}
 .storeedit .dt_tit .photoimg1 {position: absolute; left: 0; top: 0;}
 .storeedit .dt_tit .photoimg1 img {border-radius: 20px;}
 .storeedit .dt_tit .infotxt {display:block; padding-top: 5px;font-size:12px; font-weight: 100; color:#333;}
@@ -453,7 +455,8 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 15px; border-color: #DEDED
 .diarycontlist .tit img {width:80px; height:80px; border-radius: 20px;}
 .diarycontlist .desc {padding-left: 120px; padding-top: 5px; color:#555}
 .diarycontlist .desc .txtbox {display:-webkit-box; word-wrap:break-word; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; line-height:18px; height:35px; color:#555; font-size:12px; text-decoration:none;}
-
+.posaright {position: absolute; right: 10px; top:0;width: 100%;}
+.fixedbottom {position: fixed; bottom: 0; width: 92%;}
 /* 설정 */
 .settings {}
 .settings .h2_titbox {position:relative; height:68px; padding:0 18px; background:#F8F8F8; font-size:17px; color:#333; line-height:68px}
@@ -591,8 +594,23 @@ table.bdcolor {border-color:#ffb800 !important}
 .swiper-container.slidecenter_type3.diarypreviewbox .swiper-button-prev {left: 0;}
 .swiper-container.slidecenter_type3.diarypreviewbox .swiper-button-next {right: 0;}
 .swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide {}
-.swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide .first {margin-right: 10px;}
-.swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide a {width: 48%;}
+.swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide .first {margin-right: 0.5em; margin-left: 0.5em;}
+.swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide a {width: 47%;}
 .swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide a img {width: 100%; border-radius: 10px;}
 .wrap_diarypreviewbox {margin-left: -10px; margin-right: -10px;background: url(../images/temp/temp_photobg200.svg) 0 0 no-repeat; background-size:100%;}
 .swiper-container.slidecenter_type3.diarypreviewbox {margin: 15px 10px;padding: 20px 0 20px;}
+@media (max-width: 576px) {
+  /* .swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide .first {margin-right: 0.5em; margin-left: 0.9em;}   */
+}
+@media (max-width: 767px) {
+  /* .swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide .first {margin-right: 0.9em; margin-left: 0.7em;} */
+}
+@media (orientation: landscape) {
+  .swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide .first {margin-right: 0.5em; margin-left: 0.9em;}
+  .swiper-container.slidecenter_type3.diarypreviewbox {padding: 20px 0 50px;}
+  .container {max-width: 90%;}
+}
+
+@media (orientation: portrait) {
+
+}

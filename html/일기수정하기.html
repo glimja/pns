@@ -50,6 +50,10 @@
         <div class="section">
           <div class="container">
             <h2 class="h2_tit disnone">일기 수정하기</h2>
+            <h3 class="h3_tit pt_20">언제 사진인가요?</h3>
+            <div class="form">
+              <input type="text" class="form_01 openDatePicker ih40" placeholder="" />
+            </div>
 
             <div class="swiper-container slidecenter_type2 mt_20 wrap_diarybox">
               <div class="swiper-wrapper">
@@ -100,6 +104,32 @@
         <!-- 상단으로 이동 top 버튼 -->
         <div class="mo_quicktopMove">TOP <span class="arrowtop"></span></div>
         <!-- //상단으로 이동 top 버튼 -->
-
+        <script>
+          $(function () {
+      
+            $.datepicker.setDefaults({
+              dateFormat: 'yy-mm-dd',
+              showMonthAfterYear: true,
+              changeYear: false,
+              changeMonth: false,
+              showOn: "both",
+              buttonImage: "",
+              buttonImageOnly: false,
+              yearSuffix: '.',
+              monthNames: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+              monthNamesShort: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+              dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+              dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+              dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+            });
+            $("#datepicker").datepicker();
+          });
+        </script>
+      
+        <script>
+          $(function(){
+            setDatepicker('dp00');
+          })
+        </script>
     </body>
 </html>
