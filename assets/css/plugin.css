@@ -112,12 +112,12 @@ button.swiper-pagination-bullet {border:none; margin:0; padding:0; -webkit-box-s
 .ui-datepicker td {border:0; padding:5px; text-align:center; font-weight:normal;}
 .ui-datepicker th:first-child, .ui-datepicker td:first-child {padding-left:0;}
 .ui-datepicker th:last-child, .ui-datepicker td:last-child {padding-right:0;}
-.ui-datepicker td span, .ui-datepicker td a {display:inline-block; width:50px; height:50px; color:#777; line-height:50px; cursor:pointer;}
+.ui-datepicker td span, .ui-datepicker td a {display:inline-block; width:50px; height:50px; color:#333; line-height:50px; cursor:pointer;}
 #ui-datepicker-div.ui-datepicker td span, #ui-datepicker-div.ui-datepicker td a {display:inline-block; width:30px; height:30px; line-height:30px; cursor:pointer;}
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-state-highlight, .ui-widget-content .ui-state-highlight { border-radius:50%; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; color:#fff; font-weight:bold;}
-.ui-datepicker-current-day .ui-state-active, .ui-datepicker-current-day .ui-widget-content .ui-state-active {color:#ffb800; background-color:#fcecc6;}
-.ui-datepicker td span.onphoto, .ui-datepicker td a.onphoto {color:#ffb800; background-color:#fcecc6;} /* 사진등록한 날짜 표시 */
-.ui-datepicker-today .ui-state-highlight, .ui-datepicker-today .ui-widget-content .ui-state-highlight {color:#fff; background-color: #ffb800}
+.ui-datepicker-current-day .ui-state-active, .ui-datepicker-current-day .ui-widget-content .ui-state-active {color:#FF6B00; background-color:#fcecc6;}
+.ui-datepicker td span.onphoto, .ui-datepicker td a.onphoto {color:#FF6B00; background-color:#fcecc6;} /* 사진등록한 날짜 표시 */
+.ui-datepicker-today .ui-state-highlight, .ui-datepicker-today .ui-widget-content .ui-state-highlight {color:#fff; background-color: #FF6B00}
 .ui-state-disabled, .ui-widget-content .ui-state-disabled {opacity:.5; filter:Alpha(Opacity=5);}
 .ui-datepicker-trigger {display:inline-block; box-sizing:border-box; border-radius:4px; border:1px solid #DDD; background:#FFF url("../images/icon/calendar.svg") no-repeat center center; background-size:24px auto; width:40px; height:40px; margin-left:5px; text-indent:-9999em; vertical-align:middle;}
 #datepicker .ui-datepicker {border: 0}

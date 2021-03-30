@@ -201,3 +201,46 @@ function setDatepicker(obj) {
 		maxDate: 0,
 	});
 }
+//dim : create
+function createOverlay() {
+	if($('.overlay').length > 0){ return;}
+	$("body").css({ "overflow": "hidden" }).prepend("<div class='overlay'></div>");
+};
+
+//dim : remove
+function removeOverlay() {
+	$("body").css({ "overflow": "" });
+	$(".overlay").addClass("blind");
+	$(".overlay").remove();
+};
+// popup : 모달 팝업창 지연
+function openLayer3delay(obj, btn) {
+	setTimeout(function () {
+		$(obj).addClass("active").show();
+		//모달안에 모달
+		if ($(btn).parents("div").hasClass("layer_wrap3")) {
+			$(btn).parents(".layer_wrap3").css({ "z-index": "98" });
+			$(obj).parents(".layer_wrap3").css({ "z-index": "100" });
+			$(obj).before("<div class='overlay'></div>");
+		} else if ($(btn).parents("div").hasClass("full_layer_wrap")) {
+			$(obj).before("<div class='overlay'></div>");
+		} else {
+			createOverlay();
+		}
+	}, 1000); // 팝업 뜨는 딜레이 시간
+}
+
+//popup : 모달
+function openLayer3(obj, btn) {
+	$(obj).addClass("active").show();
+	//모달안에 모달
+	if ($(btn).parents("div").hasClass("layer_wrap3")) {
+		$(btn).parents(".layer_wrap3").css({ "z-index": "98" });
+		$(obj).parents(".layer_wrap3").css({ "z-index": "100" });
+		$(obj).before("<div class='overlay'></div>");
+	} else if ($(btn).parents("div").hasClass("full_layer_wrap")) {
+		$(obj).before("<div class='overlay'></div>");
+	} else {
+		createOverlay();
+	}
+}
