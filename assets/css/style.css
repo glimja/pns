@@ -620,3 +620,22 @@ table.bdcolor {border-color:#ffb800 !important}
 @media (orientation: portrait) {
 
 }
+
+/* 개인정보처리방침, 이용약관 ========================================================================================== */
+.privacy_con {font-size:13px;}
+.privacy_con,
+.privacy_con .default_txt:first-child {position:relative; font-size:13px; line-height:1.7; letter-spacing:-.5px; overflow-y:auto;}
+.privacy_con .privacy_tit,
+.privacy_con .default_txt {margin-top:40px;}
+.privacy_con ol .privacy_tit,
+.privacy_con .default_nomargin {margin-top:10px;}
+.privacy_con .privacy_tb {margin-top:6px;}
+
+
+.privacy_con h3.privacy_tit,
+.privacy_con h4.privacy_tit,
+.privacy_con h5.privacy_tit {font-size:13px; color:#333; line-height:24px; margin-bottom:10px;}
+.default_txt > li .privacy_list {padding-left:20px;}
+.default_txt > li .privacy_list li {margin-left:0; text-indent:0}
+
+
