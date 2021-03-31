@@ -299,13 +299,10 @@ input.rd48 {height: 40px; line-height: 40; padding: 0 10px; border-radius: 20px;
 input.rd48::placeholder, input.rd48::-webkit-input-placeholder {color: #C0B59F;letter-spacing: -1px;}
 input.rdinset40 {height: 40px; line-height: 40; padding: 0 15px; border-radius: 20px; -webkit-border-radius: 20px; border-color: #d2d2d2; background-color: #F1F1F1;box-shadow: inset 1px 3px 2px rgb(0 0 0 / 10%);}
 input.rdinset40::placeholder, input.rd48::-webkit-input-placeholder {color: #999;letter-spacing: -1px;}
-<<<<<<< HEAD
 input.ih40 {height: 40px; line-height: 40; padding: 0 10px; border-color: #DEDEDE}
 .form-control {height:30px; line-height: 22px; padding:0 12px}
-=======
 input.ih40 {height: 40px; line-height: 40; padding: 0 10px; border-radius: 20px; -webkit-border-radius: 20px; border-color: #DEDEDE}
 .form-control {height:30px; line-height: 22px; padding:0 12px; border-radius:20px; -webkit-border-radius:20px;}
->>>>>>> 05794d4106fc297f69c94875ad929fe470095756
 /* x축 스크롤 메뉴 */
 .list-scrollx {overflow-y: hidden; position: relative;}
 .list-scrollx > ul {overflow-x: scroll; white-space: nowrap; margin-bottom: -8px; padding-bottom: 10px;}
@@ -636,12 +633,26 @@ table.bdcolor {border-color:#ffb800 !important}
 .privacy_con ol .privacy_tit,
 .privacy_con .default_nomargin {margin-top:10px;}
 .privacy_con .privacy_tb {margin-top:6px;}
-
-
 .privacy_con h3.privacy_tit,
 .privacy_con h4.privacy_tit,
 .privacy_con h5.privacy_tit {font-size:13px; color:#333; line-height:24px; margin-bottom:10px;}
 .default_txt > li .privacy_list {padding-left:20px;}
 .default_txt > li .privacy_list li {margin-left:0; text-indent:0}
 
+.txtarea {padding:21px 32px; overflow-y:scroll; height:300px; line-height:1.6; font-size:13px; border-radius: 10px; border:1px solid #ddd; background-color:#fff;}
 
+/* 회사소개 */
+.companyinfo {padding:30px 0; color:#555;}
+.companyinfo .visualimg {border-radius: 20px;}
+.companyinfo .cont_up {}
+.companyinfo .txtarea_1 {padding-top: 30px; text-align: center; line-height: 20px; letter-spacing: -1px;}
+.companyinfo .txtarea_1 .tit {display:block; position: relative; padding-bottom: 20px; font-size:18px; font-weight: 600; color:#FF9900}
+.companyinfo .txtarea_1 .tit .txtq1 {position: absolute; top: 1px; left: 50%; margin-left: -100px;}
+.companyinfo .txtarea_1 .tit .txtq2 {position: absolute; top: -5px; right: 50%; margin-right: -110px;}
+.companyinfo .txtarea_1 .tit .imgci {position: absolute; top:100%; left: 50%; margin-left: -150px;transform: rotate(10deg);}
+
+.companyinfo .cont_down {padding-top: 30px;}
+.companyinfo .txtarea_2 {padding-top: 30px; padding-left: 20px; line-height: 20px; letter-spacing: -1px;}
+.companyinfo .txtarea_2 .titnum {padding-bottom:20px; font-size:16px; color:#FF9900}
+.companyinfo .txtarea_2 .tit {font-size:13px; font-weight: 600; color:#555;}
+.companyinfo .txtarea_2 .desc {padding-bottom:30px; font-size:12px; color:#777}
