@@ -2,7 +2,7 @@
 
 /* landing ========================================================================================== */
 .landing {background-color:#FFE29D; text-align: center; vertical-align: middle;}
-.landingimg {padding-top: 60%;}
+.landingimg {padding-top: 40%;}
 
 /* template ========================================================================================== */
 body.draw {overflow:hidden;}
