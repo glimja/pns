@@ -20,6 +20,9 @@ function onload(){
 	swiper();
 	fn_quickTop();
 	fn_chkboxAll();
+	sortListObj();
+	dropDeletArea();
+	dragYmove();
 }
 
 
@@ -243,4 +246,36 @@ function openLayer3(obj, btn) {
 	} else {
 		createOverlay();
 	}
+}
+
+// 드래그 드롭 삭제
+function sortListObj() {
+	$("#sortdroplist").sortable({
+		connectWith: '#deleteArea',
+		update: function(event, ui) {
+			//Run this code whenever an item is dragged and dropped out of this list
+			var order = $(this).sortable('serialize');
+		},
+		helper: 'clone'
+	});
+}
+// 드래그 드롭 삭제 영역
+function dropDeletArea() {
+	$("#deleteArea").droppable({
+		accept: '#sortdroplist > li',
+		activeClass: 'dropArea',
+		hoverClass: 'dropAreaHover',
+		drop: function(event, ui) {
+			ui.draggable.remove();
+			alert('Delete OK?')
+		}
+	});
+}
+
+// 드래그 드롭 좌우 이동 막기
+function dragYmove() {
+	$( "#sortable_ymove" ).sortable({
+		connectWith: "#sortable_ymove",
+		containment: "#sortable_ymove"
+	}).disableSelection();
 }

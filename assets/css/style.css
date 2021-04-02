@@ -429,6 +429,7 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 10px; border-radius: 20px;
 .storelist li a {text-align: center;}
 .storelist li a img {border-radius: 20px;}
 .storelist li a .name {display:block; padding-top: 10px;}
+.wrap_makestorelist {position: relative;}
 .makestorelist>li {display: inline-block; width: 32.4444444%; padding-bottom: 10px; padding-right: 4px;}
 .makestorelist>li a {display:block; text-align: center;}
 .makestorelist>li a img {border-radius: 20px;}
@@ -438,8 +439,13 @@ input.ih40 {height: 40px; line-height: 40; padding: 0 10px; border-radius: 20px;
 .makestorelist>li .info>li:nth-child(2) {overflow:hidden; white-space: nowrap; text-overflow:ellipsis;}
 .makestorelist>li .info>li:nth-child(3) {font-size:10px}
 .makestorelist>li .info>li:nth-child(4) {padding-top: 5px;}
-.btn_trashcanbig {position: absolute; top:0; left:50%; margin-left: -24px;}
-.btn_camerabig {position: absolute; top:0; left:50%; margin-left: -24px;}
+.btn_trashcanbig {position: absolute;top: 50%;left: 50%;margin-left: -24px;margin-top: -24px;}
+.btn_camerabig {position: absolute;top: 50%;left: 50%;margin-left: -24px;margin-top: -24px;}
+#sortdroplist {}
+#deleteArea {position: relative;height:80px; margin:10px 0; border: 1px dashed #dedede; border-radius: 20px}
+.dropArea { background-color: rgb(255, 248, 238) }
+.dropAreaHover { background-color: rgb(235, 233, 230); }
+
 /* 스토어 배경 선택 */
 .bgcolor_green {width:100px; height:100px; border-radius: 20px; background-color: #D5F2EA; font: 0/0 auto;}
 /* 일기 사진선택 */

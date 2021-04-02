@@ -30,6 +30,7 @@
         <script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
         <script src="../assets/js/plugins/moment.min.js"></script>
         <script src="../assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+        <script src="../assets/js/plugins/jquery.ui.touch.js"></script>
         <!-- JS -->
         <script src="../assets/js/paper-kit.js?v=2.2.0" type="text/javascript"></script>
         <script src="../assets/js/plugins/plugin.js" type="text/javascript"></script>
@@ -94,58 +95,73 @@
         <!-- Contents -->
         <div class="section">
           <div class="container">
-            <a href="#none" class="btn_trashcanbig"><img src="../assets/images/icon/icon_trashcan.svg" alt="휴지통" /></a>
-            <!-- <a href="#none" class="btn_camerabig"><img src="../assets/images/icon/icon_camera.svg" alt="카메라" /></a> -->
             <div class="flex_btn">
               <button type="button" class="btn_type1">매거진 만들기</button>
             </div>
 
-            <ul class="makestorelist">
-              <li>
-                <a href="#none">
-                  <img src="../assets/images/temp/temp_photo120.jpg" alt="" />
-                  <ul class="info">
-                    <li>땅콩스토리이름</li>
-                    <li>땅콩스토리제목</li>
-                    <li>2021.03.20~2021.04.30</li>
-                    <li>2021.03.20</li>
-                  </ul>
-                </a>
-              </li>
-              <li>
-                <a href="#none">
-                  <img src="../assets/images/temp/temp_photo120.jpg" alt="" />
-                  <ul class="info">
-                    <li>땅콩스토리이름</li>
-                    <li>땅콩스토리제목</li>
-                    <li>2021.03.20~2021.04.30</li>
-                    <li>2021.03.20</li>
-                  </ul>
-                </a>
-              </li>
-              <li>
-                <a href="#none">
-                  <img src="../assets/images/temp/temp_photo120.jpg" alt="" />
-                  <ul class="info">
-                    <li>땅콩스토리이름</li>
-                    <li>땅콩스토리제목</li>
-                    <li>2021.03.20~2021.04.30</li>
-                    <li>2021.03.20</li>
-                  </ul>
-                </a>
-              </li>
-              <li>
-                <a href="#none">
-                  <img src="../assets/images/temp/temp_photo120.jpg" alt="" />
-                  <ul class="info">
-                    <li>땅콩스토리이름</li>
-                    <li>땅콩스토리제목</li>
-                    <li>2021.03.20~2021.04.30</li>
-                    <li>2021.03.20</li>
-                  </ul>
-                </a>
-              </li>
-            </ul>
+            <div class="wrap_makestorelist">
+              <div id="deleteArea">
+                  <a href="#none" class="btn_trashcanbig"><img src="../assets/images/icon/icon_trashcan.svg" alt="휴지통" /></a>
+                  <!-- <a href="#none" class="btn_camerabig"><img src="../assets/images/icon/icon_camera.svg" alt="카메라" /></a> -->
+              </div>
+              <ul class="makestorelist" id="sortdroplist">
+                <li>
+                  <a href="#none">
+                    <img src="../assets/images/temp/temp_photo120.jpg" alt="" />
+                    <ul class="info">
+                      <li>땅콩스토리이름</li>
+                      <li>땅콩스토리제목1</li>
+                      <li>2021.03.20~2021.04.30</li>
+                      <li>2021.03.20</li>
+                    </ul>
+                  </a>
+                </li>
+                <li>
+                  <a href="#none">
+                    <img src="../assets/images/temp/temp_photo120.jpg" alt="" />
+                    <ul class="info">
+                      <li>땅콩스토리이름</li>
+                      <li>땅콩스토리제목2</li>
+                      <li>2021.03.20~2021.04.30</li>
+                      <li>2021.03.20</li>
+                    </ul>
+                  </a>
+                </li>
+                <li>
+                  <a href="#none">
+                    <img src="../assets/images/temp/temp_photo120.jpg" alt="" />
+                    <ul class="info">
+                      <li>땅콩스토리이름</li>
+                      <li>땅콩스토리제목3</li>
+                      <li>2021.03.20~2021.04.30</li>
+                      <li>2021.03.20</li>
+                    </ul>
+                  </a>
+                </li>
+                <li>
+                  <a href="#none">
+                    <img src="../assets/images/temp/temp_photo120.jpg" alt="" />
+                    <ul class="info">
+                      <li>땅콩스토리이름</li>
+                      <li>땅콩스토리제목4</li>
+                      <li>2021.03.20~2021.04.30</li>
+                      <li>2021.03.20</li>
+                    </ul>
+                  </a>
+                </li>
+                <li>
+                  <a href="#none">
+                    <img src="../assets/images/temp/temp_photo120.jpg" alt="" />
+                    <ul class="info">
+                      <li>땅콩스토리이름</li>
+                      <li>땅콩스토리제목5</li>
+                      <li>2021.03.20~2021.04.30</li>
+                      <li>2021.03.20</li>
+                    </ul>
+                  </a>
+                </li>
+              </ul>
+            </div>
             
             <div class="notice_list ty3">
               <strong class="tit">“매거진 만들기는 최소 일기 10개 <br />이상일때 
