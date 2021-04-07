@@ -633,6 +633,61 @@
 
             <br/>
             <br/>
+
+            <div class="title">
+              <h3>Navigation Tabs Inner</h3>
+            </div>
+            <div class="nav-tabs-navigation">
+              <div class="nav-tabs-wrapper scroll">
+                <ul id="tabs2" class="nav nav-tabs" role="tablist2">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#pns_faq" role="tab">대제목1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#pns_question" role="tab">대제목2</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div id="customer-tab-content" class="tab-content">
+              <div class="tab-pane active" id="pns_faq" role="tabpanel">
+                <!-- inner tab -->
+                <div class="nav-tabs-navigation bd0">
+                  <div class="nav-tabs-wrapper scroll">
+                    <ul id="tabs2_inner" class="nav nav-tabs" role="tablist2_inner">
+                      <li class="">
+                        <a class="nav-link active" data-toggle="tab" href="#pns_faq_inner1" role="tab">소제목1_1</a>
+                      </li>
+                      <li class="">
+                        <a class="nav-link" data-toggle="tab" href="#pns_faq_inner2" role="tab">소제목2_1</a>
+                      </li>
+                      <li class="">
+                        <a class="nav-link" data-toggle="tab" href="#pns_faq_inner3" role="tab">소제목2_1</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- //inner tab -->
+                <!-- inner tab cont -->
+                <div id="customer-tab-content-inner" class="tab-content">
+                  <div class="tab-pane active" id="pns_faq_inner1" role="tabpanel">
+                    <div>소내용1_1</div>
+                  </div>
+                  <div class="tab-pane" id="pns_faq_inner2" role="tabpanel">
+                    <div>소내용1_2</div>
+                  </div>
+                  <div class="tab-pane" id="pns_faq_inner3" role="tabpanel">
+                    <div>소내용1_3</div>
+                  </div>
+                </div>
+                <!-- //inner tab cont -->
+              </div>
+              <div class="tab-pane" id="pns_question" role="tabpanel">
+                <div>대내용2</div>
+              </div>
+
+            <br/>
+            <br/>
             
             <div class="title">
               <h3>Inputs</h3>
@@ -964,6 +1019,76 @@
                   </div>
                 </div>
               </div>
+            </div>
+
+            <br/>
+            <br/>
+
+            <h3>Accordion faq</h3>
+            <div class="bd-example">
+              <div class="accordion faqtype" id="accordionFaq">
+                <div class="card">
+                  <div class="card-header" id="faqheadingOne">
+                    <h2 class="arr_tit" data-toggle="collapse" data-target="#faqcollapseOne" aria-expanded="true" aria-controls="faqcollapseOne">
+                      <button class="btn btn-link" type="button" >
+                        Collapsible Group Item #1
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="faqcollapseOne" class="collapse show" aria-labelledby="faqheadingOne" data-parent="#accordionFaq" style="">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="faqheadingTwo">
+                    <h2 class="arr_tit" data-toggle="collapse" data-target="#faqcollapseTwo" aria-expanded="false" aria-controls="faqcollapseTwo">
+                      <button class="btn btn-link collapsed" type="button">
+                        Collapsible Group Item #2
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="faqcollapseTwo" class="collapse" aria-labelledby="faqheadingTwo" data-parent="#accordionFaq" style="">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="faqheadingThree">
+                    <h2 class="arr_tit" data-toggle="collapse" data-target="#faqcollapseThree" aria-expanded="false" aria-controls="faqcollapseThree">
+                      <button class="btn btn-link collapsed" type="button">
+                        Collapsible Group Item #3
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="faqcollapseThree" class="collapse" aria-labelledby="faqheadingThree" data-parent="#accordionFaq">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <br/>
+            <br/>
+
+            <div class="title">
+              <h3>Shorthand</h3>
+            </div>
+            <div class="ellipsis1">
+              가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하
+            </div>
+            <br/>
+            <div class="ellipsis2">
+              가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하
+            </div>
+            <br/>
+            <div class="ellipsis3">
+              가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하
             </div>
 
             <br/>

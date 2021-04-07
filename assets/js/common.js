@@ -20,6 +20,8 @@ function onload(){
 	swiper();
 	fn_quickTop();
 	fn_chkboxAll();
+	fn_chkboxlistAll();
+	fn_unchkboxlistAll();
 	sortListObj();
 	dropDeletArea();
 	dragYmove();
@@ -46,6 +48,25 @@ function fn_chkboxAll(){
 	});
 }
 
+function fn_chkboxlistAll(){
+	// 체크박스 전체선택 전체해제
+	$('#checkunchecklist_all').on('click', function(){
+		// 클릭 되었을때
+		if($('#checkunchecklist_all').prop('checked')){
+			$("input[name=mykitlistcheck]:checkbox").prop("checked", true);    
+		// 클릭 안 되었을때
+		} else{
+			$("input[name=mykitlistcheck]:checkbox").prop("checked", false);
+		}
+	});
+}
+
+function fn_unchkboxlistAll(){
+	// 체크박스 전체선택 해제
+	$('#unchecklist_all').on('click', function(){
+		$("input[name=mykitlistcheck]:checkbox").prop("checked", false);
+	});
+}
 
 function swiper(obj) {
 
