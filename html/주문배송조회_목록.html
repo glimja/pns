@@ -96,7 +96,156 @@
         <div class="section">
           <div class="container">
             <h2 class="h2_tit">주문/배송 조회</h2>
-            <h2 class="h3_tit pt_10">매거진 주문</h2>
+            <h3 class="h3_tit pt_10">매거진 주문</h3>
+
+            <div class="order_history">
+              <ol>
+                <li>
+                  <span class="tit">결제완료</span>
+                  <span class="count">
+                    <span class="num">0</span>건
+                  </span>
+                </li>
+                <li>
+                  <span class="tit">상품준비</span>
+                  <span class="count">
+                    <span class="num">1</span>건
+                  </span>
+                </li>
+                <li>
+                  <span class="tit">배송중</span>
+                  <span class="count">
+                    <span class="num">2</span>건
+                  </span>
+                </li>
+                <li>
+                  <span class="tit">배송완료</span>
+                  <span class="count">
+                    <span class="num">3</span>건
+                  </span>
+                </li>
+              </ol>
+            </div>
+            
+            <div class="order_status">
+              <table class="table-c table-row">
+                <caption></caption>
+                <tbody>
+                  <!-- 결제완료 -->
+                  <tr>
+                    <td>
+                      <div class="mb_10">
+                        <span class="ordernum">4654711</span><em class="vline"></em><span class="orderdate">2020.12.12</span>
+                      </div>
+                      <div class="orderlistwrap">
+                        <div class="prodphoto">
+                          <img src="../assets/images/temp/temp_prod100.jpg" alt="" />
+                        </div>
+                        <div class="prodinfo">
+                          <span class="tit ellipsis1">라온이 포토북 라온이 포토북 라온이 포토북</span>
+                          <span class="desc">커버명<em class="vline"></em>속지명<em class="vline"></em>페이지 수</span>
+                          <span class="price">7,212,511<span class="won">원</span></span>
+                          <span class="tag_red">결제완료</span>
+                        </div>
+                      </div>
+                      <div class="flex_btn mt_20">
+                        <button type="button" class="btn_type2 btn_type2_5">주문취소</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 상품준비 -->
+                  <tr>
+                    <td>
+                      <div class="mb_10">
+                        <span class="ordernum">4654711</span><em class="vline"></em><span class="orderdate">2020.12.12</span>
+                      </div>
+                      <div class="orderlistwrap">
+                        <div class="prodphoto">
+                          <img src="../assets/images/temp/temp_prod100.jpg" alt="" />
+                        </div>
+                        <div class="prodinfo">
+                          <span class="tit ellipsis1">라온이 포토북 라온이 포토북 라온이 포토북</span>
+                          <span class="desc">커버명<em class="vline"></em>속지명<em class="vline"></em>페이지 수</span>
+                          <span class="price">7,212,511<span class="won">원</span></span>
+                          <span class="tag_green">상품준비</span>
+                        </div>
+                      </div>
+                      <div class="flex_btn mt_20">
+                        <button type="button" class="btn_type2 btn_type2_5">주문취소</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 배송중 -->
+                  <tr>
+                    <td>
+                      <div class="mb_10">
+                        <span class="ordernum">4654711</span><em class="vline"></em><span class="orderdate">2020.12.12</span>
+                      </div>
+                      <div class="orderlistwrap">
+                        <div class="prodphoto">
+                          <img src="../assets/images/temp/temp_prod100.jpg" alt="" />
+                        </div>
+                        <div class="prodinfo">
+                          <span class="tit ellipsis1">라온이 포토북 라온이 포토북 라온이 포토북</span>
+                          <span class="desc">커버명<em class="vline"></em>속지명<em class="vline"></em>페이지 수</span>
+                          <span class="price">7,212,511<span class="won">원</span></span>
+                          <span class="tag_purple">배송중</span>
+                        </div>
+                      </div>
+                      <div class="flex_btn mt_20">
+                        <button type="button" class="btn_type2">배송추적</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 배송완료 -->
+                  <tr>
+                    <td>
+                      <div class="mb_10">
+                        <span class="ordernum">4654711</span><em class="vline"></em><span class="orderdate">2020.12.12</span>
+                      </div>
+                      <div class="orderlistwrap">
+                        <div class="prodphoto">
+                          <img src="../assets/images/temp/temp_prod100.jpg" alt="" />
+                        </div>
+                        <div class="prodinfo">
+                          <span class="tit ellipsis1">라온이 포토북 라온이 포토북 라온이 포토북</span>
+                          <span class="desc">커버명<em class="vline"></em>속지명<em class="vline"></em>페이지 수</span>
+                          <span class="price">7,212,511<span class="won">원</span></span>
+                          <span class="tag_blue">배송완료</span>
+                        </div>
+                      </div>
+                      <div class="flex_btn mt_20">
+                        <button type="button" class="btn_type2">리뷰작성</button>
+                      </div>
+                      <div class="flex_btn mt_20">
+                        <button type="button" class="btn_type2 btn_type2_2">환불요청</button>
+                        <button type="button" class="btn_type2 btn_type2_3">교환요청</button>
+                        <button type="button" class="btn_type2 btn_type2_4">배송추적</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <!-- 주문취소 -->
+                  <tr>
+                    <td>
+                      <div class="mb_10">
+                        <span class="ordernum">4654711</span><em class="vline"></em><span class="orderdate">2020.12.12</span>
+                      </div>
+                      <div class="orderlistwrap">
+                        <div class="prodphoto">
+                          <img src="../assets/images/temp/temp_prod100.jpg" alt="" />
+                        </div>
+                        <div class="prodinfo">
+                          <span class="tit ellipsis1">라온이 포토북 라온이 포토북 라온이 포토북</span>
+                          <span class="desc">커버명<em class="vline"></em>속지명<em class="vline"></em>페이지 수</span>
+                          <span class="price">7,212,511<span class="won">원</span></span>
+                          <span class="tag_gray">주문취소</span>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
 
           </div>
