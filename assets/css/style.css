@@ -176,6 +176,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {margin: 0; color:#555}
 .icon-deliverycar {display: inline-block;width:22px;height:12px;background: url(../images/icon/icon_deliverycar.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
 .icon-linkarrow {display: inline-block;width:6px;height:12px;background: url(../images/icon/ic_link_arrow.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
 .icon-search {display: inline-block;width:40px;height:40px;background: url(../images/icon/icon_search.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -1px}
+.icon-del2 {display: inline-block;width:12px;height:12px;background: url(../images/icon/icon_del2.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
 .btn.small {padding: 0.2rem 12px; line-height: normal;}
 .btn.small.btn-icon {position: relative; padding-left: 30px;}
 .userinfo .userinfo-cont .icon-premium {position: absolute; top:-6px; left:6px;}
