@@ -54,16 +54,16 @@
                 <div class="nav-tabs-wrapper scroll">
                   <ul id="tabs2" class="nav nav-tabs" role="tablist2">
                     <li class="nav-item">
-                      <a class="nav-link active" data-toggle="tab" href="#pns_faq" role="tab">자주묻는질문</a>
+                      <a class="nav-link" data-toggle="tab" href="#pns_faq" role="tab">자주묻는질문</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#pns_question" role="tab">1:1 문의</a>
+                      <a class="nav-link active" data-toggle="tab" href="#pns_question" role="tab">1:1 문의</a>
                     </li>
                   </ul>
                 </div>
               </div>
               <div id="customer-tab-content" class="tab-content">
-                <div class="tab-pane active" id="pns_faq" role="tabpanel">
+                <div class="tab-pane" id="pns_faq" role="tabpanel">
                   <!-- inner tab -->
                   <div class="nav-tabs-navigation bd0">
                     <div class="nav-tabs-wrapper scroll">
@@ -281,72 +281,22 @@
                   </div>
                   <!-- //inner tab cont -->
                 </div>
-                <div class="tab-pane" id="pns_question" role="tabpanel">
+                <div class="tab-pane active" id="pns_question" role="tabpanel">
                   
                     <div class="faqwrap mt_20">
-                        <div class="accordion faqtype" id="accordion_inquire_01">
-                          <div class="card">
-                            <div class="card-header" id="headinginquireOne_01">
-                              <h2 class="arr_tit" data-toggle="collapse" data-target="#collapseinqOne_01" aria-expanded="true" aria-controls="collapseinqOne_01">
-                                <span class="notihead">
-                                  <span class="notihead_tit ellipsis1">일대일문의제목</span>
-                                  <span class="notihead_date">2020.12.31 12:12</span>
-                                </span>
-                              </h2>
-                              <div class="notitagpos">
-                                <span class="tag_red">결제</span>
-                              </div>
-                            </div>
-                        
-                            <div id="collapseinqOne_01" class="collapse show" aria-labelledby="headinginquireOne_01" data-parent="#accordion_inquire_01" style="">
-                              <div class="card-body">
-                                <span class="notibody_tit">내용내용내용내용내용내용내용내용내용내용</span>
-                                <span class="notibody_desc">내용내용내용내용내용내용내용내용내용내용내용</span>
-                                <span class="hrline mb_05"></span>
-                                <span class="notibody_desc">내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용</span>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header" id="headinginquireTwo_01">
-                              <h2 class="arr_tit" data-toggle="collapse" data-target="#collapseinqTwo_01" aria-expanded="false" aria-controls="collapseinqTwo_01">
-                                <span class="notihead">
-                                  <span class="notihead_tit ellipsis1">일대일문의제목일대일문의제목일대일문의제목일대일문의제목일대일문의제목일대일문의제목일대일문의제목</span>
-                                  <span class="notihead_date">2020.12.31 12:12</span>
-                                </span>
-                              </h2>
-                              <div class="notitagpos">
-                                <span class="tag_red">결제</span>
-                              </div>
-                            </div>
-                            <div id="collapseinqTwo_01" class="collapse" aria-labelledby="headinginquireTwo_01" data-parent="#accordion_inquire_01" style="">
-                              <div class="card-body">
-                                <span class="notibody_tit">내용내용내용내용내용내용내용내용내용내용</span>
-                                <span class="notibody_desc">내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용</span>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header" id="headinginquireThree_01">
-                              <h2 class="arr_tit" data-toggle="collapse" data-target="#collapseinqThree_01" aria-expanded="false" aria-controls="collapseinqThree_01">
-                                <span class="notihead">
-                                  <span class="notihead_tit ellipsis1">일대일문의제목</span>
-                                  <span class="notihead_date">2020.12.31 12:12</span>
-                                </span>
-                              </h2>
-                              <div class="notitagpos">
-                                <span class="tag_red">결제</span>
-                              </div>
-                            </div>
-                            <div id="collapseinqThree_01" class="collapse" aria-labelledby="headinginquireThree_01" data-parent="#accordion_inquire_01">
-                              <div class="card-body">
-                                <span class="notibody_tit">내용내용내용내용내용내용내용내용내용내용</span>
-                                <span class="notibody_desc">내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <select class="form-control" id="">
+                        <option>구분선택</option>
+                      </select>
+                      <span class="hrline mt_10"></span>
+                      <div class="form-group mt_10">
+                        <input type="text" class="form-control ih30" placeholder="제목입력">
+                      </div>
+                      <textarea name="" id="" class="form-control" cols="30" rows="3" placeholder="질문을 적어주세요."></textarea>
                     </div>
+                    <div class="flex_btn mt_20">
+                      <button type="button" class="btn_type2">등록</button>
+                    </div>
+
                 </div>
               </div>
             </div>
