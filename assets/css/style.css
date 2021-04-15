@@ -811,16 +811,18 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 .communit_head .tit {padding: 8px 0 8px; font-weight:600; color:#333}
 .communit_head .desc {font-weight:normal; color:#555}
 .commun_textbox {padding: 0 20px; margin-top: -10px; font-size:13px; color:#555; line-height:20px}
-.edit_iconbox {margin:10px 20px}
+.edit_iconbox {margin:10px 20px 0 20px}
 .likeit {display: inline-block;width:26px;height:25px;background: url(../images/icon/icon_community_heart_line.svg) 0 0 no-repeat; background-size:70%; font:0 auto; vertical-align: 0}
 .likeit.active {background: url(../images/icon/icon_community_heart.svg) 0 0 no-repeat; background-size:70%;}
-.likeitbox {margin:0 20px}
+.likeitbox {margin:20px}
 .likeitbox .likeit {display: inline-block;width:14px;height:13px;background: url(../images/icon/icon_community_heart_line.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -2px}
 .likeitbox .likeit.active {background: url(../images/icon/icon_community_heart.svg) 0 0 no-repeat; background-size:100%;}
 .icon-editplus {display: inline-block;width:30px;height:30px;background: url(../images/icon/icon_community_plus.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
+.icon-okcheck {display: inline-block;width:17px;height:12px;background: url(../images/icon/icon_okcheck.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
+.icon-okcheck2 {display: inline-block;width:17px;height:12px;background: url(../images/icon/icon_okcheck2.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
 .flex-row .commun_status {display: contents;flex-direction: column; }
-.flex-row .commun_status .flex_btn {display: contents;}
-.flex-row .imground {flex-shrink: 0;width: 100px;}
+.flex-row .commun_status .flex_btn {display: contents; }
+.flex-row .imground {flex-shrink: 0;width: 80px; margin-right: 20px;}
 
 .commumity_headtype1 {margin: 20px;}
 .commumity_headtype1 .commun_status {}
@@ -829,4 +831,10 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 .commumity_headtype1 .commun_status .statusnum li dd {font-size:11px; color:#777}
 
 .community_img {position: relative;}
-.community_img .btn_editplus {position: absolute; top: 10px; right: 10px;}
+.communitybox img {width:100%}
+.community_img .btn_editplus {position: fixed; bottom: 130px; right: 20px;}
+.community_img .btn_setbox {position: fixed; bottom: 130px; right: 70px; text-align: right;}
+.community_img .btn_setbox a.btn_type3, .community_img .btn_setbox  button.btn_type3 {display:inline-block; width: inherit; padding: 0 15px; margin-bottom: 10px;}
+.icon-import {display: inline-block;width:14px;height:13px;background: url(../images/icon/icon_import.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
+.icon-write {display: inline-block;width:12px;height:14px;background: url(../images/icon/icon_write.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
+.icon-del3 {display: inline-block;width:14px;height:14px;background: url(../images/icon/icon_del3.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -3px}

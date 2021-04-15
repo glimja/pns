@@ -40,7 +40,7 @@
         <!-- Navbar -->
         <nav class="navbar fixed-top">
             <div class="container">
-              <h1 class="tit-info">일기쓰기</h1>
+              <h1 class="tit-info">커뮤니티</h1>
               <a href="#none" class="btn_back"><span>이전페이지</span></a>
             </div>
         </nav>
@@ -48,52 +48,70 @@
 
         <!-- Contents -->
         <div class="section">
-          <div class="">
-            <h2 class="h2_tit disnone">일기쓰기</h2>
-            <div class="row pt_20">
-              <div class="col-sm-9">
-                <div class="form ml_20 ">
-                  <input type="text" class="form_01 openDatePicker ih40" placeholder="" />
+          <div class="communitybox">
+
+            <div class="flex-row">
+              <span class="imground"><img src="../assets/images/temp/temp_photo80.jpg" alt="" /></span>
+              <div class="commun_status">
+                <div class="flex_btn">
+                  <button type="button" class="btn_type3">커뮤니티</button>
+                  <button type="button" class="btn_type3 btn_border2">후기</button>
                 </div>
               </div>
-              <div class="col-sm-3">
-                <button type="button" class="btn_type2 btn_border2"><span class="icon-okcheck2"></span> 확인</button>
-              </div>
             </div>
 
-            <div class="editbox1">
-
+            <!-- 반복 -->
+            <div class="mb_40">
+              <a href="#none">
+                <img src="../assets/images/temp/temp_photo450.jpg" alt="" />
+              </a>
+              <div class="float_leftright edit_iconbox">
+                <div class="fr">
+                  <a href="#none">
+                    <span class="likeit"></span>
+                  </a>
+                </div>
+              </div>
+              <dl class="commun_textbox">
+                <dt class="tit">안녕하세요.</dt>
+                <dd class="desc">
+                  우리 아기는 이렇게 크고 있는데요.<br />
+                  여러분들은 어떤가요? 
+                </dd>
+              </dl>
             </div>
 
-            <div class="nav-tabs-navigation mt_20 mb_10">
-              <div class="nav-tabs-wrapper">
-                <ul id="tabs" class="nav nav-tabs" role="tablist">
-                  <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#editlayout" role="tab">레이아웃</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#editbackground" role="tab">배경</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#editadornment" role="tab">꾸미기</a>
-                  </li>
-                </ul>
+            <!-- 반복 -->
+            <div class="mb_40">
+              <a href="#none">
+                <img src="../assets/images/temp/temp_photo450.jpg" alt="" />
+              </a>
+              <div class="float_leftright edit_iconbox">
+                <div class="fr">
+                  <a href="#none">
+                    <span class="likeit"></span>
+                  </a>
+                </div>
               </div>
+              <p class="commun_textbox">
+                안녕하세요.<br />
+                우리 아기는 이렇게 크고 있는데요.<br />
+                여러분들은 어떤가요? 
+              </p>
             </div>
-            
-            <div id="tab-content-edit" class="tab-content editcontent1">
-              <div class="tab-pane active" id="editlayout" role="tabpanel">
-              
+
+            <div class="community_img">
+              <div class="btn_setbox">
+                <button type="button" class="btn_type3"><span class="icon-import"></span> 내 다이어리에서 가져오기</button>
+                <button type="button" class="btn_type3 btn_border2"><span class="icon-write"></span> 새로작성하기</button>
+                <button type="button" class="btn_type3 btn_type3_5"><span class="icon-del3"></span> 취소</button>
               </div>
-              <div class="tab-pane" id="editbackground" role="tabpanel">
-              
-              </div>
-              <div class="tab-pane" id="editadornment" role="tabpanel">
-              
-              </div>
+              <a href="#none" class="btn_editplus"><img src="../assets/images/icon/icon_editplus.svg" alt="" /></a>
             </div>
 
           </div>
+
+
         </div>
         <!-- //Contents -->
 
@@ -101,32 +119,5 @@
         <div class="mo_quicktopMove">TOP <span class="arrowtop"></span></div>
         <!-- //상단으로 이동 top 버튼 -->
 
-        <script>
-          $(function () {
-      
-            $.datepicker.setDefaults({
-              dateFormat: 'yy-mm-dd',
-              showMonthAfterYear: true,
-              changeYear: false,
-              changeMonth: false,
-              showOn: "both",
-              buttonImage: "",
-              buttonImageOnly: false,
-              yearSuffix: '.',
-              monthNames: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
-              monthNamesShort: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
-              dayNames: ['일', '월', '화', '수', '목', '금', '토'],
-              dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
-              dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
-            });
-            $("#datepicker").datepicker();
-          });
-        </script>
-      
-        <script>
-          $(function(){
-            setDatepicker('dp00');
-          })
-        </script>
     </body>
 </html>
