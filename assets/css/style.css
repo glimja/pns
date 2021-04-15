@@ -177,6 +177,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {margin: 0; color:#555}
 .icon-linkarrow {display: inline-block;width:6px;height:12px;background: url(../images/icon/ic_link_arrow.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
 .icon-search {display: inline-block;width:40px;height:40px;background: url(../images/icon/icon_search.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -1px}
 .icon-del2 {display: inline-block;width:12px;height:12px;background: url(../images/icon/icon_del2.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
+.icon-community-bookmark {display: inline-block;width:20px;height:23px;background: url(../images/icon/icon_community_bookmark.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
+.icon-community-comment {display: inline-block;width:21px;height:25px;background: url(../images/icon/icon_community_comment.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
+.icon-community-heart {display: inline-block;width:25px;height:25px;background: url(../images/icon/icon_community_heart.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
+.icon-community-heartline {display: inline-block;width:26px;height:25px;background: url(../images/icon/icon_community_heart_line.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
+.icon-community-share {display: inline-block;width:35px;height:25px;background: url(../images/icon/icon_community_share.png) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
 .btn.small {padding: 0.2rem 12px; line-height: normal;}
 .btn.small.btn-icon {position: relative; padding-left: 30px;}
 .userinfo .userinfo-cont .icon-premium {position: absolute; top:-6px; left:6px;}
@@ -782,3 +787,46 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 .pay_card_box .radius_box {margin-top:15px;}
 .infobox1{width:100%; padding:30px 0; margin:20px 0; text-align: center; background-color: #f2f2f2; font-size:14px; color:#333; border-radius: 20px; border:1px solid #ddd;}
 .infobox2{width:100%; padding:30px 0; text-align: center;}
+/* 사진선택 레이어 팝업 */
+.layer_wrap2 {display:none;position:fixed;z-index:1060;left:0;right:0;bottom:0;border-radius:16px 16px 0 0;background:#FFF;}
+.layer_wrap2.active {display:block; z-index:1060; }
+.layer_wrap2 .inner_top {position:relative; padding:10px 20px; border-bottom:1px solid #EEE;}
+.layer_wrap2 .inner_top .tit {font-size:13px; color:#000;}
+.layer_wrap2 .inner_top .btn_close {position:absolute; z-index:1; right:18px; top: 50%; margin-top: -10px; width:20px; height:20px; text-indent:-9999em; background:url("../images/icon/btn_close_layer2.svg") no-repeat center center;}
+.layer_wrap2 .inner {overflow:scroll; position:relative; box-sizing:border-box; padding-bottom:10px;}
+.article_layer {margin: 15px 20px;}
+.photoselectlist_type1 {overflow:hidden; overflow-x: scroll;}
+.photoselectlist_type1 ul {white-space: nowrap;}
+.photoselectlist_type1 li {display: inline-block; position: relative; width:80px; height:80px; padding-bottom: 5px; padding-right: 5px;}
+.photoselectlist_type1 li img {border-radius:20px;}
+.photoselectlist_type1 .fn_delobj {position: absolute; top: 0; left: 0;}
+.photoselectlist_type1 .fn_delobj img {width:26px; height:26px;}
+/* 사진편집 */
+.editbox1 {min-height:300px; margin:20px 0 30px; background-color:#ddd}
+.editcontent1 .tab-pane {min-height:120px; background-color:#ddd; padding:20px 10px;}
+/* 커뮤니티 */
+.imground img {border-radius: 50%;}
+.flex-row {display:flex; flex-direction: row; flex-wrap: nowrap; justify-content: center; align-items: center; padding:20px;}
+.communit_head.type1 {width:70%; padding-left: 20px; padding-right: 10px;}
+.communit_head .tit {padding: 8px 0 8px; font-weight:600; color:#333}
+.communit_head .desc {font-weight:normal; color:#555}
+.commun_textbox {padding: 0 20px; margin-top: -10px; font-size:13px; color:#555; line-height:20px}
+.edit_iconbox {margin:10px 20px}
+.likeit {display: inline-block;width:26px;height:25px;background: url(../images/icon/icon_community_heart_line.svg) 0 0 no-repeat; background-size:70%; font:0 auto; vertical-align: 0}
+.likeit.active {background: url(../images/icon/icon_community_heart.svg) 0 0 no-repeat; background-size:70%;}
+.likeitbox {margin:0 20px}
+.likeitbox .likeit {display: inline-block;width:14px;height:13px;background: url(../images/icon/icon_community_heart_line.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -2px}
+.likeitbox .likeit.active {background: url(../images/icon/icon_community_heart.svg) 0 0 no-repeat; background-size:100%;}
+.icon-editplus {display: inline-block;width:30px;height:30px;background: url(../images/icon/icon_community_plus.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
+.flex-row .commun_status {display: contents;flex-direction: column; }
+.flex-row .commun_status .flex_btn {display: contents;}
+.flex-row .imground {flex-shrink: 0;width: 100px;}
+
+.commumity_headtype1 {margin: 20px;}
+.commumity_headtype1 .commun_status {}
+.commumity_headtype1 .commun_status .statusnum li {display:inline-block; width:32%;text-align:center}
+.commumity_headtype1 .commun_status .statusnum li dt {font-weight:600; font-size:13px; padding-bottom: 2px; color:#555}
+.commumity_headtype1 .commun_status .statusnum li dd {font-size:11px; color:#777}
+
+.community_img {position: relative;}
+.community_img .btn_editplus {position: absolute; top: 10px; right: 10px;}

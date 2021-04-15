@@ -25,6 +25,8 @@ function onload(){
 	sortListObj();
 	dropDeletArea();
 	dragYmove();
+	fn_delobj();
+	fn_likeitBtn();
 }
 
 
@@ -300,3 +302,34 @@ function dragYmove() {
 		containment: "#sortable_ymove"
 	}).disableSelection();
 }
+
+//popup : 하단slide
+function slideLayer(obj, btn) {
+	createOverlay()
+	$(obj).addClass("active").slideDown("fast");
+}
+
+//팝업 : 닫기 : 하단 slideLayer
+$(document).on("click", ".layer_wrap2 .btnClose", function () {
+	$(this).parents(".layer_wrap2").removeClass("active").slideUp("fast", function () {
+		removeOverlay();
+	});
+});
+
+// 선택사진 삭제
+function fn_delobj () {
+  $target = $('.fn_delobj');
+  $target.on('click', function(){
+	$(this).parent('li').remove();
+  });  
+}
+
+// 좋아요
+function fn_likeitBtn () {
+	$target = $('.likeit');
+
+	$target.on('click', function(){
+		$(this).toggleClass('active');
+	})
+}
+  
