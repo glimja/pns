@@ -823,13 +823,10 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 .flex-row .commun_status {display: contents;flex-direction: column; }
 .flex-row .commun_status .flex_btn {display: contents; }
 .flex-row .imground {flex-shrink: 0;width: 80px; margin-right: 20px;}
-
 .commumity_headtype1 {margin: 20px;}
-.commumity_headtype1 .commun_status {}
 .commumity_headtype1 .commun_status .statusnum li {display:inline-block; width:32%;text-align:center}
 .commumity_headtype1 .commun_status .statusnum li dt {font-weight:600; font-size:13px; padding-bottom: 2px; color:#555}
 .commumity_headtype1 .commun_status .statusnum li dd {font-size:11px; color:#777}
-
 .community_img {position: relative;}
 .communitybox img {width:100%}
 .community_img .btn_editplus {position: fixed; bottom: 130px; right: 20px;}
@@ -838,3 +835,14 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 .icon-import {display: inline-block;width:14px;height:13px;background: url(../images/icon/icon_import.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
 .icon-write {display: inline-block;width:12px;height:14px;background: url(../images/icon/icon_write.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
 .icon-del3 {display: inline-block;width:14px;height:14px;background: url(../images/icon/icon_del3.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -3px}
+/* 다이어리 편집APP */
+.edit_appbox1 {position: relative; width:100%; min-height:400px; padding:20px; margin:20px 0 30px; background-color: #ddd;}
+.edit_appbox2 {position: relative; width:100%; min-height:400px; padding:20px; margin:20px 0 30px; background-color: #bbb;}
+.edit_appbox3 {position: relative; width:100%; min-height:400px; padding:20px; margin:20px 0 30px; background-color: #bbb; vertical-align: middle;}
+
+.editxscroll {overflow:hidden; overflow-x: scroll;white-space: nowrap;}
+.editxscroll a {padding-right: 9px;}
+.tab-pane .h4_tit {padding-bottom: 10px; font-size:13px; color:#333}
+.editdotarea {position: absolute; left:50%; top:50%; margin-left: -105px; margin-top: -180px;}
+.editimgobj {}
+#appedit-tab-content {padding:20px;}
