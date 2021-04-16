@@ -70,10 +70,10 @@
               <div class="nav-tabs-wrapper scroll pl_20">
                 <ul id="tabs2" class="nav nav-tabs" role="tablist2">
                   <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#diaryapp_edit" role="tab">편집</a>
+                    <a class="nav-link " data-toggle="tab" href="#diaryapp_edit" role="tab">편집</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#diaryapp_correct" role="tab">보정</a>
+                    <a class="nav-link active" data-toggle="tab" href="#diaryapp_correct" role="tab">보정</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#diaryapp_filter" role="tab">필터</a>
@@ -85,7 +85,7 @@
               </div>
             </div>
             <div id="appedit-tab-content" class="tab-content">
-              <div class="tab-pane active" id="diaryapp_edit" role="tabpanel">
+              <div class="tab-pane " id="diaryapp_edit" role="tabpanel">
                 <!-- inner tab -->
                 <div class="nav-tabs-navigation bd0">
                   <div class="nav-tabs-wrapper scroll">
@@ -123,8 +123,61 @@
                 </div>
                 <!-- //inner tab cont -->
               </div>
-              <div class="tab-pane" id="diaryapp_correct" role="tabpanel">
-                <div>보정</div>
+              <div class="tab-pane active" id="diaryapp_correct" role="tabpanel">
+                <dl class="correctarea">
+                  <dt class="tit">보정</dt>
+                  <dd class="desc">
+                    <div class="star_rate star_rate1">
+                      <span class="startcontrol"></span>
+                      <span class="star on"><em>별1점</em></span>
+                      <span class="star"><em>별2점</em></span>
+                      <span class="star"><em>별3점</em></span>
+                      <span class="star"><em>별4점</em></span>
+                      <span class="star"><em>별5점</em></span>
+                      <span class="star"><em>별6점</em></span>
+                      <span class="star"><em>별7점</em></span>
+                      <span class="star"><em>별8점</em></span>
+                      <span class="star"><em>별9점</em></span>
+                      <span class="star"><em>별10점</em></span>
+                    </div>
+                  </dd>
+                </dl>
+                <dl class="correctarea">
+                  <dt class="tit">보정</dt>
+                  <dd class="desc">
+                    <div class="star_rate star_rate1">
+                      <span class="startcontrol"></span>
+                      <span class="star on"><em>별1점</em></span>
+                      <span class="star"><em>별2점</em></span>
+                      <span class="star"><em>별3점</em></span>
+                      <span class="star"><em>별4점</em></span>
+                      <span class="star"><em>별5점</em></span>
+                      <span class="star"><em>별6점</em></span>
+                      <span class="star"><em>별7점</em></span>
+                      <span class="star"><em>별8점</em></span>
+                      <span class="star"><em>별9점</em></span>
+                      <span class="star"><em>별10점</em></span>
+                    </div>
+                  </dd>
+                </dl>
+                <dl class="correctarea">
+                  <dt class="tit">보정</dt>
+                  <dd class="desc">
+                    <div class="star_rate star_rate1">
+                      <span class="startcontrol"></span>
+                      <span class="star on"><em>별1점</em></span>
+                      <span class="star"><em>별2점</em></span>
+                      <span class="star"><em>별3점</em></span>
+                      <span class="star"><em>별4점</em></span>
+                      <span class="star"><em>별5점</em></span>
+                      <span class="star"><em>별6점</em></span>
+                      <span class="star"><em>별7점</em></span>
+                      <span class="star"><em>별8점</em></span>
+                      <span class="star"><em>별9점</em></span>
+                      <span class="star"><em>별10점</em></span>
+                    </div>
+                  </dd>
+                </dl>
               </div>
               <div class="tab-pane" id="diaryapp_filter" role="tabpanel">
                 <div>필터</div>
@@ -137,6 +190,42 @@
           </div>
         </div>
         <!-- //Contents -->
+<style type="text/css">
+.correctarea {position: relative; display: inline-flex; width:100%; margin-bottom: 20px;}
+.correctarea .tit {width: 10%; font-size:13px; padding-right: 10px;}
+.correctarea .desc {width:90%}
+.star_rate {}
+.star_rate .star {display:inline-block;width:9.5%;height:2px;padding:0;margin:15px 0;margin-left: -3px;background-color: #ddd;}
+.star_rate  em {position:absolute !important;width:1px;height:1px;overflow:hidden;clip:rect(1px 1px 1px 1px);}
+.star_rate .star.on{background-color: #ff9900;}
+.star_rate .startcontrol {position: absolute; width:30px; height:30px; background-color: #777; border-radius: 50%;}
+</style>
+<script>
+  $(function(){
+    starRate();
+    //별점
+    function starRate() {
+      var $starElm = $('.star_rate > span');
+      var total = $('.star_rate > span').length;
+      var $currentCount = $('.star_num strong');
+      var $totalCount = $('.star_num em');
+
+      $starElm.on('click mouseenter',function(){
+        $(this).parent().children('span').removeClass('on');
+        $(this).addClass('on').prevAll('span').addClass('on');
+        return false;
+      });
+
+      $totalCount.text(total);
+      $currentCount.text('1');
+
+      $starElm.on('click', function() {
+        var current = $(this).index() + 1;
+        $currentCount.text(current);
+      })
+    }
+  });
+</script>
 
         <!-- 상단으로 이동 top 버튼 -->
         <div class="mo_quicktopMove">TOP <span class="arrowtop"></span></div>

@@ -838,11 +838,12 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 /* 다이어리 편집APP */
 .edit_appbox1 {position: relative; width:100%; min-height:400px; padding:20px; margin:20px 0 30px; background-color: #ddd;}
 .edit_appbox2 {position: relative; width:100%; min-height:400px; padding:20px; margin:20px 0 30px; background-color: #bbb;}
-.edit_appbox3 {position: relative; width:100%; min-height:400px; padding:20px; margin:20px 0 30px; background-color: #bbb; vertical-align: middle;}
+.edit_appbox3 {position: relative; width:100%; min-height:400px; padding:20px; margin:20px 0 30px; background-color: #bbb; text-align: center; vertical-align: middle;}
 
 .editxscroll {overflow:hidden; overflow-x: scroll;white-space: nowrap;}
 .editxscroll a {padding-right: 9px;}
 .tab-pane .h4_tit {padding-bottom: 10px; font-size:13px; color:#333}
 .editdotarea {position: absolute; left:50%; top:50%; margin-left: -105px; margin-top: -180px;}
 .editimgobj {}
+.editimgobj img {width:100%}
 #appedit-tab-content {padding:20px;}
