@@ -803,7 +803,7 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 .photoselectlist_type1 .fn_delobj img {width:26px; height:26px;}
 /* 사진편집 */
 .editbox1 {min-height:300px; margin:20px 0 30px; background-color:#ddd}
-.editcontent1 .tab-pane {min-height:120px; background-color:#ddd; padding:20px 10px;}
+.editcontent1 .tab-pane {min-height:120px; background-color:#F2F2F2; padding:20px 10px;}
 /* 커뮤니티 */
 .imground img {border-radius: 50%;}
 .flex-row {display:flex; flex-direction: row; flex-wrap: nowrap; justify-content: center; align-items: center; padding:20px;}
@@ -846,4 +846,15 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 .editdotarea {position: absolute; left:50%; top:50%; margin-left: -105px; margin-top: -180px;}
 .editimgobj {}
 .editimgobj img {width:100%}
-#appedit-tab-content {padding:20px;}
+#diaryapp_edit {padding: 0 0 20px;}
+#diaryapp_edit_inner1 {min-height: 120px; background-color: #F2F2F2; padding: 20px;}
+#diaryapp_edit .nav-tabs-navigation {padding:10px 20px; background-color: #fff;}
+#appedit-tab-content-inner .tab-pane {padding:0 20px}
+#diaryapp_correct {}
+.correctarea {position: relative; display: inline-flex; width:100%; margin-bottom: 20px; padding: 0 10px 0 20px;}
+.correctarea .tit {width: 50px; font-size:13px; padding-right: 10px;}
+.correctarea .desc {width:90%}
+.correctarea .bar_rate .bar {display:inline-block;width:9.5%;height:2px;padding:0;margin:10px 0;background-color: #ACACAC;}
+.correctarea .bar_rate  em {position:absolute !important;width:1px;height:1px;overflow:hidden;clip:rect(1px 1px 1px 1px);}
+.correctarea .bar_rate .bar.on{background-color: #ffb800;}
+.correctarea .bar_rate .bartcontrol {position: absolute; width:20px; height:20px; background-color: #ffb800; border-radius: 50%;}
