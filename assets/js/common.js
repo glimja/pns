@@ -27,6 +27,7 @@ function onload(){
 	dragYmove();
 	fn_delobj();
 	fn_likeitBtn();
+	correctNoUiSlide();
 }
 
 
@@ -332,4 +333,37 @@ function fn_likeitBtn () {
 		$(this).toggleClass('active');
 	})
 }
-  
+
+function correctNoUiSlide() {
+	// 보정
+	noUiSlider.create(slider1, {
+		start: [0, 50],
+		connect: true,
+		step: 1,
+		range: {
+		min: [0],
+		max: [100]
+		}
+	});
+	// 대비
+	noUiSlider.create(slider2, {
+		start: [0, 50],
+		connect: true,
+		// tooltips: [false, true],
+		step: 1,
+		range: {
+		min: [0],
+		max: [100]
+		}
+	});
+	// 채도
+	noUiSlider.create(slider3, {
+		start: [0, 50],
+		connect: true,
+		step: 1,
+		range: {
+		min: [0],
+		max: [100]
+		}
+	});
+}
