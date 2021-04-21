@@ -209,7 +209,7 @@ a:link,
 a:visited,
 a:active{text-decoration:none; color:#636363;}
 a:hover,
-a:focus{text-decoration:underline;outline:thin dotted; outline:5px auto -webkit-focus-ring-color; outline-offset:-2px;}
+a:focus{text-decoration:underline;outline:thin dotted; outline:0;}
 ::-webkit-input-placeholder {color:#000; opacity:0.5;}
 ::-moz-placeholder {color:#000; opacity:0.5;}
 ::placeholder {color:#000; opacity:0.5;}
@@ -235,6 +235,7 @@ a.btn:active{background:#0b5fa6; border:1px solid #0b5fa6; color:#fff;}
 /* a.btn:hover{background:#fff; border:1px solid #0b5fa6; color:#0b5fa6; text-decoration:none;} */
 
 button {padding:0; border:none 0; background:none; cursor:pointer;}
+button:focus {border:none; outline: none}
 .btn_center {text-align:center;}
 .btn_right {text-align:right;}
 .flex_btn {display:flex; margin:30px 0 10px 0;}
