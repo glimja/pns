@@ -892,8 +892,8 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 .box_pshistory > .header.type4 {background-color: #E5E7FA;}
 .box_pshistory > .header.type5 {background-color: #ECEBED;}
 .box_pshistory > .header:after {content: ''; display:block; clear:both}
-.box_pshistory > .header .tit {float: left; width: 65%; font-size:15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
-.box_pshistory > .header .paymentday {float: right; font-size:13px;}
+.box_pshistory > .header .tit {float: left; width: 64%; font-size:15px; color:#000; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.box_pshistory > .header .paymentday {float: right; font-size:13px; color:#555}
 .box_pshistory > .content {padding:15px; background-color: #f4f4f4; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
 .box_pshistory > .content > .boxinner {padding:15px 20px 5px 20px; border: 1px solid #E2E2E2; border-radius:10px; background-color:#fff}
 .box_pshistory > .content > .boxinner > .inlist {position: relative; font-size: 12px; color:#333}
@@ -904,7 +904,7 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 .box_pshistory > .content > .boxinner > .inlist dd:after {content:''; display:block; clear:both}
 .box_pshistory > .content > .boxinner > .inlist.down {border-top:1px dashed #ddd; padding-top: 8px;}
 .box_pshistory > .content > .boxinner > .inlist .num,
-.box_pshistory > .content > .list .num {font-size: 15px; color:#000}
+.box_pshistory > .content > .list .num {font-size: 13px; color:#000}
 .box_pshistory > .content > .list {padding: 10px 20px 0 20px;font-size: 12px; color:#000}
 .box_pshistory > .content > .list dt {float: left; padding-right: 3px; font-weight:400}
 .box_pshistory > .content > .list dd {position: relative; padding-bottom: 5px; font-size:13px;}
