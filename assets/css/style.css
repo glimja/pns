@@ -883,6 +883,7 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 .tag_purple.type1 {background-color: #EEDFF2; border: 1px solid #D4AADF;}
 .tag_blue.type1 {background-color: #E5E7FA; border: 1px solid #B1B8F4;}
 .tag_gray.type1 {background-color: #ECEBED; border: 1px solid #d0d0d0;}
+.tag_evt {display: inline; height: 20px; padding:3px 10px;font-size:10px;font-weight:400; border: 1px solid #FF5C00; color:#FF5C00; border-radius: 20px;}
 /* 이용혜택 */
 .box_pshistory {margin-top: 30px;}
 .box_pshistory > .header {position: relative; padding:13px 20px; background-color: #D5F2EA; border-top-left-radius: 20px; border-top-right-radius: 20px;}
@@ -912,3 +913,30 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 .box_pshistory > .content > .period {padding: 15px 20px 0 20px; font-size:15px; color:#000}
 .icon-premiumcrown {display: inline-block;width:16px;height:13px;background: url(../images/icon/icon_premiumcrown.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
 .icon-premiumtrophy {display: inline-block;width:13px;height:14px;background: url(../images/icon/icon_premiumtrophy.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: 0}
+.serviceinfo {padding: 10px 0;}
+.serviceinfo > .h3_tit {position:relative; padding-top: 10px; font-size:14px; font-weight:600}
+/* .serviceinfo > .h3_tit > .tag_evt {position: absolute; top: 10px; right:10px} */
+.serviceinfo li {margin-top: 5px;}
+.serviceinfo li:first-child {margin-top: 0;}
+.price_wrap {display:grid; position: relative; margin-top: 10px;}
+.price_wrap > .sum {overflow: hidden; display: -webkit-box; position: relative;border:1px solid #DEDEDE; border-radius: 20px; box-shadow: 0 0 8px rgb(91 91 91 / 20%); align-items: center;}
+.price_wrap > .sum::before {content:''; position: absolute; left:calc(100% - 41%); width:24px; height:88px; background:url(../images/icon/bg_arrowprice.png) 0 0 no-repeat; background-size:100%;}
+.price_wrap > .sum dl {width:30%; height:100%; padding: 20px 10px 26px 0; background-color: #f2f2f2; text-align:right; vertical-align: middle;}
+.price_wrap > .sum dl dt {font-size: 11px; font-weight:400; color:#777}
+.price_wrap > .sum dl .num {font-size:15px}
+.price_wrap > .sum dl.discount {position: relative;padding-right: 5px;}
+.price_wrap > .sum dl.discount:before {content: ''; position: absolute; top: 50%; left:0; margin-top: -11px; display:block; width:22px; height:22px; background: url(../images/icon/icon_payminus.svg) 0 0 no-repeat; opacity: .5;}
+.price_wrap > .sum dl.total {width:36%; padding-right: 0; background-color: #fff;}
+.price_wrap > .sum dl.total dt {color:#000}
+.price_wrap > .sum dl.total .num {font-size:20px; color:#FF5C00;}
+.flexend {justify-content: flex-end;}
+.flexstart {justify-content: flex-start;}
+.box_paymentmethod {margin-top: 20px; border: 1px solid #ddd; border-radius: 20px;}
+.box_paymentmethod > .header {padding:10px 20px; font-size: 13px; font-weight:600; background-color: #FFE8DA; border-bottom:1px solid #ddd; color:#333; border-top-left-radius: 20px; border-top-right-radius: 20px;}
+.box_paymentmethod > .list {padding:0 20px}
+.box_paymentmethod > .list li {padding:15px 0 0 0; border-top: 1px dashed #ddd;}
+.box_paymentmethod > .list li:first-child {border-top:0}
+.box_paymentmethod > .foot {padding:15px 20px; border-top:1px solid #fff; background-color: #f2f2f2; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;}
+.box_paymentmethod > .foot > dt {padding-bottom: 5px; margin-bottom: 5px; border-bottom: 1px dashed #ddd}
+.box_paymentmethod > .foot > dd {position: relative; padding-left: 10px; color:#555; line-height:22px}
+.box_paymentmethod > .foot > dd::before {content:'- '; position: absolute; left:0;}
