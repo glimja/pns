@@ -203,7 +203,7 @@ a.blank:after{content:""; display:inline-block; width:12px; height:12px; margin-
 a.blank:link,
 a.blank:visited,
 a.blank:active{color:#404040;}
-a.blank:hover{text-decoration:underline; color:#404040;}
+a.blank:hover{text-decoration:none; color:#404040; font-weight:bold}
 	
 a:link,
 a:visited,
