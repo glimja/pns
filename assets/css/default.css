@@ -203,13 +203,13 @@ a.blank:after{content:""; display:inline-block; width:12px; height:12px; margin-
 a.blank:link,
 a.blank:visited,
 a.blank:active{color:#404040;}
-a.blank:hover{text-decoration:none; color:#404040; font-weight:bold}
+a.blank:hover{text-decoration:none; color:#404040;}
 	
 a:link,
 a:visited,
 a:active{text-decoration:none; color:#636363;}
 a:hover,
-a:focus{text-decoration:underline;outline:thin dotted; outline:0;}
+a:focus{text-decoration:none;outline:thin dotted; outline:0; font-weight:bold}
 ::-webkit-input-placeholder {color:#000; opacity:0.5;}
 ::-moz-placeholder {color:#000; opacity:0.5;}
 ::placeholder {color:#000; opacity:0.5;}
