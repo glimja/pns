@@ -335,35 +335,37 @@ function fn_likeitBtn () {
 }
 
 function correctNoUiSlide() {
-	// 보정
-	noUiSlider.create(slider1, {
-		start: [0, 50],
-		connect: true,
-		step: 1,
-		range: {
-		min: [0],
-		max: [100]
-		}
-	});
-	// 대비
-	noUiSlider.create(slider2, {
-		start: [0, 50],
-		connect: true,
-		// tooltips: [false, true],
-		step: 1,
-		range: {
-		min: [0],
-		max: [100]
-		}
-	});
-	// 채도
-	noUiSlider.create(slider3, {
-		start: [0, 50],
-		connect: true,
-		step: 1,
-		range: {
-		min: [0],
-		max: [100]
-		}
-	});
+	if ($('#slider1').length != 0) {
+		var slider = document.getElementById('slider1');
+		noUiSlider.create(slider, {
+		  start: [0, 50],
+		  connect: true,
+		  range: {
+			'min': 0,
+			'max': 100
+		  }
+		});
+	}
+	if ($('#slider2').length != 0) {
+		var slider = document.getElementById('slider2');
+		noUiSlider.create(slider, {
+		  start: [0, 50],
+		  connect: true,
+		  range: {
+			'min': 0,
+			'max': 100
+		  }
+		});
+	}
+	if ($('#slider3').length != 0) {
+		var slider = document.getElementById('slider3');
+		noUiSlider.create(slider, {
+		  start: [0, 50],
+		  connect: true,
+		  range: {
+			'min': 0,
+			'max': 100
+		  }
+		});
+	}
 }

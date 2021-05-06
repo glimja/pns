@@ -310,7 +310,6 @@ input.rd48::placeholder, input.rd48::-webkit-input-placeholder {color: #C0B59F;l
 input.rdinset40 {height: 40px; line-height: 40; padding: 0 15px; border-radius: 20px; -webkit-border-radius: 20px; border-color: #d2d2d2; background-color: #F1F1F1;box-shadow: inset 1px 3px 2px rgb(0 0 0 / 10%);}
 input.rdinset40::placeholder, input.rd48::-webkit-input-placeholder {color: #999;letter-spacing: -1px;}
 input.ih40 {height: 40px; line-height: 40; padding: 0 10px; border-color: #DEDEDE}
-.form-control {height:30px; line-height: 22px; padding:0 12px}
 input.ih40 {height: 40px; line-height: 40; padding: 0 10px; border-radius: 20px; -webkit-border-radius: 20px; border-color: #DEDEDE}
 .form-control {height:30px; line-height: 22px; padding:0 12px; border-radius:20px; -webkit-border-radius:20px;}
 /* x축 스크롤 메뉴 */
@@ -621,7 +620,7 @@ table.bdcolor {border-color:#ffb800 !important}
 .wrap_diarypreviewbox {margin-left: -10px; margin-right: -10px;background: url(../images/temp/temp_photobg777.svg) 0 0 no-repeat; background-size:100%;}
 .swiper-container.slidecenter_type3.diarypreviewbox {margin: 15px 10px;padding: 20px 0 20px;}
 
-#ui-datepicker-div {top:50% !important; margin-top: -140px !important; z-index: 1030;    box-shadow: 1px 0 30px rgb(0 0 0 / 50%);}
+#ui-datepicker-div {position: fixed !important; top:50% !important; margin-top: -140px !important; z-index: 1030; box-shadow: 1px 0 30px rgb(0 0 0 / 50%);}
 
 @media (max-width: 576px) {
   /* .swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide .first {margin-right: 0.5em; margin-left: 0.9em;}   */
@@ -862,8 +861,8 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 .correctarea .bar_rate .bartcontrol {position: absolute; width:20px; height:20px; background-color: #ffb800; border-radius: 50%;}
 /* 보정 */
 #slider, #slider1, #slider2, #slider3 {width: 100%;margin: 5px auto;}
-.noUi-connect {background: #ffb800;}
-.noUi-connects {background: #eee;}
+.slider .noUi-connect, .noUi-connect {background-color: #ffb800;}
+.noUi-connects {background-color: #eee;}
 .noUi-handle.noUi-handle-lower {display: none;}
 .noUi-horizontal .noUi-handle {width: 20px;height: 20px;right: 0; left:20px; top: -8px;}
 .noUi-handle {border-radius: 50%; background: #ffb800; border:0; box-shadow: 0 0 6px -3px #000;}
@@ -940,3 +939,11 @@ ul#tabs2_inner.nav-tabs .nav-link.active:before {content: ''; display: block; po
 .box_paymentmethod > .foot > dt {padding-bottom: 5px; margin-bottom: 5px; border-bottom: 1px dashed #ddd}
 .box_paymentmethod > .foot > dd {position: relative; padding-left: 10px; color:#555; line-height:22px}
 .box_paymentmethod > .foot > dd::before {content:'- '; position: absolute; left:0;}
+.icon-del4 {display: inline-block;width:14px;height:14px;background: url(../images/icon/icon_del4.svg) 0 0 no-repeat; background-size:100%; font:0 auto; vertical-align: -2px}
+.babyregistinfo {margin: 30px 0 50px;}
+.babyregistinfo .row {position:relative; min-height:48px;margin-bottom: 15px;align-items: center;}
+.babyregistinfo .row .h3_tit {padding-top: 0; padding-bottom: 0; align-items: center;}
+.babyregistinfo .row .form-group, 
+.babyregistinfo .row .flex_btn {margin-bottom: 0;}
+.babyregistinfo .row .form-control {height: 40px;}
+.babyregistinfo .row .ui-datepicker-trigger {position: absolute; right: 20px; border: 0; background: transparent url(../images/icon/calendar.svg) no-repeat center center;}

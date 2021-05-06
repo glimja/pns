@@ -241,7 +241,7 @@ pk = {
     if ($('#sliderDouble').length != 0) {
       var slider = document.getElementById('sliderDouble');
       noUiSlider.create(slider, {
-        start: [20, 80],
+        start: [0, 80],
         connect: true,
         range: {
           'min': 0,

@@ -105,49 +105,69 @@
               <div class="col-sm-4">
                 <button type="button" class="btn_type3 btn_type3_5"><span class="icon-photoregist"></span> 사진등록</button>
               </div>
+              <div class="col-sm-3">
+                <button type="button" class="btn_type3 btn_type3_5"><span class="icon-del4"></span> 삭제</button>
+              </div>
             </div>
 
             <div class="babyregistinfo mb_50">
-              <h2 class="h3_tit pt_10">아기 이름</h2>
-              <div class="form-group">
-                <input type="text" class="form-control rdinset40" placeholder="아기 이름을 적어주세요" />
-              </div>
-              <h2 class="h3_tit pt_10">성별</h2>
-              <div class="flex_btn mt_00">
-                <button type="button" class="btn_type1"><span class="icon-boymarkwt"></span> 남자아이</button>
-                <button type="button" class="btn_type1 btn_border2"><span class="icon-girlmark"></span> 여자아이</button>
+              <div class="row">
+                <div class="col-sm-3">
+                  <h2 class="h3_tit">아기 이름</h2>
+                </div>
+                <div class="col-sm-9">
+                  <div class="form-group">
+                    <input type="text" class="form-control rdinset40" placeholder="아기 이름을 적어주세요" />
+                  </div>
+                </div>
               </div>
               
-              <h2 class="h3_tit pt_20">태어난 날</h2>
-              <div class="form">
-                <input type="text" class="form_01 openDatePicker ih40 w80" placeholder="예)19850301" />
+              <div class="row">
+                <div class="col-sm-3">
+                  <h2 class="h3_tit">성별</h2>
+                </div>
+                <div class="col-sm-9">
+                  <div class="flex_btn mt_00">
+                    <button type="button" class="btn_type1"><span class="icon-boymarkwt"></span> 남자아이</button>
+                    <button type="button" class="btn_type1 btn_border2"><span class="icon-girlmark"></span> 여자아이</button>
+                  </div>
+                </div>
               </div>
               
-              <h2 class="h3_tit pt_30">태어난 시간</h2>
-              <div class="row selecttxt">
+              <div class="row">
                 <div class="col-sm-3">
-                  <label for="birthtimeselect1" class="disnone"></label>
-                  <select class="form-control" id="birthtimeselect1">
-                    <option>오전</option>
-                    <option>오후</option>
-                  </select>
+                  <h2 class="h3_tit">태어난 날</h2>
                 </div>
-                <div class="col-sm-3">
-                  <label for="birthtimeselect2" class="disnone">시</label>
-                  <select class="form-control" id="birthtimeselect2">
-                    <option>1</option>
-                  </select>
+                <div class="col-sm-9">
+                  <div class="form">
+                    <input type="text" class="form_01 openDatePicker ih40 w100" placeholder="예)19850301" />
+                  </div>
                 </div>
-                <div class="col-sm-1">시</div>
-                <div class="col-sm-3">
-                  <label for="birthtimeselect3" class="disnone">분</label>
-                  <select class="form-control" id="birthtimeselect3">
-                    <option>1</option>
-                  </select>                  
-                </div>
-                <div class="col-sm-1">분</div>
               </div>
-
+              
+              <div class="row">
+                <div class="col-sm-3">
+                  <h2 class="h3_tit">태어난 시간</h2>
+                </div>
+                <div class="col-sm-9">
+                  <div class="row selecttxt mb_00">
+                    <div class="col-sm-5">
+                      <label for="birthtimeselect2" class="disnone">시</label>
+                      <select class="form-control" id="birthtimeselect2">
+                        <option>1</option>
+                      </select>
+                    </div>
+                    <div class="col-sm-1">시</div>
+                    <div class="col-sm-5">
+                      <label for="birthtimeselect3" class="disnone">분</label>
+                      <select class="form-control" id="birthtimeselect3">
+                        <option>1</option>
+                      </select>                  
+                    </div>
+                    <div class="col-sm-1">분</div>
+                  </div>
+                </div>
+              </div>
               <div class="flex_btn">
                 <button type="button" class="btn_type1">등록하기</button>
               </div>
