@@ -38,10 +38,10 @@ body {
 	font-size: 13px;
 	font-family:"Noto Sans KR", "Roboto", "dotum", "sans-serif";
 	background: #fff;
-	color: #777
+	color: #555
 }
 h1, h2, h3, h4, h5, h6 {
-	color: #333;
+	color: #222;
 	margin-top: 0
 }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
@@ -93,7 +93,7 @@ blockquote small::before {
 	font-size: 16px;
 	line-height: 22px
 }
-.text-muted {color: #999;}
+.text-muted {color: #333;}
 .wrapper {
 	background: url(../images/bg.png) #eee;
 	border-bottom: 1px solid #bbb;
@@ -583,13 +583,13 @@ transition: all .2s ease-in-out;
 }
 .btn-warning {
 	color: #fff;
-	background-color: #fac552;
-	border-color: #f9bd39
+	background-color: #ff9900;
+	border-color: #e08700
 }
 .btn-warning.active, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open>.btn-warning.dropdown-toggle {
 	color: #fff;
-	background-color: #f9b420;
-	border-color: #eea507
+	background-color: #ff9900;
+	border-color: #e08700
 }
 .btn-warning.active, .btn-warning:active, .open>.btn-warning.dropdown-toggle {
 	background-image: none
