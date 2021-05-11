@@ -203,8 +203,8 @@ input[type="password"],
 input[type="text"],
 input[type="number"],
 input[type="tel"] {height:30px; line-height:30px; padding:0 15px; border-radius:20px; -webkit-border-radius:20px; -moz-border-radius:20px; -ms-border-radius:20px; -o-border-radius:20px; background-color:#fff; font-size:14px; box-sizing:border-box; border:1px solid #DDD;}
-select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {margin-bottom: 0;}
-
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {width: 100%;margin-bottom: 0;}
+.ui-datepicker-title select {width:auto; font-size: 16px;border: 0;}
 input, textarea, .uneditable-input {width:auto}
 
 ol,
