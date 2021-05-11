@@ -15,10 +15,12 @@
         <script src="../scripts/jquery-1.12.3.min.js" type="text/javascript"></script>
         <script src="../scripts/jquery-ui.min.js" type="text/javascript"></script>
         <script src="../scripts/bootstrap.min.js" type="text/javascript"></script>
+        <!--  Plugin -->        
         <script src="../scripts/flot/jquery.flot.js" type="text/javascript"></script>
         <script src="../scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
         <script src="../scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
-        <script src="../scripts/common.js" type="text/javascript"></script>
+        <script src="../scripts/bootstrap-datepicker.js" type="text/javascript"></script>
+        
     </head>
     <body>
         <div class="navbar navbar-fixed-top">
@@ -153,7 +155,7 @@
                                 <div class="module-head">
                                     <h3>회원관리</h3>
                                 </div>
-                                <div class="module-body ">                                    
+                                <div class="module-body ">
                                     <div class="table">
                                         <table class="table table-bordered">
                                             <colgroup>
@@ -171,7 +173,10 @@
                                                     </div>
                                                 </td>
                                                 <th>회원 가입일</th>
-                                                <td>@mdo</td>
+                                                <td>
+                                                    <input class="w35" type="text" id="datepicker1" /> ~
+                                                    <input class="w35" type="text" id="datepicker2" />
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th>이메일</th>
@@ -181,7 +186,10 @@
                                                     </div>
                                                 </td>
                                                 <th>최근 활동일</th>
-                                                <td>@fat</td>
+                                                <td>
+                                                    <input class="w35" type="text" id="datepicker3" /> ~
+                                                    <input class="w35" type="text" id="datepicker4" />
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th>프리미엄 서비스</th>
@@ -295,7 +303,7 @@
                                                 <li class="page-item">
                                                     <a class="page-link" href="#" aria-label="Previous">
                                                     <i class="fa fa-angle-left" aria-hidden="true"></i>
-                                                    <span class="sr-only"><</span>
+                                                    <span class="sr-only">PREV</span>
                                                     </a>
                                                 </li>
                                                 <li class="page-item">
@@ -316,7 +324,7 @@
                                                 <li class="page-item">
                                                     <a class="page-link" href="#" aria-label="Next">
                                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                                    <span class="sr-only">></span>
+                                                    <span class="sr-only">NEXT</span>
                                                     </a>
                                                 </li>
                                                 </ul>
@@ -463,6 +471,30 @@
                 <b class="copyright">&copy; 2021 by Peanut Baby  </b> All rights reserved.
             </div>
         </div>
-      
+
+        <script>
+            $(function() {
+                $.datepicker.setDefaults({
+                    dateFormat: 'yy-mm-dd',
+                    showMonthAfterYear: true,
+                    changeYear: false,
+                    changeMonth: false,
+                    showOn: "both",
+                    buttonImage: "",
+                    buttonImageOnly: false,
+                    yearSuffix: '.',
+                    monthNames: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+                    monthNamesShort: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+                    dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+                    dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+                    dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+                });
+                $("#datepicker").datepicker();
+                
+                $("#datepicker1,#datepicker2,#datepicker3,#datepicker4").datepicker({
+                    //옵션들 생략//
+                });
+            });
+        </script>        
     </body>
 </html>

@@ -99,7 +99,7 @@ button.swiper-pagination-bullet {border:none; margin:0; padding:0; -webkit-box-s
 
 /* jQuery UI ========================================================================================= */
 /* datepicker */
-.ui-datepicker {display:none; width: 90%; left: 5% !important; border:1px solid #DDD; border-radius:10px; background-color:#fff; padding:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -ms-border-radius:10px; -o-border-radius:10px;}
+.ui-datepicker {display:none; border:1px solid #DDD; border-radius:10px; background-color:#fff; padding:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -ms-border-radius:10px; -o-border-radius:10px;}
 #datepicker .ui-datepicker {width:100%; left: 0 !important}
 .ui-datepicker .ui-datepicker-header {position:relative; text-align:center; margin:0 0 10px 0;}
 .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {position:absolute; top:10px; width:50px; height:50px; background-repeat:no-repeat; background-position:50% 50%; vertical-align:middle; text-indent:-9999em;}
@@ -119,5 +119,5 @@ button.swiper-pagination-bullet {border:none; margin:0; padding:0; -webkit-box-s
 .ui-datepicker td span.onphoto, .ui-datepicker td a.onphoto {color:#FF6B00; background-color:#fcecc6;} /* 사진등록한 날짜 표시 */
 .ui-datepicker-today .ui-state-highlight, .ui-datepicker-today .ui-widget-content .ui-state-highlight {color:#fff; background-color: #FF6B00}
 .ui-state-disabled, .ui-widget-content .ui-state-disabled {opacity:.5; filter:Alpha(Opacity=5);}
-.ui-datepicker-trigger {display:inline-block; box-sizing:border-box; border-radius:4px; border:1px solid #DDD; background:#FFF url("../images/icon/calendar.svg") no-repeat center center; background-size:24px auto; width:40px; height:40px; margin-left:5px; text-indent:-9999em; vertical-align:middle;}
+.ui-datepicker-trigger {display:inline-block; box-sizing:border-box; border-radius:4px; border:0px solid #DDD; background:#FFF url("../images/icon/calendar.svg") no-repeat center center; background-size:24px auto; width:30px; height:30px; margin-left:5px; text-indent:-9999em; vertical-align:middle;}
 #datepicker .ui-datepicker {border: 0}

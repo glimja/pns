@@ -850,6 +850,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='@topColor', end
 	margin-bottom: 0
 }
 .table th, .table td {
+	vertical-align: middle; padding: 10px;
 	border-color: #d5d5d5!important
 }
 .table.valign-middle td, .table.valign-middle th {
@@ -1140,7 +1141,7 @@ border-top-left-radius: 3px;
 	padding: 0
 }
 .stream.new-update a, .stream.load-more a {
-	background: #background: #f7f7f7;;
+	background: #f7f7f7;
 	
 	color: #555;
 	font-weight: 600;
