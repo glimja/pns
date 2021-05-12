@@ -562,7 +562,7 @@ transition: all .2s ease-in-out;
 }
 .btn-info {
 	color: #fff;
-	background-color: #ff9900;
+	background-color: #5bc0de;
 	border-color: #25a4be
 }
 .btn-info.active, .btn-info:active, .btn-info:focus, .btn-info:hover, .open>.btn-info.dropdown-toggle {
@@ -574,11 +574,11 @@ transition: all .2s ease-in-out;
 	background-image: none
 }
 .btn-info.disabled, .btn-info.disabled.active, .btn-info.disabled:active, .btn-info.disabled:focus, .btn-info.disabled:hover, .btn-info[disabled], .btn-info[disabled].active, .btn-info[disabled]:active, .btn-info[disabled]:focus, .btn-info[disabled]:hover, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info.active, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:hover {
-	background-color: #ff9900;
+	background-color: #5bc0de;
 	border-color: #25a4be
 }
 .btn-info .badge {
-	color: #ff9900;
+	color: #5bc0de;
 	background-color: #fff
 }
 .btn-warning {
@@ -1232,9 +1232,9 @@ border-top-left-radius: 3px;
 	padding-left: 15px
 }
 .profile-tab {
-	background: #f9f9f9;
+	background: #fff;
 	margin: 0 -15px 25px;
-	padding: 30px 15px 0;
+	padding: 10px 20px 0;
 	font-weight: 600
 }
 .profile-tab>li>a {
