@@ -170,7 +170,7 @@ $(document).on('click', '.navbar-toggler', function() {
   }
 });
 
-
+// 햄버그메뉴 클릭시 햄버그 창닫기
 $(document).on('click', '.fn_navclose', function() {
   $toggle = $('.navbar-toggler');
 
@@ -188,21 +188,6 @@ $(document).on('click', '.fn_navclose', function() {
       $toggle.addClass('toggled');
       $toggle.parent().addClass('z_idx');
     }, 580);
-    // div = '<div id="bodyClick"></div>';
-    // $(div).appendTo('body').click(function() {
-    //   $('html').removeClass('nav-open');
-    //   $('body').removeClass('draw');
-    //   pk.misc.navbar_menu_visible = 0;
-    //   setTimeout(function() {
-    //     $toggle.removeClass('toggled');
-    //     $toggle.parent().removeClass('z_idx');
-    //     $('#bodyClick').remove();
-    //   }, 550);
-    // });
-
-    // $('html').addClass('nav-open');
-    // $('body').addClass('draw');
-    // pk.misc.navbar_menu_visible = 1;
   }
 });
 
