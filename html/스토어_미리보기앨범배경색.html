@@ -43,48 +43,49 @@
 <style>
 /* style.css 제일 하단에 아래 내용 추가 */
 .wrap_diarypreviewbox.type2 {background:none; }
-.wrap_diarypreviewbox.type2 .diarypreviewbox {position: relative;height:260px;padding:0; border-radius: 10px; box-shadow: 0 0 10px 1px #999; background:#999}
+.wrap_diarypreviewbox.type2 .diarypreviewbox {position: relative;height:270px;padding:5px; border-radius: 5px; box-shadow: 0 0 10px 1px #999; background:#999}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_lt,
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt {position: absolute; top:0; width:50%;height:260px; border-radius: 10px;}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_lt {left:0}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt {left:50%;}
 .wrap_diarypreviewbox.type2 .diarypreviewbox a.innerpaper {width:auto; margin: .8em;}
+.swiper-container.slidecenter_type3.diarypreviewbox .swiper-slide a img {border-radius: 5px}
 /* dark gray color */
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_lt.type1 {background: rgb(119,119,119); background: linear-gradient(90deg, rgba(119,119,119,1) 0%, rgba(119,119,119,1) 77%, rgba(85,85,85,1) 100%);}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type1 {background: rgb(85,85,85); background: linear-gradient(90deg, rgba(85,85,85,1) 0%, rgba(119,119,119,1) 23%, rgba(119,119,119,1) 100%);}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_lt.type1,
-.wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type1 {border:1px solid #555;}
+.wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type1 {border:0px solid #555;}
 /* normal gray color */
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_lt.type2 {background: rgb(187,187,187); background: linear-gradient(90deg, rgba(187,187,187,1) 0%, rgba(187,187,187,1) 85%, rgba(119,119,119,1) 100%);}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type2 {background: rgb(119,119,119); background: linear-gradient(90deg, rgba(119,119,119,1) 0%, rgba(187,187,187,1) 15%, rgba(187,187,187,1) 100%);}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_lt.type2,
-.wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type2 {border:1px solid #777;}
+.wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type2 {border:0px solid #777;}
 /* light gray color */
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_lt.type3 {background: rgb(213,211,215); background: linear-gradient(90deg, rgba(247,245,250,1) 0%, rgba(247,245,250,1) 85%, rgba(213,211,215) 100%);}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type3 {background: rgb(213,211,215); background: linear-gradient(90deg, rgba(213,211,215,1) 0%, rgba(247,245,250,1) 15%, rgba(247,245,250,1) 100%);}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_lt.type3,
-.wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type3 {border:1px solid #ccc;}
+.wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type3 {border:0px solid #ccc;}
 /* light green color */
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_lt.type4 {background: rgb(212,242,234); background: linear-gradient(90deg, rgba(212,242,234,1) 0%, rgba(212,242,234,1) 90%, rgba(213,211,215) 100%);}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type4 {background: rgb(212,242,234); background: linear-gradient(90deg, rgba(213,211,215,1) 0%, rgba(212,242,234,1) 10%, rgba(212,242,234,1) 100%);}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_lt.type4,
-.wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type4 {border:1px solid #bbb;}
+.wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type4 {border:0px solid #bbb;}
 /* light pink color */
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_lt.type5 {background: rgb(181,176,177); background: linear-gradient(90deg, rgba(251,229,232,1) 0%, rgba(251,229,232,1) 90%, rgba(181,176,177) 100%);}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type5 {background: rgb(181,176,177); background: linear-gradient(90deg, rgba(181,176,177,1) 0%, rgba(251,229,232,1) 10%, rgba(251,229,232,1) 100%);}
 .wrap_diarypreviewbox.type2 .diarypreviewbox.type5 .paper_lt.type5,
-.wrap_diarypreviewbox.type2 .diarypreviewbox.type5 .paper_rt.type5 {border:1px solid #bbb;}
+.wrap_diarypreviewbox.type2 .diarypreviewbox.type5 .paper_rt.type5 {border:0px solid #bbb;}
 /* light purple color */
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_lt.type6 {background: rgb(176,177,181); background: linear-gradient(90deg, rgba(230,231,251,1) 0%, rgba(230,231,251,1) 90%, rgba(176,177,181) 100%);}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type6 {background: rgb(176,177,181); background: linear-gradient(90deg, rgba(176,177,181,1) 0%, rgba(230,231,251,1) 15%, rgba(230,231,251,1) 100%);}
 .wrap_diarypreviewbox.type2 .diarypreviewbox .paper_lt.type6,
-.wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type6 {border:1px solid #bbb;}
+.wrap_diarypreviewbox.type2 .diarypreviewbox .paper_rt.type6 {border:0px solid #bbb;}
 </style>      
         <!-- Contents -->
         <div class="section">
           <div class="container " style="height:900px">
-            <h2 class="h2_tit">스토어 미리보기 앨범 배경색</h2>
-            <!-- *****
+            <h2 class="h2_tit disnone">스토어 미리보기 앨범 배경색</h2>
+            <!-- 
               ** wrap_diarypreviewbox 클래스에 type2 클래스 추가
               ** paper_lt : 좌측 페이지
               ** paper_rt : 우측 페이지
@@ -95,7 +96,7 @@
                   - light green color : type4
                   - light pink color : type5
                   - light purple color : type6
-            ***** -->
+             -->
               <div class="wrap_diarypreviewbox type2" style="height: 240px"><!-- type2 클래스 추가 -->
                 <div class="swiper-container slidecenter_type3 mt_20 diarypreviewbox">
                   <div class="swiper-wrapper">
