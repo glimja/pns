@@ -206,7 +206,7 @@ a.btn-default, button.btn-default {color:#fff; font-weight:400}
 .ml_50{margin-left:50px !important;}
 
 
-input[type="password"],
+/* input[type="password"], */
 input[type="text"],
 input[type="number"],
 input[type="tel"] {height:30px; line-height:30px; padding:0 15px; border-radius:20px; -webkit-border-radius:20px; -moz-border-radius:20px; -ms-border-radius:20px; -o-border-radius:20px; background-color:#fff; font-size:14px; box-sizing:border-box; border:1px solid #DDD;}
@@ -345,6 +345,7 @@ h4 {padding:10px 0; font-size: 18px; font-weight:400;}
 .main-content {background: #fff;}
 .single_element .single_quick_activity {background-color: #fbf7f3;}
 .page-title-area {background-color: #fff;}
-.sbar_collapsed .nav-btn {margin-top: 5px !important;}
-.nav-tabs .nav-link {border: 2px solid transparent;}
-.nav-tabs .nav-link {color: #65512e}
+.nav-btn, .sbar_collapsed .nav-btn {margin-top: 3px !important;}
+.nav-tabs .nav-link {border: 2px solid transparent;color: #65512e}
+.nav-tabs .nav-link.active {font-weight: 600;}
+.login-form-head {border-radius: 20px; background:#ffb418}

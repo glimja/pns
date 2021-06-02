@@ -2298,7 +2298,7 @@ table.dataTable thead td {
 /*-------------------- 23. Login ------------------- */
 
 .login-area {
-    background: #F3F8FB;
+    background: #fbf9f3;
 }
 
 .login-box {
@@ -2356,7 +2356,7 @@ table.dataTable thead td {
 
 .form-gp.focused label {
     top: -15px;
-    color: #7e74ff;
+    color: #ffb418;
 }
 
 .form-gp input {
@@ -2385,7 +2385,7 @@ table.dataTable thead td {
 .form-gp i {
     position: absolute;
     right: 5px;
-    color: #7e74ff;
+    color: #ffb418;
     font-size: 16px;
 }
 
@@ -2418,7 +2418,7 @@ table.dataTable thead td {
 }
 
 .submit-btn-area button:hover {
-    background: #2c71da;
+    background: #ffb418;
     color: #ffffff;
 }
 
@@ -2451,7 +2451,7 @@ table.dataTable thead td {
 }
 
 .login-other a.fb-login {
-    background: #8655FC;
+    background: #9e76ff;
     color: #fff;
 }
 
@@ -2460,7 +2460,7 @@ table.dataTable thead td {
 }
 
 .login-other a.google-login {
-    background: #fb5757;
+    background: #ff8080;
     color: #fff;
 }
 

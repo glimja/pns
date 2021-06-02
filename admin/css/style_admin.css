@@ -244,14 +244,14 @@ dl {
 .pagination>li:last-child>a,
 .pagination>li:last-child>span {
   background-color: transparent;
-  border: 2px solid #ff9900;
-  border-radius: 20px;
-  color: #ff9900;
+  border: 1px solid #ccc;
+  color: #777;
   height: 36px;
+  border-radius:5px;
   margin: 0 2px;
   min-width: 36px;
   padding: 8px 12px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .nav-pills-default>li>a,
@@ -561,15 +561,15 @@ dl {
 .pagination>li.active>span:hover,
 .pagination>li.active>a:focus,
 .pagination>li.active>span:focus {
-  background-color: #ff9900;
-  border-color: #ff9900;
+  background-color: #6f6f6f;
+  border-color: #555;
   color: #FFFFFF;
 }
 
 .page-item.active .page-link {
-  background-color: #ff9900;
+  background-color: #6f6f6f;
   color: white;
-  border-color: #ff9900;
+  border-color: #555;
 }
 
 .nav-pills .nav-link {
@@ -587,3 +587,10 @@ dl {
     background-color: #e2e2e2;
 }
 .span8 {width: auto}
+.widget-menu>li>a {color:#d0d0d0; font-size: 14px;}
+.widget-menu>li ul li {background:#555}
+.widget-menu>li ul li a {color:#ddd; font-size:13px}
+.btn-gray{color:#ffffff;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color:#777;background-image:-moz-linear-gradient(top, #777, #555);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#777), to(#555));background-image:-webkit-linear-gradient(top, #777, #555);background-image:-o-linear-gradient(top, #777, #555);background-image:linear-gradient(to bottom, #777, #555);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff555', GradientType=0);border-color:#555 #555 #444;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);*background-color:#555;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);}.btn-gray:hover,.btn-gray:active,.btn-gray.active,.btn-gray.disabled,.btn-gray[disabled]{color:#ffffff;background-color:#555;*background-color:#444;}
+.btn-gray:active,.btn-primary.active{background-color:#444 \9;}
+.btn-gray {color: #fff;background-color: #555;border-color: #444;-webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);}

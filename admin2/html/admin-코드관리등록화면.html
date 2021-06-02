@@ -162,7 +162,7 @@
                 <div class="row align-items-center">
                     <div class="col-sm-6">
                         <div class="breadcrumbs-area clearfix">
-                            <h4 class="page-title pull-left">타이틀</h4>
+                            <h4 class="page-title pull-left">코드관리 등록화면</h4>
                         </div>
                     </div>
                 </div>
@@ -171,7 +171,59 @@
             <div class="main-content-inner">
                 <div class="row">
                     <div class="col-lg-12 ">                        
-                        contents
+                        <div class="content">
+                            <div class="table">
+                                <table class="table table-bordered">
+                                    <colgroup>
+                                        <col width="20%" />
+                                        <col width="auto" />
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>상위코드명</th>
+                                        <td>
+                                            <select tabindex="1" data-placeholder="선택" class="form-control span8 w40">
+                                                <option value="">선택</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>상위코드</th>
+                                        <td>
+                                            <input type="text" id="" placeholder="" class="span3" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>상위코드명</th>
+                                        <td>
+                                            <input type="text" id="" placeholder="" class="span3" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>적용여부</th>
+                                        <td>
+                                            <div class="controls">
+                                                <label class="radio inline">
+                                                    <input type="radio" name="optionsRadios4" id="optionsRadios42" value="">
+                                                    적용
+                                                </label> 
+                                                <label class="radio inline">
+                                                    <input type="radio" name="optionsRadios4" id="optionsRadios43" value="">
+                                                    적용중지
+                                                </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="flex_btn alignjust_center">
+                                <a href="#none" class="btn btn-large btn-default">삭제</a>
+                                <a href="#none" class="btn btn-large btn-default">등록</a>
+                                <a href="#none" class="btn btn-large btn-default">목록</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
